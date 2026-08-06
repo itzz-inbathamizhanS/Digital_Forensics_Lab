@@ -1,0 +1,270 @@
+Parsed Plugins file.
+Launching activesetup v.20201230
+activesetup complete.
+Launching adobe v.20200803
+adobe complete.
+Launching allowedenum v.20200813
+allowedenum complete.
+Launching amsienable v.20210217
+amsienable complete.
+Launching appassoc v.20200813
+appassoc complete.
+Launching appcompatflags v.20220328
+appcompatflags complete.
+Launching appkeys v.20200813
+appkeys complete.
+appkeys_tln complete.
+Launching applets v.20201020
+applets complete.
+Launching applets_tln v.20200813
+applets_tln complete.
+Launching apppaths v.20200813
+apppaths complete.
+Launching apppaths_tln v.20200813
+apppaths_tln complete.
+Launching appspecific v.20200904
+appspecific complete.
+Launching appx v.20200904
+appx complete.
+appx_tln complete.
+Launching arpcache v.20200816
+arpcache complete.
+Launching attachmgr v.20220926
+attachmgr complete.
+Launching attachmgr_tln v.20200816
+attachmgr_tln complete.
+Launching autorun v.20221109
+autorun complete.
+Launching bitbucket v.20221129
+bitbucket complete.
+Launching blm v.20210705
+blm complete.
+Launching cached v.20201012
+cached complete.
+Launching cached_tln v.20201012
+cached_tln complete.
+Launching certs v.20220926
+certs complete.
+Launching clipbrd v.20230419
+clipbrd complete.
+Launching cmdproc v.20200904
+cmdproc complete.
+Launching cmdproc_tln v.20200904
+cmdproc_tln complete.
+Launching comdlg32 v.20200904
+comdlg32 complete.
+Launching compdesc v.20200904
+compdesc complete.
+consentstore complete.
+consentstore_tln complete.
+Launching DDO v.20200904
+ddo complete.
+Launching devicecache v.20221018
+devicecache complete.
+Launching disablemru v.20230710
+disablemru complete.
+Launching disabletools v.20220114
+disabletools complete.
+Launching doctoidmapping v.20201020
+doctoidmapping complete.
+Launching elevatedinstall v.20220831
+elevatedinstall complete.
+Launching environment v.20201113
+environment complete.
+Launching featureusage v.20200911
+featureusage complete.
+Launching gpohist v.20200911
+gpohist complete.
+Launching gpohist_tln v.20200911
+gpohist_tln complete.
+Launching identities v.20200911
+identities complete.
+Launching imagefile v.20200730
+imagefile complete.
+Launching improviders v.20201015
+improviders complete.
+Launching injectdll64 v.20200911
+injectdll64 complete.
+Launching installelevated v.20230703
+installelevated complete.
+Launching itempos v.20130514
+itempos complete.
+Launching jumplistdata v.20200927
+jumplistdata complete.
+Launching knowndev v.20200927
+knowndev complete.
+Launching  link_click v.20200730
+link_click complete.
+Launching listsoft v.20201005
+listsoft complete.
+Launching load v.20200921
+load complete.
+Launching locale v.20220225
+locale complete.
+location complete.
+Launching logonstats v.20200925
+logonstats complete.
+Launching lxss v.20200927
+lxss complete.
+lxss_tln complete.
+Launching mixer v.20200922
+mixer complete.
+Launching mixer v.20200922
+mixer_tln complete.
+Launching mmc v.20200922
+mmc complete.
+Launching mmc v.20200922
+mmc_tln complete.
+Launching mmo v.20200922
+mmo complete.
+Launching mndmru v.20200922
+mndmru complete.
+Launching mndmru v.20200922
+mndmru_tln complete.
+Launching mp2 v.20200921
+mp2 complete.
+mp2_tln complete.
+Launching mpmru v.20200921
+mpmru complete.
+Launching  msoffice v.20210710
+msoffice complete.
+msoffice_tln complete.
+Launching muicache v.20221121
+muicache complete.
+Launching nation v.20200921
+nation complete.
+Launching notif v.20200926
+notif complete.
+Launching office_test v.20230403
+office_test complete.
+Launching oisc v.20220530
+oisc complete.
+Launching onedrive v.20200922
+onedrive complete.
+onedrive_tln complete.
+Launching  onenote v.20230306
+onenote complete.
+Launching osversion v.20200921
+osversion complete.
+Launching osversion_tln v.20200921
+osversion_tln complete.
+Launching  outlookhomepage v.20201103
+outlookhomepage complete.
+Launching outlookmacro v.20201212
+outlookmacro complete.
+Launching outlook_attach v.20210504
+outlook_attach complete.
+Launching pendinggpos v.20200922
+pendinggpos complete.
+Launching persistconn v.20230109
+persistconn complete.
+Launching profiler v.20200922
+profiler complete.
+Launching  protectedview v.20220301
+protectedview complete.
+Launching pslogging v.20200922
+pslogging complete.
+Launching psscript v.20200922
+psscript complete.
+Launching putty v.20200924
+putty complete.
+Launching recentapps v.20200922
+recentapps complete.
+Launching recentapps_tln v.20200922
+recentapps_tln complete.
+Launching recentdocs v.20200924
+recentdocs complete.
+Launching recentdocs_tln v.20200924
+recentdocs_tln complete.
+Launching  resiliency v.20210325
+resiliency complete.
+Launching restartmanager v.20210111
+restartmanager complete.
+Launching run v.20220706
+run complete.
+Launching rundisabled v.20220706
+rundisabled complete.
+Launching runmru v.20201005
+runmru complete.
+Launching runmru v.20201005
+runmru_tln complete.
+Launching runvirtual v.20220425
+runvirtual complete.
+runvirtual_tln complete.
+run_json complete.
+Launching run_yara v.20230811
+'.\yara64.exe' is not recognized as an internal or external command,
+operable program or batch file.
+run_yara complete.
+Launching screensaver v.20220427
+screensaver complete.
+Launching screenshotindex v.20230713
+screenshotindex complete.
+Launching searchscopes v.20201005
+searchscopes complete.
+Launching sevenzip v.20220704
+sevenzip complete.
+Launching shc v.20201005
+shc complete.
+Launching shellbags_xp v.20200831
+shellbags_xp complete.
+Launching shellfolders v.20201005
+shellfolders complete.
+Launching speech v.20201005
+speech complete.
+speech_tln complete.
+Launching staginginfo v.20210407
+staginginfo complete.
+Launching storagesense v.20201230
+storagesense complete.
+Launching sysinternals v.20220824
+sysinternals complete.
+Launching sysinternals_tln v.20201005
+sysinternals_tln complete.
+Launching thostperms v.20201015
+thostperms complete.
+Launching tsclient v.20200924
+tsclient complete.
+Launching tsclient v.20200924
+tsclient_tln complete.
+Launching typedpaths v.20201005
+typedpaths complete.
+Launching typedpaths_tln v.20201005
+typedpaths_tln complete.
+Launching typedurls v.20201012
+typedurls complete.
+Launching typedurlstime v.20201012
+typedurlstime complete.
+Launching typedurlstime v.20201012
+typedurlstime_tln complete.
+Launching typedurls v.20201012
+typedurls_tln complete.
+Launching ua_wiper v.20220301
+ua_wiper complete.
+Launching uninstall v.20200916
+uninstall complete.
+Launching uninstall v.20200916
+uninstall_tln complete.
+Launching userassist v.20230710
+userassist complete.
+Launching userassist_tln v.20200916
+userassist_tln complete.
+Launching userextendedproperties v.20220509
+userextendedproperties complete.
+Launching wc_shares v.20200916
+wc_shares complete.
+Launching win11_edge v.20210927
+win11_edge complete.
+Launching winrar v.20200916
+winrar complete.
+Launching winrar v.20200916
+winrar_tln complete.
+Launching winscp v.20200916
+winscp complete.
+Launching WinZip v.20200803
+winzip complete.
+Launching  wordstartup v.20220529
+wordstartup complete.
+Launching wordwheelquery v.20200916
+wordwheelquery complete.
+wordwheelquery_tln complete.

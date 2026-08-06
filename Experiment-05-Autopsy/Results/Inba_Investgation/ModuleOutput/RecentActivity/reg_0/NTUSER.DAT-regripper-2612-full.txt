@@ -1,0 +1,869 @@
+activesetup v.20201230
+(software, ntuser.dat) Get Active Setup StubPath values
+MITRE: T1547 (persistence)
+
+Key path: Software\Microsoft\Active Setup\Installed Components
+
+Analysis Tip: The Active Setup key defines processes that are run synchronously prior to the Run & RunOnce keys, and
+prior to the Desktop appearing. For users, logon in blocked while commands are executing.
+Ref: https://helgeklein.com/blog/2010/04/active-setup-explained/
+----------------------------------------
+adobe v.20200803
+(NTUSER.DAT) Gets user's Adobe app cRecentFiles values
+
+adobe v.20200803
+Could not access Software\Adobe\Adobe Acrobat\\AVGeneral\cRecentFiles
+
+Could not access Software\Adobe\Acrobat Reader\\AVGeneral\cRecentFiles
+
+----------------------------------------
+allowedenum v.20200813
+(NTUSER.DAT, Software) Extracts AllowedEnumeration values to determine hidden special folders
+MITRE: T1564.001 (defense evasion)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+----------------------------------------
+amsienable v.20210217
+(NTUSER.DAT) Gets user's AMSIEnable value
+MITRE: T1562.001 (defense evasion)
+
+Software\Microsoft\Windows Script\Settings key not found.
+----------------------------------------
+appassoc v.20200813
+- Gets contents of user's ApplicationAssociationToasts key
+MITRE: T1546.001 (persistence)
+
+Software\Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts not found.
+----------------------------------------
+appcompatflags v.20220328
+(NTUSER.DAT, Software) Extracts AppCompatFlags values.
+
+MITRE ATT&CK subtechnique T1546.011 (persistence)
+
+
+----------------------------------------
+appkeys v.20200813
+(NTUSER.DAT, Software) Extracts AppKeys entries.
+
+----------------------------------------
+----------------------------------------
+applets v.20201020
+(NTUSER.DAT) Gets contents of user's Applets key
+MITRE: T1204 (program execution)
+
+Software\Microsoft\Windows\CurrentVersion\Applets not found.
+----------------------------------------
+----------------------------------------
+apppaths v.20200813
+(NTUSER.DAT,Software) Gets content of App Paths subkeys
+
+----------------------------------------
+----------------------------------------
+Software\Microsoft\IntelliPoint\AppSpecific not found.
+----------------------------------------
+appx v.20200904
+(NTUSER.DAT, USRCLASS.DAT) Checks for persistence via Universal Windows Platform Apps
+MITRE: T1546 (persistence)
+
+----------------------------------------
+----------------------------------------
+arpcache v.20200816
+(NTUSER.DAT) Retrieves CurrentVersion\App Management\ARPCache entries
+
+Software\Microsoft\Windows\CurrentVersion\App Management\ARPCache not found.
+----------------------------------------
+attachmgr v.20220926
+(NTUSER.DAT) Checks user's keys that manage the Attachment Manager functionality
+MITRE: T1553.005 (defense evasion)
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Associations not found.
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments not found.
+
+Analysis Tip: Attachment Manager settings can determine security settings related to attachments.
+
+SaveZoneInformation = 1 disables saving of zone information (MOTW)
+HideZoneInfoOnProperties = 1 hides the ability for the users to manually remove zone info from files.
+
+Ref: https://support.microsoft.com/en-us/topic/information-about-the-attachment-manager-in-microsoft-windows-c48a4dcd-8de5-2af5-ee9b-cd795ae42738
+----------------------------------------
+----------------------------------------
+autorun v.20221109
+(NTUSER.DAT, Software) Checks autorun settings
+MITRE: T1204 (execution)
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+LastWrite Time 2004-08-19 22:51:56Z
+
+NoDriveTypeAutoRun   0x0091
+NoDriveAutoRun value not found.
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers key not found.
+----------------------------------------
+bitbucket v.20221129
+(NTUSER.DAT) Gets user's BitBucket settings
+MITRE: T1562.001 (defense evasion)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\BitBucket\Volume not found.
+----------------------------------------
+blm v.20210705
+(software,ntuser.dat) Look for BlackLivesMatter key assoc. w/ REvil ransomware
+
+Software\BlackLivesMatter key not found.
+Software\Wow6432Node\BlackLivesMatter key not found.
+
+Analysis Tip: Per @REMRUM, REvil v2.04 & v2.07 (Kaseya) stored values beneath this key.
+Ref: https://twitter.com/R3MRUM/status/1412064892870434818
+----------------------------------------
+cached v.20201012
+(NTUSER.DAT) Gets cached Shell Extensions from NTUSER.DAT hive
+MITRE: T1218.002 (persistence)
+
+Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached not found.
+----------------------------------------
+cached_tln v.20201012
+(NTUSER.DAT) Gets cached Shell Extensions from NTUSER.DAT hive (TLN)
+
+Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached not found.
+----------------------------------------
+certs v.20220926
+(software, ntuser.dat) Checks for MOTW bypasses via certificates
+MITRE: T1553.005 (defense evasion)
+
+Software\Microsoft\SystemCertificates\Root\Certificates
+LastWrite Time 2004-08-19 22:51:56Z
+Software\Microsoft\SystemCertificates\Root\Certificates has no values.
+
+Software\Policies\Microsoft\SystemCertificates\Root\Certificates not found.
+
+Analysis Tip: Trust relationships can be subverted by modifying/adding certificates. MS has a subset of root
+certificates that are consistent across systems. Check the reference for a list of those certificates, and 
+monitor systems for changes (per the reference).
+
+Ref: https://attack.mitre.org/techniques/T1553/
+----------------------------------------
+clipbrd v.20230419
+(software,ntuser.dat) Check clipboard settings (possible exfil)
+MITRE: T1115 (collection)
+
+Software\Microsoft\Clipboard not found.
+----------------------------------------
+cmdproc v.20200904
+(NTUSER.DAT) Autostart - get Command Processor\AutoRun value from NTUSER.DAT hive
+MITRE: T1546 (persistence)
+
+Software\Microsoft\Command Processor
+LastWrite Time 2004-08-19 22:51:56Z
+AutoRun value not found.
+----------------------------------------
+----------------------------------------
+comdlg32 v.20200904
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32 not found.
+----------------------------------------
+compdesc v.20200904
+(NTUSER.DAT) Gets contents of user's ComputerDescriptions key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComputerDescriptions not found.
+----------------------------------------
+Launching consentstore v.20200904
+consentstore v.20200904
+(Software, NTUSER.DAT) Gets contents of ConsentStore subkeys
+MITRE: T1123 & T1125 (collection)
+
+----------------------------------------
+----------------------------------------
+DDO v.20200904
+(NTUSER.DAT) Gets user's DeviceDisplayObjects key contents
+
+Software\Microsoft\Windows NT\CurrentVersion\DeviceDisplayObjects not found.
+----------------------------------------
+devicecache v.20221018
+(NTUSER.DAT) Gets DeviceCache entries
+
+Software\Microsoft\Windows\CurrentVersion\TaskFlow\DeviceCache not found.
+----------------------------------------
+disablemru v.20230710
+(NTUSER.DAT, Software) Checks settings disabling user's MRUs, UserAssist, JumpLists
+MITRE: T1562.001 (defense evasion)
+
+Query the Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced key for the Start_TrackDocs value to
+determine if JumpLists are disabled, and the Start_TrackProgs and Start_TrackEnabled values to determine 
+if UserAssist entries are disabled.
+
+Ref: https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/anti-forensic-techniques
+Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced key not found.
+
+Query NoFileMRU value inSoftware\Microsoft\Windows\CurrentVersion\Policies\Comdlg32 key to determine if
+maintaining file MRU is disabled.
+
+Ref: https://admx.help/?Category=Windows_11_2022&Policy=Microsoft.Policies.WindowsExplorer::NoFileMRU
+Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32 key not found.
+
+Query NoRecentDocsMenu value in Software\Microsoft\Windows\CurrentVersion\Policies\Explorer key to determine if
+maintaining recent docs MRU is disabled.
+
+Ref: https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.StartMenu::NoRecentDocsMenu
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer NoRecentDocsMenu value not found.
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer ClearRecentDocsOnExit value not found.
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer NoRecentDocsHistory value not found.
+----------------------------------------
+disabletools v.20220114
+(NTUSER.DAT, Software) Check settings disabling access to tools
+MITRE: T1562.001 (defense evasion)
+
+Software\Microsoft\Windows\Policies\System not found.
+
+Analysis Tip: Access to Registry Tools, the Task Manager, etc., can be disabled via GPOs or direct access
+to the Registry. Admins may disable access as a matter of policy, or threat actors may disable access as a
+means of hampering response.
+----------------------------------------
+doctoidmapping v.20201020
+(NTUSER.DAT) Gets user's DocToIdMapping value names
+
+MSOffice version could not be found.
+
+Analysis Tip: Value names have been found to align with items the user typed into the Outlook Search field.
+----------------------------------------
+elevatedinstall v.20220831
+(software,ntuser.dat) Check AlwaysInstallElevated value
+MITRE: T1548 (privilege escalation)
+
+Software\Policies\Microsoft\Windows\Installer not found.
+----------------------------------------
+environment v.20201113
+(System, NTUSER.DAT) Get environment vars from NTUSER.DAT & System hives
+MITRE: T1037.007 (persistence)
+
+Environment
+LastWrite Time: 2004-08-19 22:51:56Z
+
+TEMP                      %USERPROFILE%\Local Settings\Temp                 
+TMP                       %USERPROFILE%\Local Settings\Temp                 
+
+Analysis Tip: Threat actors, such as Kimsuky (see Cybereason reference below) have been observed using the
+"UserInitMprLogonScript" value for persistence, by including a script in the value data.
+
+Ref: https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite
+----------------------------------------
+featureusage v.20200911
+(NTUSER.DAT) Extracts user's FeatureUsage data
+MITRE: T1059 (program execution)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage not found.
+----------------------------------------
+gpohist v.20200911
+(Software, NTUSER.DAT) Collects system/user GPO history
+
+----------------------------------------
+gpohist_tln v.20200911
+(Software, NTUSER.DAT) Collects system/user GPO history (TLN)
+
+----------------------------------------
+identities v.20200911
+(NTUSER.DAT) Extracts values from Identities key; NTUSER.DAT
+MITRE: T1078 (persistence)
+
+Identities
+LastWrite Time 2004-08-19 22:51:56Z
+
+Identity Ordinal                         1                             
+Migrated5                                1                             
+Last Username                                                          
+Last User ID                             {00000000-0000-0000-0000-000000000000}
+
+----------------------------------------
+imagefile v.20200730
+(Software, NTUSER.DAT) Checks Image File Execution Options subkeys values
+MITRE: T1546.012 (persistence)
+
+
+Analysis Tip: If the plugin responds with any value names and data, including but not limited to the Debugger value
+  those value names should be explored and analyzed further.
+----------------------------------------
+improviders v.20201015
+(NTUSER.DAT) Get IM providers from NTUSER.DAT
+
+----------------------------------------
+injectdll64 v.20200911
+(NTUSER.DAT, Software) Retrieve values set to weaken Chrome security
+
+Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+----------------------------------------
+installelevated v.20230703
+(software, ntuser.dat) Check AlwaysInstallElevated value
+MITRE: T1546.016 (privilege escalation)
+
+Software\Policies\Microsoft\Windows\Installer key not found.
+----------------------------------------
+itempos v.20130514
+(NTUSER.DAT) Shell/Bags/1/Desktop ItemPos* value parsing; Win7 NTUSER.DAT hives
+
+Software\Microsoft\Windows\Shell\Bags\1\Desktop not found.
+Software\Microsoft\Windows\ShellNoRoam\Bags not found.
+----------------------------------------
+jumplistdata v.20200927
+Gets contents of user's JumpListData key
+MITRE: T1204 (execution)
+
+Software\Microsoft\Windows\CurrentVersion\Search\JumpListData not found.
+----------------------------------------
+knowndev v.20200927
+(NTUSER.DAT) Gets user's KnownDevices key contents
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers\KnownDevices not found.
+----------------------------------------
+link_click v.20200730
+MITRE: T1204.001 (execution)
+
+link_click v.20200730
+MITRE ATT&CK subtechnique T1204.001
+
+----------------------------------------
+listsoft v.20201005
+(NTUSER.DAT) Lists contents of user's Software key
+
+listsoft v.20201005
+List the contents of the Software key in the NTUSER.DAT hive
+file, in order by LastWrite time.
+
+2004-08-19 22:51:56Z 	Intel
+2004-08-19 22:51:56Z 	Microsoft
+2004-08-19 22:51:56Z 	Netscape
+2004-08-19 22:51:56Z 	Policies
+----------------------------------------
+load v.20200921
+(NTUSER.DAT) Gets load and run values from user hive
+MITRE: T1547.001 (persistence)
+
+load
+Software\Microsoft\Windows NT\CurrentVersion\Windows
+LastWrite Time 2004-08-27 15:08:25Z
+
+load = 
+run value not found.
+----------------------------------------
+locale v.20220225
+(System, NTUSER.DAT) Get locale settings from NTUSER.DAT & System hives
+MITRE: T1614.001 (discovery)
+
+Control Panel\International
+LastWrite Time: 2004-08-19 22:51:56Z
+
+Locale     = 00000409 (1033)
+
+Analysis Tip: Malware, in particular ransomware, has been observed checking for execution based on the
+locale of the system. This information can be used to determine execution flow, in EXEs, scripts, etc.
+----------------------------------------
+Launching location v.20211116
+location v.20211116
+(NTUSER.DAT) Get apps that use Location services
+
+Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location\NonPackaged not found.
+
+Analysis Tip: This plugin provides info about non-packaged apps that make use of location servers, as well as whether
+location services are allowed or denied.
+----------------------------------------
+logonstats v.20200925
+Gets contents of user's LogonStats key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\LogonStats not found.
+----------------------------------------
+lxss v.20200927
+(NTUSER.DAT) Gets WSL config.
+MITRE: T1564.006 (defense evasion)
+
+Software\Microsoft\Windows\CurrentVersion\Lxss not found.
+----------------------------------------
+----------------------------------------
+mixer v.20200922
+(NTUSER.DAT) Checks user's audio mixer settings
+
+----------------------------------------
+----------------------------------------
+mmc v.20200922
+(NTUSER.DAT) Get contents of user's MMC\Recent File List key
+MITRE: T1059 (execution)
+
+Software\Microsoft\Microsoft Management Console\Recent File List not found.
+----------------------------------------
+----------------------------------------
+mmo v.20200922
+(NTUSER.DAT) Checks NTUSER for Multimedia\Other values [malware]
+MITRE: T1546 (persistence)
+
+Software\Microsoft\Multimedia\Other not found.
+Software\Microsoft\CTF\LangBarAddIn not found.
+----------------------------------------
+mndmru v.20200922
+(NTUSER.DAT) Get contents of user's Map Network Drive MRU
+MITRE: T1021.002 (lateral movement)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Map Network Drive MRU not found.
+----------------------------------------
+----------------------------------------
+mp2 v.20200921
+(NTUSER.DAT) Gets user's MountPoints2 key contents
+MITRE: T1021.002 (user activity)
+
+MountPoints2
+Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2
+LastWrite Time 2004-08-19 22:51:56Z
+
+Remote Drives:
+
+Volumes:
+
+Drives:
+2004-08-19 22:51:56Z - C,D
+
+Unique MAC Addresses:
+
+Analysis Tip: Correlate the Volume entries to those found in the MountedDevices
+entries that begin with "\??\Volume".
+----------------------------------------
+----------------------------------------
+mpmru v.20200921
+(NTUSER.DAT) Gets user's Media Player RecentFileList values
+
+Software\Microsoft\MediaPlayer\Player\RecentFileList not found.
+----------------------------------------
+msoffice v.20210710
+
+----------------------------------------
+----------------------------------------
+muicache v.20221121
+(NTUSER.DAT,USRCLASS.DAT) Gets EXEs from user's MUICache key
+MITRE: T1059 (program execution)
+
+Software\Microsoft\Windows\ShellNoRoam\MUICache
+LastWrite Time 2004-08-19 22:51:56Z
+
+
+Analysis Tip: MUICache holds information from apps run by the user, incorporating metadata from the file's
+.rsrc section, or file version information. This artifact does NOT include time stamps.
+
+Ref: https://www.magnetforensics.com/blog/forensic-analysis-of-muicache-files-in-windows/
+Ref: https://www.youtube.com/watch?v=ea2nvxN878s&t=2s
+----------------------------------------
+nation v.20200921
+(ntuser.dat) Gets region information from HKCU
+
+Nation Information Check
+Control Panel\International\Geo
+LastWrite time: 2004-08-19 22:51:56Z
+
+The Region value is : 244
+The Country Is: United States
+For more information please visit the link below:
+https://msdn.microsoft.com/en-us/library/aa723531.aspx
+
+----------------------------------------
+notif v.20200926
+(NTUSER.DAT) Gets user's Notification settings
+
+----------------------------------------
+office_test v.20230403
+(software,ntuser.dat) Check for MS Office test/debug value
+MITRE: T1137.002 (persistence)
+
+Software\Microsoft\Office Test\Special\Perf key not found.
+
+Analysis Tip: When MS applications are opened, they check for the "Default" value beneath this key, and 
+load the DLL listed in the value.
+
+Ref: https://www.cyberark.com/resources/threat-research-blog/persistence-techniques-that-persist
+Ref: https://unit42.paloaltonetworks.com/unit42-technical-walkthrough-office-test-persistence-method-used-in-recent-sofacy-attacks/
+----------------------------------------
+oisc v.20220530
+(NTUSER.DAT) Gets contents of user's Office Internet Server Cache
+MITRE: T1566.001 (initial access)
+
+Software\Microsoft\Office\\Common\Internet\Server Cache not found.
+----------------------------------------
+onedrive v.20200922
+(NTUSER.DAT) Gets contents of user's OneDrive key
+
+Software\Microsoft\OneDrive not found.
+----------------------------------------
+----------------------------------------
+onenote v.20230306
+
+MS Office does not appear to be installed on this system; the Office version could not be determined.
+----------------------------------------
+OSVersion
+Software\Microsoft
+LastWrite Time 2004-08-19 22:51:56Z
+
+OSVersion value not found.
+----------------------------------------
+OSVersion value not found.
+----------------------------------------
+outlookhomepage v.20201103
+MITRE: T1137.004 (persistence)
+
+outlookhomepage v.20201103
+
+----------------------------------------
+outlookmacro v.20201212
+MITRE: T1546 (persistence)
+
+outlookmacro v.20201212
+MITRE ATT&CK subtechnique T1546
+
+----------------------------------------
+outlook_attach v.20210504
+MITRE: T1204.002 (execution)
+
+outlook_attach v.20210504
+
+Software\Microsoft\Office\\Outlook\Security not found.
+
+Analysis Tip: Leve1Remove & Level1Add values control how Outlook attachments are treated, by extension.
+Level1Remove - Outlook issues a warning, allowing the user to save the file before launching
+Level1Add    - Completely block access to files with the extension
+
+----------------------------------------
+pendinggpos v.20200922
+NTUSER.DAT - Gets contents of user's PendingGPOs key
+MITRE: T1547 (persistence)
+
+Software\Microsoft\IEAK\GroupPolicy\PendingGPOs not found.
+----------------------------------------
+persistconn v.20230109
+(NTUSER.DAT) Gets Persistent Connections values
+MITRE: persistence (T1547.015)
+
+SaveConnections yes                                          
+
+Analysis Tip: Network connections can be persisted by choosing the "net use /persistent:yes" command, or by choosing 
+"Reconnect at Logon" in the Map Network Drive dialog; both allow mapped drives to be reconnected at logon. Look for 
+suspicious or unintended connections. Note that File and Printer Sharing needs to be enabled, as well.
+
+Ref: https://gegeek.com/networking/mapped-drives/
+----------------------------------------
+profiler v.20200922
+(NTUSER.DAT, System) Environment profiler information
+MITRE: T1574.012 (persistence)
+
+Environment
+LastWrite Time 2004-08-19 22:51:56Z
+
+TEMP -> %USERPROFILE%\Local Settings\Temp
+TMP -> %USERPROFILE%\Local Settings\Temp
+
+----------------------------------------
+protectedview v.20220301
+MITRE: T1562.001 (defense evasion)
+
+protectedview v.20220301
+(NTUSER.DAT) Get MSOffice ProtectedView settings
+MITRE ATT&CK: T1562.001 (defense evasion)
+
+
+Software\Microsoft\Office\\Word\Security\ProtectedView not found.
+Software\Microsoft\Office\\Excel\Security\ProtectedView not found.
+Software\Policies\Microsoft\Office\\Word\Security\ProtectedView not found.
+Software\Policies\Microsoft\Office\\Excel\Security\ProtectedView not found.
+
+Analysis Tip: Huntress analyst's write-up on BABYSHARK indicates that the threat actors modify these
+Registry values.
+
+Ref: https://www.huntress.com/blog/targeted-apt-activity-babyshark-is-out-for-blood
+----------------------------------------
+pslogging v.20200922
+(NTUSER.DAT, Software) Extracts PowerShell logging settings
+
+Software\Policies\Microsoft\Windows\PowerShell not found.
+Policies\Microsoft\Windows\PowerShell not found.
+----------------------------------------
+psscript v.20200922
+(Software, NTUSER.DAT) Get values assoc with PSScript.ini
+MITRE: T1546 (persistence)
+
+----------------------------------------
+putty v.20200924
+(NTUSER.DAT) Extracts the saved SshHostKeys for PuTTY.
+MITRE: T1021 (lateral movement)
+
+Software\SimonTatham\PuTTY\SshHostKeys not found.
+
+----------------------------------------
+recentapps v.20200922
+- Gets contents of user's RecentApps key
+
+Software\Microsoft\Windows\CurrentVersion\Search\RecentApps not found.
+----------------------------------------
+Software\Microsoft\Windows\CurrentVersion\Search\RecentApps not found.
+----------------------------------------
+recentdocs v.20200924
+(NTUSER.DAT) Gets contents of user's RecentDocs key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs not found.
+----------------------------------------
+----------------------------------------
+resiliency v.20210325
+MITRE:  (user activity)
+
+resiliency v.20210325
+
+MSOffice not found.
+----------------------------------------
+restartmanager v.20210111
+(NTUSER.DAT) Gets RestartManager\Session0000 values
+MITRE: T1562.001 (defense evasion)
+
+Software\Microsoft\RestartManager not found.
+
+Analysis Tip: The Restart Manager determines apps/processes that need to be shutdown & restarted during an 
+install process. Malware has been observed using this technique to keep files open during encryption, or to
+to encrypt files that otherwise could not be accessed.
+
+During an installation, the Session0000 key may be deleted after the FileInUse dialog is closed.
+----------------------------------------
+run v.20220706
+(Software, NTUSER.DAT) Get autostart key contents from Software/user hives
+MITRE: T1547.001 (persistence)
+
+Software\Microsoft\Windows\CurrentVersion\Run
+LastWrite Time 2004-08-19 22:51:56Z
+Software\Microsoft\Windows\CurrentVersion\Run has no values.
+----------------------------------------
+rundisabled v.20220706
+(Software, NTUSER.DAT) Get status of items in autostart locations
+MITRE: T1562.001 (defense evasion)
+
+----------------------------------------
+runmru v.20201005
+(NTUSER.DAT) Gets contents of user's RunMRU key
+MITRE: T1204 (execution)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU not found.
+----------------------------------------
+----------------------------------------
+runvirtual v.20220425
+(NTUSER.DAT, Software) Gets RunVirtual entries
+MITRE: T1610 (execution)
+
+Software\Microsoft\AppV\Client\RunVirtual not found.
+
+Analysis Tip: Subkeys can be added to the RunVirtual key, allowing locally installed applications to be run in
+virtual environments.
+
+Ref: https://docs.microsoft.com/en-us/windows/application-management/app-v/appv-running-locally-installed-applications-inside-a-virtual-environment
+----------------------------------------
+----------------------------------------
+{
+  "pluginname": "run_json"
+  "hive": "C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\NTUSER.DAT"
+  "hive_timestamp": "2004-08-27 15:08:58Z"
+  "key": "Software\Microsoft\Windows\CurrentVersion\Run"
+  "LastWrite Time": "2004-08-19 22:51:56Z"
+  "Num_values": "0"
+}
+
+----------------------------------------
+run_yara v.20230811
+(Software, NTUSER.DAT) Get autostart key contents from Software hive
+MITRE: T1547.001 (persistence)
+
+Software\Microsoft\Windows\CurrentVersion\Run has no values.
+----------------------------------------
+screensaver v.20220427
+(NTUSER.DAT) Gets user's screensaver settings
+MITRE: T1546.002 (persistence)
+
+Control Panel\Desktop
+LastWrite: 2004-08-19 22:51:56Z
+
+Screensaver is active.
+ScreenSaverIsSecure value: 0
+ScreenSaveTimeout value  : 600
+SCRNSAVE.exe value      : %SystemRoot%\System32\logon.scr
+
+Analysis Tip: Threat actors have been observed using the screen saver as a persistent mechanism.
+
+Ref: https://cocomelonc.github.io/tutorial/2022/04/26/malware-pers-2.html
+Ref: https://attack.mitre.org/techniques/T1546/002/
+----------------------------------------
+screenshotindex v.20230713
+(NTUSER.DAT) Checks user's ScreenshotIndex value
+MITRE: T1074.001 (collection)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer ScreenshotIndex value not found.
+
+Analysis Tip: When a user takes a screenshot via Win + PrtScr, and automatically saves the file, the files is
+saved to the user's "\Pictures\Screenshots" folder, and the ScreenshotIndex value is incremented. This is 
+a possible means of data collection for a threat actor, or an insider threat.
+
+Ref: https://www.tenforums.com/tutorials/6108-reset-screenshot-index-counter-windows-10-a.html
+----------------------------------------
+searchscopes v.20201005
+- Gets contents of user's SearchScopes key
+
+Software\Microsoft\Internet Explorer\SearchScopes not found.
+----------------------------------------
+sevenzip v.20220704
+(NTUSER.DAT) Gets 7-Zip histories & settings
+
+----------------------------------------
+shc v.20201005
+(NTUSER.DAT) Gets SHC entries from user hive
+
+Software\Microsoft\Windows\CurrentVersion\UFH\SHC not found.
+----------------------------------------
+shellbags_xp v.20200831
+(USRCLASS.DAT, NTUSER.DAT) Shell/BagMRU traversal in XP USRCLASS.DAT hives
+
+Software\Microsoft\Windows\ShellNoRoam\BagMRU not found.
+----------------------------------------
+shellfolders v.20201005
+Gets user's shell folders values
+MITRE: T1547.001 (persistence)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+LastWrite Time 2004-08-19 22:51:58Z
+StartUp folder : C:\Documents and Settings\NetworkService\Start Menu\Programs\Startup
+
+Analysis Tip: A threat actor could modify the location of the user's StartUp folder.
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+LastWrite Time 2004-08-19 22:51:56Z
+StartUp folder : %USERPROFILE%\Start Menu\Programs\Startup
+
+Analysis Tip: A threat actor could modify the location of the user's StartUp folder.
+----------------------------------------
+speech v.20201005
+(NTUSER.DAT) Get values from user's Speech key
+MITRE: T1059 (program execution)
+
+Software\Microsoft\Speech not found.
+----------------------------------------
+----------------------------------------
+staginginfo v.20210407
+(NTUSER.DAT) Get info regarding CD burning
+MITRE: T1074.001 (collection)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\CD Burning\StagingInfo key not found.
+----------------------------------------
+storagesense v.20201230
+(software, ntuser.dat) Get StorageSense values
+MITRE: T1547 (persistence)
+
+Analysis Tip: 
+----------------------------------------
+sysinternals v.20220824
+MITRE: T1204 (program execution)
+
+Software\SysInternals not found.
+----------------------------------------
+----------------------------------------
+thostperms v.20201015
+(NTUSER.DAT) Gets user's THostPerms value from Acrobat Reader TrustManager
+
+----------------------------------------
+Launching tsclient v.20200924
+(NTUSER.DAT) Displays contents of user's Terminal Server Client\Default key
+MITRE: T1021.001 (lateral movement)
+
+Software\Microsoft\Terminal Server Client\Default not found.
+
+Software\Microsoft\Terminal Server Client\Servers not found.
+----------------------------------------
+
+----------------------------------------
+typedpaths v.20201005
+(NTUSER.DAT) Gets contents of user's typedpaths key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths not found.
+----------------------------------------
+----------------------------------------
+typedurls v.20201012
+(NTUSER.DAT) Returns contents of user's TypedURLs key.
+
+Software\Microsoft\Internet Explorer\TypedURLs not found.
+----------------------------------------
+typedurlstime v.20201012
+(NTUSER.DAT) Returns contents of user's TypedURLsTime key.
+
+Software\Microsoft\Internet Explorer\TypedURLsTime not found.
+----------------------------------------
+----------------------------------------
+----------------------------------------
+ua_wiper v.20220301
+(NTUSER.DAT) Settings associated with wiper found in the Ukraine
+MITRE: T1562.001 (defense evasion)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced not found.
+
+Analysis Tip: Amit Serper found that, when analyzing a wiper deployed against Ukraine following the
+Russian invasion in 2022, the malware set these values to "0". Crowdstrike analysis of the malware
+indicates that there can be delays set when launching the EXE, so these settings may prevent the user 
+from seeing anything untoward had gone on.
+
+Ref: https://www.crowdstrike.com/blog/how-crowdstrike-falcon-protects-against-wiper-malware-used-in-ukraine-attacks/
+----------------------------------------
+uninstall v.20200916
+(Software, NTUSER.DAT) Gets contents of Uninstall keys from Software, NTUSER.DAT hives
+
+Uninstall
+----------------------------------------
+Uninstall
+----------------------------------------
+Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist not found.
+----------------------------------------
+----------------------------------------
+userextendedproperties v.20220509
+- Gets MS Live ID and account name mapping
+MITRE:  (identity)
+
+Software\Microsoft\IdentityCRL\UserExtendedProperties not found.
+----------------------------------------
+wc_shares v.20200916
+- Gets contents of user's WorkgroupCrawler/Shares subkeys
+MITRE: T1021.002 (lateral movement)
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WorkgroupCrawler\Shares not found.
+----------------------------------------
+win11_edge v.20210927
+(software, ntuser.dat) Get Win11 MSEdge values
+----------------------------------------
+winrar v.20200916
+(NTUSER.DAT) Get WinRAR\ArcHistory entries
+MITRE: T1074.001 (data staged)
+
+Software\WinRAR\ArcHistory not found.
+----------------------------------------
+----------------------------------------
+winspc v.20200916
+(NTUSER.DAT) Gets user's WinSCP 2 data
+
+Software\Martin Prikryl\WinSCP 2 not found.
+----------------------------------------
+winzip v.20200803
+(NTUSER.DAT) Get WinZip extract and filemenu values
+
+Software\Nico Mak Computing\WinZip not found.
+----------------------------------------
+wordstartup v.20220529
+MITRE: T1112 (defense evasion)
+
+wordstartup v.20220529
+MITRE ATT&CK: defense evasion (T1112)
+
+Software\Policies\Microsoft\office\\word\options not found.
+
+Analysis Tip: By default, the MSWord STARTUP folder is located at "%AppData%\Roaming\Microsoft\Word\STARTUP"
+.dot files in this folder may contain macros that are run each time MSWord is launched, and this folder can be
+changed via GPO or the Registry. Use of the MSWord STARTUP folder was observed in the RestyLink APT campaign:
+https://insight-jp.nttsecurity.com/post/102hojk/operation-restylink-apt-campaign-targeting-japanese-companies
+----------------------------------------
+wordwheelquery v.20200916
+(NTUSER.DAT) Gets contents of user's WordWheelQuery key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery not found.
+----------------------------------------
+----------------------------------------

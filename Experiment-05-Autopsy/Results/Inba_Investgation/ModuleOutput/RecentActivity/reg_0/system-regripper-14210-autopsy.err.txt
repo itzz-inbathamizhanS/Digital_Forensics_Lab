@@ -1,0 +1,6 @@
+Parsed Plugins file.
+autopsyusb complete.
+autopsynic2 complete.
+autopsyprocarchitecture complete.
+autopsycompname complete.
+autopsyprofiler complete.

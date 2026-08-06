@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2026/08/06 22:10:19 (IST)</CreatedDate>
+  <ModifiedDate>2026/08/06 22:10:21 (IST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.23.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.23.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>inba_investgation_20260806_221019</Name>
+    <DisplayName>Inba_Investgation</DisplayName>
+    <Number>99240040089</Number>
+    <Examiner>Inbathamizhan S</Examiner>
+    <ExaminerPhone>xxxxxxxx</ExaminerPhone>
+    <ExaminerEmail>xxxxxxxxx</ExaminerEmail>
+    <CaseNotes>Just for experimental purpose</CaseNotes>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>

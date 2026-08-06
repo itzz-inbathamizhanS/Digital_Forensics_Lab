@@ -1,0 +1,208 @@
+Parsed Plugins file.
+Launching allow_upgrade v.2023075
+allow_upgrade complete.
+Launching appcertdlls v.20200813
+appcertdlls complete.
+Launching appcompatcache v.20220920
+appcompatcache complete.
+appcompatcache_json complete.
+Launching appcompatcache_tln v.20220920
+appcompatcache_tln complete.
+Launching appenvironment v.20230726
+appenvironment complete.
+Launching autodialdll v.20221026
+autodialdll complete.
+Launching automount v.20221010
+automount complete.
+Launching backuprestore v.20201012
+backuprestore complete.
+Launching bam v.20200904
+bam complete.
+bam_tln complete.
+Launching bthenum v.20200904
+bthenum complete.
+Launching bthport v.20200904
+bthport complete.
+Launching bthport_tln v.20200904
+bthport_tln complete.
+Launching codepage v.20200904
+codepage complete.
+Launching coinstallers v.20211212
+coinstallers complete.
+Launching compname v.20201021
+compname complete.
+Launching crashcontrol v.20200904
+crashcontrol complete.
+Launching cred v.20200730
+cred complete.
+cred_tln complete.
+Launching dafupnp v.20200904
+dafupnp complete.
+Launching databasepath v.20201021
+databasepath complete.
+Launching defender-autologger v.20220303
+defenderautologger complete.
+Launching defrag v.20201130
+defrag complete.
+Launching devclass v.20200904
+devclass complete.
+Launching deviceguard v.20201025
+deviceguard complete.
+Launching disable445 v.20220921
+disable445 complete.
+Launching disablelastaccess v.20200911
+disablelastaccess complete.
+Launching disableremotescm v.20200831
+disableremotescm complete.
+Launching dllsearch v.20210705
+dllsearch complete.
+Launching environment v.20201113
+environment complete.
+Launching fsdepends v.20220809
+fsdepends complete.
+Launching fvestats v.20220704
+fvestats complete.
+Launching guestauth v.20201105
+guestauth complete.
+Launching imagedev v.20200911
+imagedev complete.
+Launching ips v.20200911
+ips complete.
+kdc complete.
+Launching labconfig v.20220819
+labconfig complete.
+Launching locale v.20220225
+locale complete.
+Launching lsa v.20220302
+lsa complete.
+Launching macaddr v.20210319
+macaddr complete.
+Launching minint v.20200831
+minint complete.
+Launching mountdev v.20221129
+mountdev complete.
+Launching mountdev2 v.20200921
+mountdev2 complete.
+Launching netlogon v.20200921
+netlogon complete.
+Launching networkproviders v.20220803
+networkproviders complete.
+Launching networkproviderservices v.20220803
+networkproviderservices complete.
+Launching networksetup2 v.20200922
+networksetup2 complete.
+Launching nic2 v.20200922
+nic2 complete.
+Launching ntds v.20200921
+ntds complete.
+Launching pagefile v.20200921
+pagefile complete.
+Launching pending v.20230510
+pending complete.
+Launching perf v.20201130
+perf complete.
+portproxy complete.
+Launching prefetch v.20200922
+prefetch complete.
+Launching printer_settings v.20200730
+printer_settings complete.
+Launching printmon v.20200922
+printmon complete.
+printmon_tln complete.
+Launching printnightmare v.20230319
+printnightmare complete.
+Launching printprocessors v.20200922
+printprocessors complete.
+Launching processor_architecture v.20200922
+processor_architecture complete.
+Launching productpolicy v.20230804
+productpolicy complete.
+Launching profiler v.20200922
+profiler complete.
+Launching railrunonce v.20201020
+railrunonce complete.
+Launching rdplockout v.20220809
+rdplockout complete.
+Launching rdpport v.20220809
+rdpport complete.
+Launching regback v.20201130
+regback complete.
+Launching remoteaccess v.20200924
+remoteaccess complete.
+Launching routes v.20200922
+routes complete.
+Launching scsi v.20220802
+scsi complete.
+scsi_tln complete.
+Launching securityproviders v.20201005
+securityproviders complete.
+Launching services v.20200831
+services complete.
+Launching shares v.20201005
+Use of uninitialized value $list in pattern match (m//) at PERL2EXE_STORAGE/utf8_heavy.pl line 399.
+shares complete.
+Launching shimcache v.20220920
+shimcache complete.
+Launching shimcache_tln v.20220920
+shimcache_tln complete.
+Launching shutdown v.20201005
+shutdown complete.
+Launching smb v.20220101
+smb complete.
+Launching sourcerouting v.20210212
+sourcerouting complete.
+Launching source_os v.20220111
+source_os complete.
+Launching spooler v.20230715
+spooler complete.
+Launching symlink v.20220613
+symlink complete.
+Launching systemindex v.20201005
+systemindex complete.
+Launching termcert v.20201005
+termcert complete.
+Launching termserv v.20220908
+termserv complete.
+Launching tgt v.20201116
+tgt complete.
+Launching timeproviders v.20200813
+timeproviders complete.
+Launching timezone v.20201005
+timezone complete.
+Launching tls v.20210122
+tls complete.
+Launching trailersupport v.20220111
+trailersupport complete.
+Launching triggerinfo v.20201020
+triggerinfo complete.
+Launching tsutilities v.20200806
+tsutilities complete.
+Launching usb v.20200916
+usb complete.
+Launching usbdevices v.20220524
+usbdevices complete.
+usbdevices_tln complete.
+Launching usbstor v.20220524
+usbstor complete.
+Launching usbdevices v.20220524
+usbstor2 complete.
+usbstor_tln complete.
+Launching usn v.20220101
+usn complete.
+Launching utilities v.20221231
+utilities complete.
+Launching volsnap v.20210128
+volsnap complete.
+volsnap_tln complete.
+Launching vss v.20210128
+vss complete.
+Launching wdfilter v.20201229
+wdfilter complete.
+Launching wpbt v.20220718
+wpbt complete.
+Launching wpdbusenum v.20220524
+wpdbusenum complete.
+wpdbusenum_tln complete.
+wtg complete.
+Launching zerologon v.20200922
+zerologon complete.

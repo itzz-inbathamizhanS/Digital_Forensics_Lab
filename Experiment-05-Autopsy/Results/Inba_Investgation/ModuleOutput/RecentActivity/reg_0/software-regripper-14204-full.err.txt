@@ -1,0 +1,268 @@
+Parsed Plugins file.
+Launching activesetup v.20201230
+activesetup complete.
+Launching allowedenum v.20200813
+allowedenum complete.
+Launching amsiproviders v.20210601
+amsiproviders complete.
+Launching appcompatflags v.20220328
+appcompatflags complete.
+appinitdlls complete.
+Launching appkeys v.20200813
+appkeys complete.
+appkeys_tln complete.
+Launching appmodel v.20230703
+appmodel complete.
+Launching apppaths v.20200813
+apppaths complete.
+Launching apppaths_tln v.20200813
+apppaths_tln complete.
+appsetup complete.
+Launching assoc v.20220829
+assoc complete.
+audiodev complete.
+auth complete.
+Launching autoadminlogon v.20220829
+autoadminlogon complete.
+Launching autorun v.20221109
+autorun complete.
+Launching blm v.20210705
+blm complete.
+Launching btconfig v.20200911
+btconfig complete.
+Launching calibrator v.20200904
+calibrator complete.
+Launching certpadding v.20220110
+certpadding complete.
+Launching certs v.20220926
+certs complete.
+Launching clipbrd v.20230419
+clipbrd complete.
+Launching clsid v.20200904
+clsid complete.
+clsid_tln complete.
+Launching cmd_shell v.20200904
+cmd_shell complete.
+Launching comautoapproval v.20220829
+comautoapproval complete.
+consentstore complete.
+consentstore_tln complete.
+Launching credentialsdelegation v.20220307
+credentialsdelegation complete.
+Launching datatracing v.20201018
+datatracing complete.
+Launching dcom v.20200904
+dcom complete.
+Launching defender v.20211027
+defender complete.
+denydeviceids complete.
+Launching deviceguard v.20201025
+deviceguard complete.
+Launching diagnostics v.20220531
+diagnostics complete.
+direct complete.
+direct_tln complete.
+Launching disablemru v.20230710
+disablemru complete.
+Launching disableonedrive v.20220614
+disableonedrive complete.
+Launching disableproxy v.20211025
+disableproxy complete.
+Launching disablesr v.20200911
+disablesr complete.
+Launching disabletools v.20220114
+disabletools complete.
+dnsclient complete.
+driverinstall complete.
+duo complete.
+Launching elevatedinstall v.20220831
+elevatedinstall complete.
+Launching emdmgmt v.20200911
+emdmgmt complete.
+enablelinkedconn complete.
+Launching eventsasp v.20230217
+eventsasp complete.
+Launching eventtranscript v.20210927
+eventtranscript complete.
+execpolicy complete.
+Launching feature_block v.20230724
+feature_block complete.
+Launching gpohist v.20200911
+gpohist complete.
+Launching gpohist_tln v.20200911
+gpohist_tln complete.
+Launching heap v.20200911
+heap complete.
+Launching hello v.20210315
+hello complete.
+Launching hiddentasks v.20220413
+hiddentasks complete.
+Launching imagefile v.20200730
+Use of uninitialized value $list in pattern match (m//) at PERL2EXE_STORAGE/utf8_heavy.pl line 399.
+imagefile complete.
+Launching injectdll64 v.20200911
+injectdll64 complete.
+Launching inprocserver v.20201005
+inprocserver complete.
+Launching installedcomp v.20130911
+installedcomp complete.
+Launching installelevated v.20230703
+installelevated complete.
+Launching installer v.20200803
+installer complete.
+installerlogging complete.
+installproperties complete.
+Launching iso v.20220829
+iso complete.
+killsuit complete.
+killsuit_tln complete.
+Launching landesk v.20201005
+landesk complete.
+Launching landesk (TLN) v.20201005
+landesk_tln complete.
+Launching lastloggedon v.20201007
+lastloggedon complete.
+Launching licenses v.20201005
+licenses complete.
+Launching localdumps v.20220419
+localdumps complete.
+Launching lsass_auditlevel v.20220119
+lsass_auditlevel complete.
+Launching macaddr v.20210319
+macaddr complete.
+Launching maint v.20210326
+maint complete.
+Launching mpnotify v.20230702
+mpnotify complete.
+Launching msis v.20200921
+msis complete.
+netsh complete.
+Launching networkcards v.20200921
+networkcards complete.
+Launching networklist v.20200921
+networklist complete.
+Launching networklist_tln v.20200921
+networklist_tln complete.
+Launching networkprotection v.20221114
+networkprotection complete.
+Launching office_test v.20230403
+office_test complete.
+Launching pointandprint v.20210705
+pointandprint complete.
+Launching portdev v.20220527
+portdev complete.
+portdev_tln complete.
+Launching ports v.20210309
+ports complete.
+Launching powershellcore v.20200922
+powershellcore complete.
+Launching printdemon v.20200922
+printdemon complete.
+Launching printer_settings v.20200730
+printer_settings complete.
+Launching profilelist v.20200922
+profilelist complete.
+Launching pslogging v.20200922
+pslogging complete.
+Launching psscript v.20200922
+psscript complete.
+Launching recyclepersist v.20230123
+recyclepersist complete.
+Launching registerspooler v.20210705
+registerspooler complete.
+Launching remoteuac v.20220101
+remoteuac complete.
+Launching run v.20220706
+run complete.
+Launching rundisabled v.20220706
+rundisabled complete.
+runonceex complete.
+Launching runvirtual v.20220425
+runvirtual complete.
+runvirtual_tln complete.
+run_json complete.
+Launching run_yara v.20230811
+'.\yara64.exe' is not recognized as an internal or external command,
+operable program or batch file.
+'.\yara64.exe' is not recognized as an internal or external command,
+operable program or batch file.
+run_yara complete.
+Launching ryuk_gpo v.20201005
+ryuk_gpo complete.
+sandbox complete.
+Launching schedagent v.20200925
+schedagent complete.
+Launching scriptleturl v.20201005
+scriptleturl complete.
+Launching secctr v.20201005
+secctr complete.
+Launching shadow v.20210425
+shadow complete.
+Launching shelloverlay v.20201007
+shelloverlay complete.
+silentprocessexit complete.
+silentprocessexit_tln complete.
+Launching smartscreen v.20221108
+smartscreen complete.
+Launching spp_clients v.20201005
+spp_clients complete.
+srum complete.
+Launching ssid v.20201005
+ssid complete.
+Launching storagesense v.20201230
+storagesense complete.
+Launching susclient v.20201005
+susclient complete.
+Launching symlink v.20220613
+symlink complete.
+Launching systemindex v.20201005
+systemindex complete.
+Launching tasks v.20221222
+tasks complete.
+tasks_tln complete.
+Launching teamviewer v.20211025
+teamviewer complete.
+Launching telemetrycontroller v.20220707
+telemetrycontroller complete.
+Launching termserv v.20220908
+termserv complete.
+thispcpolicy complete.
+Launching thumbnail_cleanup v.20210315
+thumbnail_cleanup complete.
+tracing complete.
+tracing_tln complete.
+Launching uac v.20220826
+uac complete.
+Launching uacbypass v.20200924
+uacbypass complete.
+Launching uninstall v.20200916
+uninstall complete.
+Launching uninstall v.20200916
+uninstall_tln complete.
+Launching updates v.20170715
+updates complete.
+update_test complete.
+volinfocache complete.
+volumecaches complete.
+Launching wab v.20200916
+wab complete.
+wab_tln complete.
+watp complete.
+Launching wbem v.20200916
+wbem complete.
+Launching win11_edge v.20210927
+win11_edge complete.
+windowsupdate complete.
+winevt complete.
+winevtchannels complete.
+Launching winlogon_tln v.20200916
+Error in winlogon_tln: Undefined subroutine &main::alertMsg called at C:\Program Files\Autopsy-4.23.1\autopsy\rr-full\plugins\winlogon_tln.pl line 77.
+
+winlogon_tln complete.
+Launching winver v.20200916
+winver complete.
+wow64 complete.
+wrdata complete.
+wrdata_tln complete.
+wsh_settings complete.
+xbox complete.

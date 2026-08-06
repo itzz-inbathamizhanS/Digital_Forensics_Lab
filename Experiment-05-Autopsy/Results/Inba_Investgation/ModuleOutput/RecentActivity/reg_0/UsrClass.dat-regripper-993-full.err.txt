@@ -1,0 +1,22 @@
+Parsed Plugins file.
+Launching appx v.20200904
+appx complete.
+appx_tln complete.
+Launching clsid v.20200904
+clsid complete.
+clsid_tln complete.
+Launching muicache v.20221121
+muicache complete.
+Launching photos v.20200922
+photos complete.
+Launching recyclepersist v.20230123
+recyclepersist complete.
+Launching scriptleturl v.20201005
+scriptleturl complete.
+Launching shellbags v.20200831
+shellbags complete.
+shellbags_tln complete.
+Launching shellbags_xp v.20200831
+shellbags_xp complete.
+Launching uacbypass v.20200924
+uacbypass complete.

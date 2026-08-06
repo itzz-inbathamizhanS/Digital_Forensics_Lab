@@ -1,0 +1,27 @@
+<usb><mtime></mtime><artifacts>
+<device mtime="1093619290" dev="ROOT_HUB" >4&15736a3f&0</device>
+</artifacts></usb>
+----------------------------------------
+<SSID>
+<mtime></mtime>
+<artifacts>
+</artifacts></SSID>
+----------------------------------------
+<ProcessorArchitecture><mtime></mtime><artifacts><architecture mtime="">x86</architecture></artifacts></ProcessorArchitecture>
+----------------------------------------
+<CompName>
+<mtime></mtime>
+<artifacts>
+<compname name="ComputerName">N-1A9ODN6ZXK4LQ</compname>
+<compname name="Domain"></compname>
+</artifacts></CompName>
+----------------------------------------
+<Profiler>
+<mtime></mtime>
+<artifacts>
+<profiler name="OS">Windows_NT</profiler>
+<profiler name="PROCESSOR_ARCHITECTURE">x86</profiler>
+<profiler name="PROCESSOR_IDENTIFIER">x86 Family 6 Model 6 Stepping 10, GenuineIntel</profiler>
+<profiler name="TEMP">%SystemRoot%\TEMP</profiler>
+</artifacts></Profiler>
+----------------------------------------

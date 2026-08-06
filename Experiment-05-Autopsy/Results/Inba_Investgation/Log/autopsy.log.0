@@ -1,0 +1,644 @@
+2026-08-06 22:10:22.288 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2026-08-06 22:10:22.38 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2026-08-06 22:10:22.388 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-08-06 22:10:22.389 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2026-08-06 22:10:22.395 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-08-06 22:10:23.887 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2026-08-06 22:10:24.29 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2026-08-06 22:10:24.548 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.49.1.0 loaded in native mode
+2026-08-06 22:10:24.709 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Inba_Investgation (inba_investgation_20260806_221019) in A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation as the current case
+2026-08-06 22:10:25.765 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2026-08-06 22:10:27.549 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-08-06 22:10:31.899 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-08-06 22:10:32.771 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2026-08-06 22:10:33.682 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2026-08-06 22:10:33.734 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.23.1
+2026-08-06 22:10:33.784 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.23.1
+2026-08-06 22:10:33.836 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.23.1
+2026-08-06 22:10:33.884 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.23.1
+2026-08-06 22:10:33.886 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.23.1
+2026-08-06 22:10:33.942 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.23.1
+2026-08-06 22:10:33.991 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.23.1
+2026-08-06 22:10:34.042 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.23.1
+2026-08-06 22:10:34.042 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.23.1
+2026-08-06 22:10:34.093 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.23.1
+2026-08-06 22:10:34.093 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.23.1
+2026-08-06 22:10:34.15 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2026-08-06 22:10:34.199 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.23.1
+2026-08-06 22:10:34.256 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.23.1
+2026-08-06 22:10:34.355 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.23.1
+2026-08-06 22:10:34.417 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.23.1
+2026-08-06 22:10:34.419 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.23.1
+2026-08-06 22:10:34.426 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.23.1
+2026-08-06 22:10:34.427 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.23.1
+2026-08-06 22:10:34.492 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2026-08-06 22:10:34.492 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.23.1
+2026-08-06 22:10:37.5 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient createSSLContext
+INFO: Creating custom SSL context
+2026-08-06 22:10:37.501 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getKeyManagers
+INFO: Using default algorithm to create trust store: SunX509
+2026-08-06 22:10:37.502 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getTrustManagers
+INFO: Using default algorithm to create trust store: PKIX
+2026-08-06 22:10:37.942 com.basistech.df.cybertriage.autopsy.incidentoptions.CTSettings getAppDataLocalDirectory
+INFO: Application Data Path: C:\Users\tamil\AppData\Local\cybertriage
+2026-08-06 22:12:09.374 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of A:\
+2026-08-06 22:12:09.375 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1786034529375
+2026-08-06 22:12:09.38 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2026-08-06 22:12:09.536 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2026-08-06 22:12:11.257 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-08-06 22:12:11.447 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2026-08-06 22:12:11.65 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file streaming mode (data source = 4Dell Latitude CPi.E01, data source object ID = 1, job ID = 0)
+2026-08-06 22:12:18.655 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Data source received in streaming mode ingest job (data source = 4Dell Latitude CPi.E01, data source object ID = 1, job ID = 0)
+2026-08-06 22:12:18.69 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:12:20.632 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\SAM
+2026-08-06 22:12:20.635 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\SAM-regripper-14196-full.txt
+2026-08-06 22:12:29.178 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromPpt
+WARNING: PPT container could not be initialized. Reason: You seem to have supplied a PowerPoint95 file, which isn't supported
+2026-08-06 22:12:31.393 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: The supplied spreadsheet seems to be Excel 5.0/7.0 (BIFF5) format. POI only supports BIFF8 format (from Excel versions 97/2000/XP/2003)
+2026-08-06 22:12:31.643 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-08-06 22:12:31.644 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-642-autopsy.txt
+2026-08-06 22:12:31.724 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=561] quattro.wb2, see Tika log for details...
+2026-08-06 22:12:32.705 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-642-full.txt
+2026-08-06 22:12:33.389 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:12:34.823 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=782] hh.dat, see Tika log for details...
+2026-08-06 22:12:40.662 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-08-06 22:12:40.662 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-741-autopsy.txt
+2026-08-06 22:12:41.829 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-741-full.txt
+2026-08-06 22:12:44.036 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-08-06 22:12:44.037 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-2390-autopsy.txt
+2026-08-06 22:12:44.616 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-2390-full.txt
+2026-08-06 22:12:48.871 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-08-06 22:12:48.872 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-2612-autopsy.txt
+2026-08-06 22:12:50.143 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-2612-full.txt
+2026-08-06 22:12:52.422 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\ntuser.dat
+2026-08-06 22:12:52.423 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\ntuser.dat-regripper-8291-autopsy.txt
+2026-08-06 22:12:53.213 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\ntuser.dat-regripper-8291-full.txt
+2026-08-06 22:12:55.113 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\UsrClass.dat
+2026-08-06 22:12:55.113 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\UsrClass.dat-regripper-699-full.txt
+2026-08-06 22:12:56.219 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\UsrClass.dat
+2026-08-06 22:12:56.22 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\UsrClass.dat-regripper-993-full.txt
+2026-08-06 22:12:56.996 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\UsrClass.dat
+2026-08-06 22:12:56.997 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\UsrClass.dat-regripper-2573-full.txt
+2026-08-06 22:12:57.807 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\system
+2026-08-06 22:12:57.807 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\system-regripper-14210-autopsy.txt
+2026-08-06 22:12:58.446 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\system-regripper-14210-full.txt
+2026-08-06 22:13:07.645 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\software
+2026-08-06 22:13:07.646 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\software-regripper-14204-autopsy.txt
+2026-08-06 22:13:08.377 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\software-regripper-14204-full.txt
+2026-08-06 22:13:10.751 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: The supplied spreadsheet seems to be Excel 5.0/7.0 (BIFF5) format. POI only supports BIFF8 format (from Excel versions 97/2000/XP/2003)
+2026-08-06 22:13:10.922 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromPpt
+WARNING: PPT container could not be initialized. Reason: You seem to have supplied a PowerPoint95 file, which isn't supported
+2026-08-06 22:13:11.012 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=2510] quattro.wb2, see Tika log for details...
+2026-08-06 22:13:11.095 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:13:33.246 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\software-regripper-14204-full.err.txt contains errors from run
+2026-08-06 22:13:33.764 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\reg_0\SECURITY
+2026-08-06 22:13:33.764 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\RecentActivity\reg_0\SECURITY-regripper-14201-full.txt
+2026-08-06 22:13:36.051 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.108 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.162 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.219 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.277 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.339 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.379 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-08-06 22:13:36.438 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2026-08-06 22:13:36.438 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2026-08-06 22:13:36.439 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2026-08-06 22:13:36.44 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2026-08-06 22:13:36.44 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2026-08-06 22:13:36.44 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2026-08-06 22:13:36.44 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2026-08-06 22:13:37.159 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results
+2026-08-06 22:13:37.161 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.23.1\autopsy\pasco2
+2026-08-06 22:13:37.172 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.421.txt
+2026-08-06 22:13:38.192 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:38.198 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.443.txt
+2026-08-06 22:13:39.057 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:39.063 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.458.txt
+2026-08-06 22:13:39.855 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:39.861 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.680.txt
+2026-08-06 22:13:40.648 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:40.653 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.711.txt
+2026-08-06 22:13:41.314 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:41.319 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.730.txt
+2026-08-06 22:13:41.967 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:41.973 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.830.txt
+2026-08-06 22:13:42.948 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:42.954 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1005.txt
+2026-08-06 22:13:44.128 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:44.137 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1009.txt
+2026-08-06 22:13:44.972 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:44.979 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1013.txt
+2026-08-06 22:13:45.773 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:45.777 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1017.txt
+2026-08-06 22:13:46.352 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:46.358 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1021.txt
+2026-08-06 22:13:47.101 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:47.117 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.1357.txt
+2026-08-06 22:13:50.974 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:50.98 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.6439.txt
+2026-08-06 22:13:51.599 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.14247.txt
+2026-08-06 22:13:52.246 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:52.259 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.14269.txt
+2026-08-06 22:13:52.932 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:52.94 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.14273.txt
+2026-08-06 22:13:54.065 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:13:54.07 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\tamil\AppData\Local\Temp\Autopsy\inba_investgation_20260806_221019\Temp\RecentActivity\IE_0\results\pasco2Result.14291.txt
+2026-08-06 22:13:55.278 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-08-06 22:14:04.173 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 893 blackboard artifacts.
+2026-08-06 22:14:05.004 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 4 queries from the blackboard
+2026-08-06 22:14:05.006 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 4
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2026-08-06 22:14:05.023 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 887 blackboard artifacts.
+2026-08-06 22:14:05.38 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2026-08-06 22:14:15.468 org.sleuthkit.autopsy.recentactivity.ExtractThumbcache process
+WARNING: Error finding thumbcache files
+2026-08-06 22:14:15.484 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 921 blackboard artifacts.
+2026-08-06 22:14:15.992 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 4 distinct messaging domain(s) from the blackboard.  Of the 93 artifact(s) with valid hosts, 7 url(s) contained messaging domain suffix.
+2026-08-06 22:14:15.993 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:15.994 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:19.484 AndroidIngestModule process
+INFO: running 22 analyzers
+2026-08-06 22:14:22.118 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:22.119 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:22.31 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:22.312 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:22.313 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source 4Dell Latitude CPi.E01
+2026-08-06 22:14:22.822 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source 4Dell Latitude CPi.E01
+2026-08-06 22:14:22.823 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:22.823 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:22.824 org.sleuthkit.autopsy.modules.leappanalyzers.ALeappAnalyzerIngestModule process
+INFO: aLeapp: data source does not appear to be Android, skipping.
+2026-08-06 22:14:22.825 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:22.826 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:23.047 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:14:23.049 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of 4Dell Latitude CPi.E01 starting
+2026-08-06 22:14:23.054 org.sleuthkit.autopsy.modules.leappanalyzers.ILeappAnalyzerIngestModule process
+INFO: iLeapp: data source does not appear to be iOS, skipping.
+2026-08-06 22:14:23.056 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of 4Dell Latitude CPi.E01 finished
+2026-08-06 22:15:21.023 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor$StandardIArchiveExtractCallback setOperationResult
+WARNING: Extraction of : A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\2879\0\11 encountered error DATAERROR
+2026-08-06 22:15:21.024 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor$StandardIArchiveExtractCallback setOperationResult
+WARNING: Extraction of : A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\2879\0\12 encountered error UNSUPPORTEDMETHOD
+2026-08-06 22:15:21.025 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor$StandardIArchiveExtractCallback setOperationResult
+WARNING: Extraction of : A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\2879\0\13 encountered error UNSUPPORTEDMETHOD
+2026-08-06 22:15:21.026 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor$StandardIArchiveExtractCallback setOperationResult
+WARNING: Extraction of : A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\2879\0\14 encountered error UNSUPPORTEDMETHOD
+2026-08-06 22:15:25.83 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor unpack
+WARNING: Error unpacking file: AbstractContent [	objId 0000003030	name COPYING	parentId -1		checkedHasChildren true	hasChildren false	childrenCount -1uniquePath null]	AbstractFile [		fileType FS	ctime 1093015133	crtime 1093015133	mtime 954431200	atime 1093015133	attrId 3	attrType TSK_FS_ATTR_TYPE_NTFS_DATA	dirFlag Allocated	dirType REG	uid 0	gid 0	metaAddr 10374	metaSeq 1	metaFlags [Unknown, Allocated, Used]	metaType r	modes [TSK_FS_META_MODE_IRUSR, TSK_FS_META_MODE_IWUSR, TSK_FS_META_MODE_IXUSR, TSK_FS_META_MODE_IRGRP, TSK_FS_META_MODE_IWGRP, TSK_FS_META_MODE_IXGRP, TSK_FS_META_MODE_IROTH, TSK_FS_META_MODE_IWOTH, TSK_FS_META_MODE_IXOTH]	parentPath /My Documents/ENUMERATION/NT/nbtscan/files/	size 316740	knownState UNKNOWN	md5Hash c1e422e5fed7aff0084775e9d6443bef	sha256Hash 26bbfef954e332684df42a039a15768a10873ca86d38f52cd4a8e8f076db4475	sha1Hash null	localPathSet false	localPath null	localAbsPath null	localFile null]	FsContent [	fsObjId 5	uniquePath /img_4Dell Latitude CPi.E01/vol_vol2/My Documents/ENUMERATION/NT/nbtscan/files/COPYING	fileHandle 1116029104]	File [	]	
+net.sf.sevenzipjbinding.SevenZipException: Archive file can't be opened with none of the registered codecs
+	net.sf.sevenzipjbinding.SevenZip.nativeOpenArchive(Native Method)
+	net.sf.sevenzipjbinding.SevenZip.callNativeOpenArchive(SevenZip.java:906)
+	net.sf.sevenzipjbinding.SevenZip.openInArchive(SevenZip.java:798)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:657)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:568)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorIngestModule.process(EmbeddedFileExtractorIngestModule.java:199)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-06 22:15:31.642 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor unpack
+WARNING: Error unpacking file: AbstractContent [	objId 0000021398	name COPYING	parentId -1		checkedHasChildren true	hasChildren false	childrenCount -1uniquePath null]	AbstractFile [		fileType DERIVED	ctime 0	crtime 0	mtime 954314200	atime 0	attrId 0	attrType TSK_FS_ATTR_TYPE_DEFAULT	dirFlag Allocated	dirType REG	uid 0	gid 0	metaAddr 0	metaSeq 0	metaFlags [Unknown, Allocated, Used]	metaType r	modes []	parentPath /My Documents/ENUMERATION/NT/nbtscan/nbtscan1_0_2.zip/	size 316740	knownState UNKNOWN	md5Hash c1e422e5fed7aff0084775e9d6443bef	sha256Hash 26bbfef954e332684df42a039a15768a10873ca86d38f52cd4a8e8f076db4475	sha1Hash null	localPathSet true	localPath ModuleOutput\EFE\3041\0\0	localAbsPath A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\3041\0\0	localFile A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation\ModuleOutput\EFE\3041\0\0]	DerivedFile{derivedMethod=null, hasDerivedMethod=true}
+net.sf.sevenzipjbinding.SevenZipException: Archive file can't be opened with none of the registered codecs
+	net.sf.sevenzipjbinding.SevenZip.nativeOpenArchive(Native Method)
+	net.sf.sevenzipjbinding.SevenZip.callNativeOpenArchive(SevenZip.java:906)
+	net.sf.sevenzipjbinding.SevenZip.openInArchive(SevenZip.java:798)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:657)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor.unpack(SevenZipExtractor.java:568)
+	org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorIngestModule.process(EmbeddedFileExtractorIngestModule.java:199)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-06 22:15:54.327 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:15:54.572 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:15:55.188 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:15:55.447 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: The document is too old - Word 95 or older. Try HWPFOldDocument instead?
+2026-08-06 22:18:59.131 org.sleuthkit.autopsy.modules.embeddedfileextractor.SevenZipExtractor flagRootArchiveAsZipBomb
+INFO: The archive is 4 levels deep, skipping processing of _My Documents_FOOTPRINTING_UNIX_unix_hack.tgz
+2026-08-06 22:19:52.231 org.sleuthkit.autopsy.contentviewers.artifactviewers.MessageAccountPanel$AccountFetcher done
+INFO: MessageAccoutPanel thread cancelled
+java.util.concurrent.CancellationException
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:121)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:612)
+	org.sleuthkit.autopsy.contentviewers.artifactviewers.MessageAccountPanel$AccountFetcher.done(MessageAccountPanel.java:174)
+	java.desktop/javax.swing.SwingWorker$4.run(SwingWorker.java:749)
+	java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847)
+	java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857)
+	java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+	java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+	java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2026-08-06 22:20:26.152 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2026-08-06 22:20:26.245 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-08-06 22:20:26.261 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-08-06 22:21:05.951 org.sleuthkit.autopsy.report.ReportBranding getReportTitle
+INFO: Using default report branding for report title
+2026-08-06 22:23:12.801 org.sleuthkit.autopsy.keywordsearch.Ingester search
+WARNING: Error chunking content from 4727: PUBPLACE.HTT
+java.io.IOException: 
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+org.apache.tika.exception.TikaException: XML parse error
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 30; The entity "nbsp" was referenced, but not declared.
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-06 22:23:12.802 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule extractTextAndSearch
+WARNING: Failed to search file PUBPLACE.HTT [id=4727]
+java.io.IOException: 
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+org.apache.tika.exception.TikaException: XML parse error
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 30; The entity "nbsp" was referenced, but not declared.
+	org.apache.tika.parser.ParsingReader.read(ParsingReader.java:237)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	com.google.common.io.MultiReader.read(MultiReader.java:59)
+	java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	java.base/java.io.BufferedReader.read1(BufferedReader.java:225)
+	java.base/java.io.BufferedReader.implRead(BufferedReader.java:314)
+	java.base/java.io.BufferedReader.read(BufferedReader.java:302)
+	java.base/java.io.FilterReader.read(FilterReader.java:73)
+	java.base/java.io.PushbackReader.read(PushbackReader.java:116)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readHelper(Chunker.java:277)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.readBaseChunk(Chunker.java:245)
+	org.sleuthkit.autopsy.keywordsearch.Chunker.next(Chunker.java:214)
+	org.sleuthkit.autopsy.keywordsearch.Ingester.search(Ingester.java:231)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.extractTextAndSearch(KeywordSearchIngestModule.java:639)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.searchFile(KeywordSearchIngestModule.java:901)
+	org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule.process(KeywordSearchIngestModule.java:456)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-06 22:24:15.265 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=5438] CLAManual.chm, see Tika log for details...
+2026-08-06 22:24:41.607 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case Inba_Investgation (inba_investgation_20260806_221019) in A:\DF\Digital_Forensics_Lab\Experiment-05-Autopsy\Results\Inba_Investgation
+2026-08-06 22:24:48.722 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case Inba_Investgation (inba_investgation_20260806_221019)
+2026-08-06 22:24:48.73 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2026-08-06 22:24:48.733 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case Inba_Investgation (inba_investgation_20260806_221019)

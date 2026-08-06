@@ -1,0 +1,27 @@
+auditpol v.20200813
+(Security) Get audit policy from the Security hive file
+
+auditpol
+Policy\PolAdtEv
+LastWrite Time 2004-08-19 16:59:09Z
+
+Data Length: 0x2c
+0x00000000: 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x00000020: 00 00 00 00 00 00 00 00 09 00 00 00              ............
+----------------------------------------
+secrets v.20201005
+(Security) Get the last write time for the Policy\Secrets key
+
+Policy\Secrets
+LastWrite Time 2004-08-27 15:32:31Z
+
+----------------------------------------
+1093620751|REG|||Policy\Secrets key LastWrite time
+----------------------------------------
+Launching securityproviders v.20201005
+(System) Gets SecurityProvider value from System hive
+MITRE: T1547.005 (persistence)
+
+Select not found.
+----------------------------------------

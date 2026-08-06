@@ -1,0 +1,12 @@
+14196	/img_4Dell Latitude CPi.E01/vol_vol2/WINDOWS/system32/config/SAM
+642	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/Default User/NTUSER.DAT
+741	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/LocalService/NTUSER.DAT
+2390	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/Mr. Evil/NTUSER.DAT
+2612	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/NetworkService/NTUSER.DAT
+8291	/img_4Dell Latitude CPi.E01/vol_vol2/WINDOWS/repair/ntuser.dat
+699	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/LocalService/Local Settings/Application Data/Microsoft/Windows/UsrClass.dat
+993	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/Mr. Evil/Local Settings/Application Data/Microsoft/Windows/UsrClass.dat
+2573	/img_4Dell Latitude CPi.E01/vol_vol2/Documents and Settings/NetworkService/Local Settings/Application Data/Microsoft/Windows/UsrClass.dat
+14210	/img_4Dell Latitude CPi.E01/vol_vol2/WINDOWS/system32/config/system
+14204	/img_4Dell Latitude CPi.E01/vol_vol2/WINDOWS/system32/config/software
+14201	/img_4Dell Latitude CPi.E01/vol_vol2/WINDOWS/system32/config/SECURITY

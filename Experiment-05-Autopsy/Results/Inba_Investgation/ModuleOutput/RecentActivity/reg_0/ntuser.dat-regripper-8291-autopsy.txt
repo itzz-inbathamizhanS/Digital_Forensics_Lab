@@ -1,0 +1,41 @@
+<logon>
+<mtime>Thu Aug 19 22:38:37 2004</mtime><artifacts>
+</artifacts></logon>
+----------------------------------------
+----------------------------------------
+----------------------------------------
+<shellfolders>
+<mtime>Thu Aug 19 22:38:18 2004</mtime>
+<artifacts>
+<shell name="AppData"> C:\Documents and Settings\Default User\Application Data</shell>
+<shell name="Cookies"> C:\Documents and Settings\Default User\Cookies</shell>
+<shell name="Desktop"> C:\Documents and Settings\Default User\Desktop</shell>
+<shell name="Favorites"> C:\Documents and Settings\Default User\Favorites</shell>
+<shell name="NetHood"> C:\Documents and Settings\Default User\NetHood</shell>
+<shell name="Personal"> C:\Documents and Settings\Default User\My Documents</shell>
+<shell name="PrintHood"> C:\Documents and Settings\Default User\PrintHood</shell>
+<shell name="Recent"> C:\Documents and Settings\Default User\Recent</shell>
+<shell name="SendTo"> C:\Documents and Settings\Default User\SendTo</shell>
+<shell name="Start Menu"> C:\Documents and Settings\Default User\Start Menu</shell>
+<shell name="Templates"> C:\Documents and Settings\Default User\Templates</shell>
+<shell name="Programs"> C:\Documents and Settings\Default User\Start Menu\Programs</shell>
+<shell name="Startup"> C:\Documents and Settings\Default User\Start Menu\Programs\Startup</shell>
+<shell name="Local Settings"> C:\Documents and Settings\Default User\Local Settings</shell>
+<shell name="Local AppData"> C:\Documents and Settings\Default User\Local Settings\Application Data</shell>
+<shell name="Cache"> C:\Documents and Settings\Default User\Local Settings\Temporary Internet Files</shell>
+<shell name="History"> C:\Documents and Settings\Default User\Local Settings\History</shell>
+<shell name="My Pictures"> </shell>                                
+<shell name="Fonts"> C:\WINDOWS\Fonts</shell>                
+<shell name="My Music"> </shell>                                
+
+</artifacts></shellfolders>
+----------------------------------------
+----------------------------------------
+<office>
+</office>
+----------------------------------------
+<NtuserNetwork>
+<mtime></mtime>
+<artifacts>
+</artifacts></NtuserNetwork>
+----------------------------------------

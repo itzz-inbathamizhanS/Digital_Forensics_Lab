@@ -1,0 +1,4414 @@
+allow_upgrade v.2023075
+(system) Check for AllowUpgradesWithUnsupportedTPMOrCPU value
+MITRE: T1601 (defense evasion)
+
+Setup\MoSetup not found
+
+Analysis Tip: The "AllowUpgradesWithUnsupportedTPMOrCPU" value set to 1 is a hack to allow Windows 11
+updates to be installed on systems that did not meet the TPM or CPU checks. This could be interpreted as 
+an attempt at defense evasion, by upgrading the system image to provide additional capabilities, such as
+Windows Subsystem for Android.
+
+Ref: https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e
+----------------------------------------
+Launching appcertdlls v.20200813
+MITRE: T1546.009 (privilege escalation)
+
+ControlSet001\Control\Session Manager\AppCertDlls not found.
+----------------------------------------
+appcompatcache v.20220920
+(System) Parse files from System hive AppCompatCache
+
+ControlSet001\Control\Session Manager\AppCompatibility
+LastWrite Time: 2004-08-27 15:46:27Z
+Signature: 0xdeadbeef
+WinXP, 32-bit
+C:\WINDOWS\System32\mydocs.dll  2001-08-23 18:00:00  2004-08-27 15:29:47  88064 bytes
+C:\WINDOWS\System32\CuteShell.dll  1999-05-20 22:39:18  2004-08-20 15:17:54  147456 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe  2001-08-23 18:00:00  2004-08-26 15:51:43  694272 bytes
+C:\WINDOWS\System32\wuaueng.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  95744 bytes
+C:\Program Files\WinPcap\daemon_mgm.exe  2003-06-13 19:03:59  2004-08-27 15:15:17  49152 bytes
+C:\WINDOWS\system32\wbem\wmiadap.exe  2001-08-23 18:00:00  2004-08-20 15:23:55  183808 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL  2002-07-12 00:01:32  2004-08-27 15:46:00  274432 bytes
+C:\WINDOWS\system32\mstinit.exe  2001-08-23 18:00:00  2004-08-19 23:05:03  9728 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe  2004-08-27 15:24:24  2004-08-27 15:28:36  8460502 bytes
+C:\Program Files\Outlook Express\setup50.exe  2001-08-23 18:00:00  2004-08-19 23:04:37  66560 bytes
+C:\Program Files\Outlook Express\msimn.exe  2001-08-23 18:00:00  2004-08-20 21:13:23  57344 bytes
+C:\Program Files\Cain\Cain.exe  2003-12-13 03:32:04  2004-08-27 15:33:01  2064384 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe  2003-04-11 06:09:18  2004-08-20 15:06:18  440557 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\mstask.dll  2001-08-23 18:00:00  2004-08-26 15:04:38  249856 bytes
+C:\WINDOWS\system32\defrag.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  109568 bytes
+C:\Program Files\Messenger\msmsgs.exe  2001-08-02 12:14:33  2004-08-27 15:08:26  1077277 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\explorer.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  1000960 bytes
+C:\WINDOWS\System32\zipfldr.dll  2001-08-23 18:00:00  2004-08-27 15:12:25  317952 bytes
+C:\WINDOWS\System32\dfsshlex.dll  2001-08-23 18:00:00  2004-08-20 15:19:19  25088 bytes
+C:\WINDOWS\System32\cscui.dll  2001-08-23 18:00:00  2004-08-27 15:42:42  305664 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Faber Toys\Faber Toys.exe  2002-07-03 00:54:01  2004-08-25 15:27:27  835584 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\hh.exe  2001-08-23 18:00:00  2004-08-27 15:12:18  26647 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\msieftp.dll  2001-08-23 18:00:00  2004-08-27 15:17:18  232448 bytes
+C:\Program Files\mIRC\mirc.exe  2004-08-20 15:09:55  2004-08-25 16:20:27  1867776 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe  2004-08-27 15:11:07  2004-08-27 15:12:11  1324940 bytes
+C:\WINDOWS\System32\shimgvw.dll  2001-08-23 18:00:00  2004-08-26 16:03:29  419840 bytes
+C:\WINDOWS\system32\logon.scr  2001-08-23 18:00:00  2004-08-26 15:25:03  219648 bytes
+C:\WINDOWS\system32\ie4uinit.exe  2001-08-23 18:00:00  2004-08-19 23:04:14  28160 bytes
+C:\WINDOWS\system32\regsvr32.exe  2001-08-23 18:00:00  2004-08-20 15:13:06  9728 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Look@LAN\LookAtLan.exe  2004-02-18 09:51:39  2004-08-26 15:06:14  864768 bytes
+C:\WINDOWS\system32\taskmgr.exe  2001-08-23 18:00:00  2004-08-27 15:16:15  128512 bytes
+C:\Program Files\Whois\whois.exe  2004-07-28 12:38:33  2004-08-26 15:13:57  107524 bytes
+C:\Program Files\Ethereal\ethereal.exe  2004-08-13 02:15:35  2004-08-27 15:34:54  1923920 bytes
+C:\Program Files\Network Stumbler\NetStumbler.exe  2004-04-21 07:16:58  2004-08-27 15:12:35  561152 bytes
+C:\WINDOWS\system32\cmd.exe  2001-08-23 18:00:00  2004-08-25 15:23:44  375808 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\NETSHELL.dll  2001-08-23 18:00:00  2004-08-19 23:05:03  1618944 bytes
+C:\WINDOWS\system32\dfrgntfs.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  85504 bytes
+C:\WINDOWS\System32\webcheck.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  258560 bytes
+C:\Program Files\WinPcap\Uninstall.exe  2002-11-19 03:19:27  2004-08-27 15:14:51  218112 bytes
+C:\Program Files\WinPcap\npf_mgm.exe  2003-06-13 19:04:35  2004-08-27 15:15:17  49152 bytes
+C:\Program Files\1L93GJAJ.bat  2004-08-27 15:14:58  2004-08-27 15:14:58  180 bytes
+C:\WINDOWS\system32\oobe\msoobe.exe  2001-08-23 18:00:00  2004-08-19 22:50:52  28160 bytes
+C:\WINDOWS\system32\msiexec.exe  2001-08-23 18:00:00  2004-08-20 15:12:05  63488 bytes
+C:\WINDOWS\system32\lsass.exe  2001-08-23 18:00:00  2004-08-27 15:08:19  11776 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Windows NT\Accessories\wordpad.exe  2001-08-23 18:00:00  2004-08-20 15:09:16  200192 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\shdocvw.dll  2001-08-23 18:00:00  2004-08-27 15:29:47  1338880 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\browseui.dll  2001-08-23 18:00:00  2004-08-20 15:26:36  1020416 bytes
+C:\WINDOWS\inf\unregmp2.exe  2001-08-23 18:00:00  2004-08-19 23:04:34  229376 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe  2004-08-27 15:14:20  2004-08-27 15:15:08  442417 bytes
+C:\WINDOWS\system32\telnet.exe  2001-08-23 18:00:00  2004-08-26 15:05:15  70144 bytes
+C:\Program Files\Faber Toys\FTInit.exe  2002-07-10 03:41:19  2004-08-25 15:26:55  86016 bytes
+C:\WINDOWS\system32\notepad.exe  2001-08-23 18:00:00  2004-08-20 15:50:40  66048 bytes
+C:\Program Files\Look@LAN\LookAtHost.exe  2003-06-18 12:00:16  2004-08-26 14:58:25  335360 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\remotepg.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  56320 bytes
+C:\WINDOWS\system32\urlmon.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  452096 bytes
+C:\WINDOWS\system32\services.exe  2001-08-23 18:00:00  2004-08-27 15:08:19  101376 bytes
+C:\WINDOWS\system32\ping.exe  2001-08-23 18:00:00  2004-08-25 15:23:53  14848 bytes
+C:\WINDOWS\System32\shgina.dll  2001-08-23 18:00:00  2004-08-27 15:42:53  62464 bytes
+C:\WINDOWS\system32\rundll32.exe  2001-08-23 18:00:00  2004-08-27 15:31:17  31744 bytes
+C:\WINDOWS\system32\wbem\wmiprvse.exe  2001-08-23 18:00:00  2004-08-26 15:51:44  203264 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\svchost.exe  2001-08-23 18:00:00  2004-08-27 15:08:22  12800 bytes
+C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe  2001-08-23 18:00:00  2004-08-20 15:25:32  209408 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\userinit.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  21504 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe  2004-08-25 15:51:23  2004-08-25 15:55:26  2160043 bytes
+C:\WINDOWS\system32\dumprep.exe  2001-08-23 18:00:00  2004-08-25 15:25:47  30208 bytes
+C:\WINDOWS\system32\logonui.exe  2001-08-23 18:00:00  2004-08-27 15:46:16  504320 bytes
+C:\WINDOWS\system32\drwtsn32.exe  2001-08-23 18:00:00  2004-08-20 15:25:44  45568 bytes
+C:\WINDOWS\msagent\agentsvr.exe  2001-08-23 18:00:00  2004-08-25 16:20:35  235008 bytes
+C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe  2001-10-22 21:15:52  2004-08-20 15:11:56  961120 bytes
+C:\WINDOWS\system32\dwwin.exe  2001-08-23 18:00:00  2004-08-25 15:25:50  162128 bytes
+C:\Program Files\Agent\agent.exe  2002-01-23 03:51:15  2004-08-25 15:55:34  2850336 bytes
+C:\WINDOWS\system32\spoolsv.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  51200 bytes
+----------------------------------------
+{
+	"key": ".ControlSet001\Control\Session Manager."
+	"value": "AppCompatibility"
+	"LastWrite Time": "2004-08-27 15:46:27Z"
+WinXP, 32-bit
+  "members": [
+    {
+      "value": "C:\WINDOWS\System32\mydocs.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\CuteShell.dll"
+      "data": "1999-05-20 22:39:18"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\wuaueng.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\WinPcap\daemon_mgm.exe"
+      "data": "2003-06-13 19:03:59"
+    },
+    {
+      "value": "C:\WINDOWS\system32\wbem\wmiadap.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL"
+      "data": "2002-07-12 00:01:32"
+    },
+    {
+      "value": "C:\WINDOWS\system32\mstinit.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe"
+      "data": "2004-08-27 15:24:24"
+    },
+    {
+      "value": "C:\Program Files\Outlook Express\setup50.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Outlook Express\msimn.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Cain\Cain.exe"
+      "data": "2003-12-13 03:32:04"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe"
+      "data": "2003-04-11 06:09:18"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\System32\mstask.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\defrag.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Messenger\msmsgs.exe"
+      "data": "2001-08-02 12:14:33"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\explorer.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\zipfldr.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\dfsshlex.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\cscui.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\Program Files\Faber Toys\Faber Toys.exe"
+      "data": "2002-07-03 00:54:01"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\hh.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\System32\msieftp.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\mIRC\mirc.exe"
+      "data": "2004-08-20 15:09:55"
+    },
+    {
+      "value": "C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe"
+      "data": "2004-08-27 15:11:07"
+    },
+    {
+      "value": "C:\WINDOWS\System32\shimgvw.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\logon.scr"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\ie4uinit.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\regsvr32.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\Program Files\Look@LAN\LookAtLan.exe"
+      "data": "2004-02-18 09:51:39"
+    },
+    {
+      "value": "C:\WINDOWS\system32\taskmgr.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Whois\whois.exe"
+      "data": "2004-07-28 12:38:33"
+    },
+    {
+      "value": "C:\Program Files\Ethereal\ethereal.exe"
+      "data": "2004-08-13 02:15:35"
+    },
+    {
+      "value": "C:\Program Files\Network Stumbler\NetStumbler.exe"
+      "data": "2004-04-21 07:16:58"
+    },
+    {
+      "value": "C:\WINDOWS\system32\cmd.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\system32\NETSHELL.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\dfrgntfs.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\webcheck.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\WinPcap\Uninstall.exe"
+      "data": "2002-11-19 03:19:27"
+    },
+    {
+      "value": "C:\Program Files\WinPcap\npf_mgm.exe"
+      "data": "2003-06-13 19:04:35"
+    },
+    {
+      "value": "C:\Program Files\1L93GJAJ.bat"
+      "data": "2004-08-27 15:14:58"
+    },
+    {
+      "value": "C:\WINDOWS\system32\oobe\msoobe.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\msiexec.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\lsass.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\Program Files\Windows NT\Accessories\wordpad.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\System32\shdocvw.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\System32\browseui.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\inf\unregmp2.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe"
+      "data": "2004-08-27 15:14:20"
+    },
+    {
+      "value": "C:\WINDOWS\system32\telnet.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Faber Toys\FTInit.exe"
+      "data": "2002-07-10 03:41:19"
+    },
+    {
+      "value": "C:\WINDOWS\system32\notepad.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Look@LAN\LookAtHost.exe"
+      "data": "2003-06-18 12:00:16"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\System32\remotepg.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\urlmon.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\services.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\ping.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\System32\shgina.dll"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\rundll32.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\wbem\wmiprvse.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\system32\svchost.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": ""
+      "data": ""
+    },
+    {
+      "value": "C:\WINDOWS\system32\userinit.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe"
+      "data": "2004-08-25 15:51:23"
+    },
+    {
+      "value": "C:\WINDOWS\system32\dumprep.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\logonui.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\system32\drwtsn32.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\WINDOWS\msagent\agentsvr.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe"
+      "data": "2001-10-22 21:15:52"
+    },
+    {
+      "value": "C:\WINDOWS\system32\dwwin.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+    {
+      "value": "C:\Program Files\Agent\agent.exe"
+      "data": "2002-01-23 03:51:15"
+    },
+    {
+      "value": "C:\WINDOWS\system32\spoolsv.exe"
+      "data": "2001-08-23 18:00:00"
+    },
+  ]
+}
+----------------------------------------
+appcompatcache_tln v.20220920
+(System) Parse files from System hive AppCompatCache
+
+ControlSet001\Control\Session Manager\AppCompatibility
+LastWrite Time: Fri Aug 27 15:46:27 2004 Z
+Signature: 0xdeadbeef
+WinXP, 32-bit
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mydocs.dll [Size = 88064 bytes]
+927239958|REG|||M... AppCompatCache - C:\WINDOWS\System32\CuteShell.dll [Size = 147456 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe [Size = 694272 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\wuaueng.dll [Size = 95744 bytes]
+1055531039|REG|||M... AppCompatCache - C:\Program Files\WinPcap\daemon_mgm.exe [Size = 49152 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiadap.exe [Size = 183808 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+1026432092|REG|||M... AppCompatCache - C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL [Size = 274432 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\mstinit.exe [Size = 9728 bytes]
+1093620264|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe [Size = 8460502 bytes]
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\setup50.exe [Size = 66560 bytes]
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\msimn.exe [Size = 57344 bytes]
+1071286324|REG|||M... AppCompatCache - C:\Program Files\Cain\Cain.exe [Size = 2064384 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+1050041358|REG|||M... AppCompatCache - C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe [Size = 440557 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mstask.dll [Size = 249856 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\defrag.exe [Size = 109568 bytes]
+996754473|REG|||M... AppCompatCache - C:\Program Files\Messenger\msmsgs.exe [Size = 1077277 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\explorer.exe [Size = 1000960 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\zipfldr.dll [Size = 317952 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\dfsshlex.dll [Size = 25088 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\cscui.dll [Size = 305664 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+1025657641|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\Faber Toys.exe [Size = 835584 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\hh.exe [Size = 26647 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\msieftp.dll [Size = 232448 bytes]
+1093014595|REG|||M... AppCompatCache - C:\Program Files\mIRC\mirc.exe [Size = 1867776 bytes]
+1093619467|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe [Size = 1324940 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shimgvw.dll [Size = 419840 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logon.scr [Size = 219648 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ie4uinit.exe [Size = 28160 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\regsvr32.exe [Size = 9728 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+1077097899|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtLan.exe [Size = 864768 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\taskmgr.exe [Size = 128512 bytes]
+1091018313|REG|||M... AppCompatCache - C:\Program Files\Whois\whois.exe [Size = 107524 bytes]
+1092363335|REG|||M... AppCompatCache - C:\Program Files\Ethereal\ethereal.exe [Size = 1923920 bytes]
+1082531818|REG|||M... AppCompatCache - C:\Program Files\Network Stumbler\NetStumbler.exe [Size = 561152 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\cmd.exe [Size = 375808 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\NETSHELL.dll [Size = 1618944 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dfrgntfs.exe [Size = 85504 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\webcheck.dll [Size = 258560 bytes]
+1037675967|REG|||M... AppCompatCache - C:\Program Files\WinPcap\Uninstall.exe [Size = 218112 bytes]
+1055531075|REG|||M... AppCompatCache - C:\Program Files\WinPcap\npf_mgm.exe [Size = 49152 bytes]
+1093619698|REG|||M... AppCompatCache - C:\Program Files\1L93GJAJ.bat [Size = 180 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\oobe\msoobe.exe [Size = 28160 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\msiexec.exe [Size = 63488 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\lsass.exe [Size = 11776 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\Program Files\Windows NT\Accessories\wordpad.exe [Size = 200192 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shdocvw.dll [Size = 1338880 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\browseui.dll [Size = 1020416 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\inf\unregmp2.exe [Size = 229376 bytes]
+1093619660|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe [Size = 442417 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\telnet.exe [Size = 70144 bytes]
+1026272479|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\FTInit.exe [Size = 86016 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\notepad.exe [Size = 66048 bytes]
+1055937616|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtHost.exe [Size = 335360 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\remotepg.dll [Size = 56320 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\urlmon.dll [Size = 452096 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\services.exe [Size = 101376 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ping.exe [Size = 14848 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shgina.dll [Size = 62464 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\rundll32.exe [Size = 31744 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiprvse.exe [Size = 203264 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\svchost.exe [Size = 12800 bytes]
+998589600|REG|||M... AppCompatCache - C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe [Size = 209408 bytes]
+0|REG|||M... AppCompatCache -  [Size = 0 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\userinit.exe [Size = 21504 bytes]
+1093449083|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe [Size = 2160043 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dumprep.exe [Size = 30208 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logonui.exe [Size = 504320 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\drwtsn32.exe [Size = 45568 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\msagent\agentsvr.exe [Size = 235008 bytes]
+1003785352|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe [Size = 961120 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dwwin.exe [Size = 162128 bytes]
+1011757875|REG|||M... AppCompatCache - C:\Program Files\Agent\agent.exe [Size = 2850336 bytes]
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\spoolsv.exe [Size = 51200 bytes]
+----------------------------------------
+appenvironment v.20230726
+(System) Check services for AppEnvironment/AppEnvironmentExtra values
+MITRE: T1547 (persistence)
+
+No AppEnvironment values found.
+No AppEnvironmentExtra values found.
+No Parameters\AppExit keys found.
+
+Analysis Tip: The AppEnvironment and AppEnvironmentExtra values allow a service to have access to environment
+variables that override those set by the system at service startup. These values are used by svrany.exe and 
+nssm.exe.
+
+Nssm.exe makes use of the Parameters\AppExit subkey to determine actions to take upon exit, and can be used
+to specify specific actions based on the app's exit code.
+
+Ref: https://nssm.cc/usage
+----------------------------------------
+autodialdll v.20221026
+(system) Get AutodialDLL DLL
+MITRE: T1546 (persistence)
+
+ControlSet001\Services\WinSock2\Parameters
+LastWrite time: 2004-08-19 22:20:32Z
+
+AutodialDLL value not found.
+
+Analysis Tip: The default setting for the AutodialDLL value is "C:\Windows\system32\rasadhlp.dll".
+Modifying the path to a different DLL has been observed being used for persistence, and it can also be used
+for lateral movement.
+
+Ref: https://www.mdsec.co.uk/2022/10/autodialdlling-your-way/
+----------------------------------------
+automount v.20221010
+(System) Get automount Settings
+MITRE: T1091 (initial access)
+
+ControlSet001\Services\mountmgr
+LastWrite time: 2004-08-27 15:07:59Z
+
+NoAutoMount value not found.
+
+Analysis Tip: Modern Windows OSs will automount file systems, such as from USB devices, assigning a volume name.
+NoAutoMount = 0, or does not exist: enabled
+NoAutoMount = 1, disabled
+
+Ref: https://learn.microsoft.com/en-us/windows/win32/api/vds/ne-vds-vds_san_policy
+----------------------------------------
+backuprestore v.20201012
+(System) Gets the contents of the FilesNotToSnapshot, KeysNotToRestore, and FilesNotToBackup keys
+MITRE: T1562.001 (defense evasion)
+
+ControlSet001\Control\BackupRestore\FilesNotToSnapshot not found.
+
+FilesNotToBackup key
+ControlSet001\Control\BackupRestore\FilesNotToBackup
+LastWrite Time 2004-08-19 22:53:08Z
+Specifies the directories and files that backup applications should not backup or restore
+
+  Temporary Files : %TEMP%\* /s
+  Memory Page File : \Pagefile.sys
+  Power Management : \hiberfil.sys
+  Winlogon debug : %WINDIR%\debug\*
+  Client Side Cache : %SystemRoot%\csc\* /s
+  Netlogon : %SystemRoot%\netlogon.chg
+  Task Scheduler : %SYSTEMROOT%\schedlgu.txt
+  Internet Explorer : %UserProfile%\index.dat /s
+  ASR Log File : %SystemRoot%\repair\asr.log
+  ASR Error File : %SystemRoot%\repair\asr.err
+  Microsoft Writer (Service State) : %SystemRoot%\system32\NtmsData\*
+  Catalog Database : %SystemRoot%\System32\CatRoot2\* /s
+  WMI Writer : %SystemRoot%\system32\wbem\Repository\* /s
+  Microsoft Writer (Bootable State) : %SystemRoot%\Registration\*.clb \*.crmlog /s
+  DRM : C:\Documents and Settings\All Users\DRM\* /s
+  VSS Default Provider : \System Volume Information\*{3808876B-C176-4e48-B7AE-04046E6CC752} /s
+  System Restore : \System Volume Information\_restore{04C1C101-F618-447E-96C8-BD8361E0380D}\* /s
+  MS Distributed Transaction Coordinator : C:\WINDOWS\System32\MSDtc\MSDTC.LOG C:\WINDOWS\System32\MSDtc\trace\dtctrace.log
+
+KeysNotToRestore key
+ControlSet001\Control\BackupRestore\KeysNotToRestore
+LastWrite Time 2004-08-19 17:01:59Z
+
+Specifies the names of the registry subkeys and values that backup applications should not restore
+
+  Fault Tolerance : Disk\
+  Mount Manager : MountedDevices\
+  Windows Setup : Setup\SystemPartition
+  Installed Services : CurrentControlSet\Services\*
+  ASR Information : CurrentControlSet\Control\ASR\
+  LDM Boot Information (dmboot) : CurrentControlSet\Services\dmboot\
+  LDM Boot Information : CurrentControlSet\Services\dmio\boot info\
+  Removable Storage Manager : CurrentControlSet\Control\NTMS\ImportDatabase
+  Session Manager : CurrentControlSet\Control\Session Manager\AllowProtectedRenames
+  Pending Rename Operations : CurrentControlSet\Control\Session Manager\PendingFileRenameOperations
+  Plug & Play : CurrentControlSet\Enum\ CurrentControlSet\Control\CriticalDeviceDatabase\
+  Active Directory Restore : CurrentControlSet\Services\NTDS\Restore In Progress\ CurrentControlSet\Services\NTDS\Parameters\New Database GUID
+----------------------------------------
+bam v.20200904
+(System) Parse files from System hive BAM Services
+MITRE: T1059 (execution)
+
+ControlSet001\Services\bam\State\UserSettings not found.
+ControlSet001\Services\bam\UserSettings not found.
+----------------------------------------
+----------------------------------------
+bthenum v.20200904
+(System) Get BTHENUM subkey info
+
+ControlSet001\Enum\BTHENUM not found.
+----------------------------------------
+bthport v.20200904
+(System) Gets Bluetooth-connected devices from System hive
+
+ControlSet001\services\BTHPORT\Parameters\Devices not found.
+
+ControlSet001\services\BTHPORT\Parameters\Radio Support not found.
+----------------------------------------
+----------------------------------------
+codepage v.20200904
+(system) Checks codepage value
+
+CodePage key LastWrite time: 2004-08-19 17:01:59Z
+  Code page value = 1252
+
+Code page description: https://en.wikipedia.org/wiki/Code_page
+----------------------------------------
+coinstallers v.20211212
+(System) Get device CoInstallers32 values
+
+Device             : Plug and Play Software Device Enumerator
+Key Path           : ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0000
+LastWrite time     : 2004-08-19 17:04:51Z
+CoInstaller32 value: streamci.dll,SwEnumCoInstaller
+
+Analysis Tip: Device-specific co-installers are registered during the process of installing a device, when
+the Coinstallers INF section is processed. SetupAPI then calls the co-installers at each subsequent step of
+the installation process. If more than one co-installer is registered for a device, SetupAPI calls them in the
+order in which they are listed in the registry.
+----------------------------------------
+compname v.20201021
+(System) Gets ComputerName, Hostname, and domain values from System hive
+
+ComputerName         N-1A9ODN6ZXK4LQ                                   
+Hostname             n-1a9odn6zxk4lq                                   
+NV Hostname          n-1a9odn6zxk4lq                                   
+Domain                                                                 
+----------------------------------------
+crashcontrol v.20200904
+(System) Get crash control information
+
+CrashDumpEnabled = 3 [Small (64kb) memory dump]
+DumpFile         = %SystemRoot%\MEMORY.DMP
+MinidumpDir      = %SystemRoot%\Minidump
+LogEvent         = 1
+  Logs an event to the System Event Log (event ID = 1001, source = Save Dump)
+SendAlert        = 1
+  Sends a 'net send' pop-up if a crash occurs
+----------------------------------------
+cred v.20200730
+(system) Checks for UseLogonCredential value
+
+MITRE: T1112 (defense evasion)
+
+UseLogonCredential value not found.
+----------------------------------------
+----------------------------------------
+dafupnp v.20200904
+(System) Parses data from networked media streaming devices
+
+ControlSet001\Enum\SWD\DAFUPnPProvider not found.
+----------------------------------------
+databasepath v.20201021
+(System) Get DataBasePath value from System hive
+MITRE: T1564 (defense evasion)
+
+DataBasePath         %SystemRoot%\System32\drivers\etc                 
+
+Analysis Tip: A threat actor can change the location of the hosts file, and plant a malicious hosts file on
+the system, preventing DNS queries from appearing on the network.  This value should point to:
+"%SystemRoot%\System32\drivers\etc".
+
+Ref: https://support.microsoft.com/en-us/help/172218/microsoft-tcp-ip-host-name-resolution-order
+----------------------------------------
+defender-autologger v.20220303
+(system) Get Defender AutoLogger settings
+MITRE ATT&CK technique: T1562.001 (defense evasion)
+
+ControlSet001\Control\WMI\AutoLogger not found.
+----------------------------------------
+defrag v.20201130
+(system) Get Defrag LastRun value
+MITRE: T1027 (defense evasion)
+
+ControlSet001\Control\Session Manager\Configuration Manager\Defrag not found.
+
+Analysis Tip: Defrag is very often run automatically on systems.
+----------------------------------------
+devclass v.20200904
+(System) Get USB device info from the DeviceClasses keys in the System hive
+
+DevClasses - Disks
+ControlSet001\Control\DeviceClasses\{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+
+DevClasses - Volumes
+ControlSet001\Control\DeviceClasses\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+
+ControlSet001\Control\DeviceClasses\{10497b1b-ba51-44e5-8318-a65c837b6661} not found.
+----------------------------------------
+deviceguard v.20201025
+(System, Software) Check Device Guard settings
+
+ControlSet001\Control\DeviceGuard not found.
+ControlSet001\Control\DeviceGuard\Scenarios not found.
+----------------------------------------
+disable445 v.20220921
+(System) Determine if SMB over NetBIOS is disabled
+MITRE: T1562.001 (defense evasion)
+
+SMBDeviceEnabled value not found.
+
+Analysis Tip: The "SMBDeviceEnabled" value controls whether port 445 is open. If the value does not
+exist, or is set to 1, it's enabled. If the value is set to 0, it's disabled. 
+
+Ref: https://superuser.com/questions/629648/how-to-disable-feature-that-opened-port-445-on-windows-server
+----------------------------------------
+disablelastaccess v.20200911
+(System) Get NTFSDisableLastAccessUpdate value
+
+NtfsDisableLastAccessUpdate
+ControlSet001\Control\FileSystem
+Key LastWrite time: 2004-08-19 17:01:59Z
+NtfsDisableLastAccessUpdate value not found.
+----------------------------------------
+disableremotescm v.20200831
+(system) Gets DisableRemoteScmEndpoints value from System hive
+
+DisableRemoteScmEndpoints value not found.
+----------------------------------------
+dllsearch v.20210705
+(system) Check values that impact DLL Search Order loading
+MITRE: T1574.001 (persistence)
+
+CWDIllegalInDllSearch value not found.
+SafeDLLSearchMode not found.
+
+Analysis Tip: Both values impact DLL search order processing.
+
+CWDIllegalInDllSearch:
+0xFFFFFFFF - Removes the current working directory from the default DLL search order
+0x00000001 - Blocks a DLL Load from CWD if CWD is set to a WebDAV folder
+0x00000002 - Blocks a DLL Load from CWD if CWD is set to a remote folder
+
+SafeDLLSearchMode:
+1 - Enabled; forces system to search the %SystemRoot% path before the applications CWD
+----------------------------------------
+environment v.20201113
+(System, NTUSER.DAT) Get environment vars from NTUSER.DAT & System hives
+MITRE: T1037.007 (persistence)
+
+ControlSet001\Control\Session Manager\Environment
+LastWrite Time: 2004-08-19 22:38:41Z
+
+ComSpec                   %SystemRoot%\system32\cmd.exe                     
+Path                      %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem
+windir                    %SystemRoot%                                      
+OS                        Windows_NT                                        
+PROCESSOR_ARCHITECTURE    x86                                               
+PROCESSOR_LEVEL           6                                                 
+PROCESSOR_IDENTIFIER      x86 Family 6 Model 6 Stepping 10, GenuineIntel    
+PROCESSOR_REVISION        060a                                              
+NUMBER_OF_PROCESSORS      1                                                 
+PATHEXT                   .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH  
+TEMP                      %SystemRoot%\TEMP                                 
+TMP                       %SystemRoot%\TEMP                                 
+
+Analysis Tip: Threat actors, such as Kimsuky (see Cybereason reference below) have been observed using the
+"UserInitMprLogonScript" value for persistence, by including a script in the value data.
+
+Ref: https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite
+----------------------------------------
+fsdepends v.20220809
+(System) Get VHD[X] Settings
+MITRE: T1553.005 (defense evasion)
+
+ControlSet001\Services\FsDepends\Parameters not found.
+----------------------------------------
+fvestats v.20220704
+(system) Get BitLocker settings (when enabled, etc.)
+MITRE: T1486 (impact)
+
+ControlSet001\Control\FVEStats not found.
+
+Analysis Tip: In July, 2021, the Hades Ransomware was reportedly observed using BitLocker to encrypt devices.
+As such, these artifacts may be useful in determining a timeline of activity, or developing pivot points for analysis.
+----------------------------------------
+guestauth v.20201105
+(system) Gets AllowInsecureGuestAuth value
+MITRE: T1112 (defense evasion)
+
+AllowInsecureGuestAuth value not found.
+----------------------------------------
+imagedev v.20200911
+(System)  -- 
+
+imagedev
+ControlSet001\Control\Class\{6BDD1FC6-810F-11D0-BEC7-08002BE2092F}
+
+ControlSet001\Control\Class\{6BDD1FC6-810F-11D0-BEC7-08002BE2092F} has no subkeys.
+----------------------------------------
+ips v.20200911
+(system) Get IP Addresses and domains (DHCP,static)
+
+IPAddress            Domain                        
+0.0.0.0                                            
+0.0.0.0                                            
+0.0.0.0                                            
+0.0.0.0                                            
+----------------------------------------
+Launching kdc v.20210312
+kdc v.20210312
+MITRE: T1562 (defense evasion)
+
+ControlSet001\Services\Kdc not found.
+----------------------------------------
+labconfig v.20220819
+(system) Get Win11 install bypass settings
+MITRE: T1601 (defense evasion)
+
+ControlSet001\Setup\LabConfig not found.
+ControlSet001\Setup\MoSetup not found.
+----------------------------------------
+locale v.20220225
+(System, NTUSER.DAT) Get locale settings from NTUSER.DAT & System hives
+MITRE: T1614.001 (discovery)
+
+ControlSet001\Control\Nls\Language
+LastWrite Time: 2004-08-19 17:01:59Z
+
+InstallLanguage = 0409 (1033)
+Default         = 0409 (1033)
+
+Analysis Tip: Malware, in particular ransomware, has been observed checking for execution based on the
+locale of the system. This information can be used to determine execution flow, in EXEs, scripts, etc.
+----------------------------------------
+lsa v.20220302
+(system) Lists specific contents of LSA key
+MITRE: T1003.001 (credential access)
+
+ControlSet001\Control\LSA
+LastWrite: 2004-08-25 15:21:59Z
+
+LimitBlankPasswordUse value = 1
+
+Analysis Tip: If LimitBlankPasswordUse is "1", functionality is enabled to limit local account use of blank 
+passwords to console logon only.
+
+Authentication Packages  : msv1_0
+Notification Packages    : scecli
+Security Packages        : kerberos msv1_0 schannel wdigest
+EveryoneIncludesAnonymous: 0
+
+Analysis Tips:
+- Check Notification Packages value for unusual entries.
+- EveryoneIncludesAnonymous = 0 means that Anonymous users do not have the same
+  privileges as the Everyone Group.
+----------------------------------------
+macaddr v.20210319
+(system,software) Various checks for MAC address(es)
+
+ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}
+
+ControlSet001\Control\NetworkSetup2\Interfaces not found.
+----------------------------------------
+minint v.20200831
+(System) MiniNT key
+MITRE: T1562.002 (defense evasion)
+
+ControlSet001\Control\MiniNT not found.
+----------------------------------------
+mountdev v.20221129
+(System) Return contents of HKLM\System\MountedDevices key
+
+MountedDevices
+LastWrite time = 2004-08-19 17:01:59Z
+
+Drives
+-25s \DosDevices\C:           
+-25s \??\Volume{aa630442-f1ff-11d8-8a13-806d6172696f}
+
+Devices
+\??\Volume{aa630441-f1ff-11d8-8a13-806d6172696f}        \??\IDE#CdRomTOSHIBA_CD-ROM_XM-1902B_________________1A15____#5&35c6ca11&0&0.0.0#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+\DosDevices\D:                                          \??\IDE#CdRomTOSHIBA_CD-ROM_XM-1902B_________________1A15____#5&35c6ca11&0&0.0.0#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+
+Analysis Tip: Look for MSFT Virtual_DVD-ROM devices that map to drive letters, as well as USB devices.
+
+----------------------------------------
+
+mountdev2 v.20200921
+(system) Return contents of System hive MountedDevices key
+
+MountedDevices
+LastWrite time = 2004-08-19 17:01:59Z
+
+Volume                                              Disk Sig                            Offset
+-------                                             --------                          --------
+\??\Volume{aa630442-f1ff-11d8-8a13-806d6172696f}     ec 5d ec 5d                             0
+\DosDevices\C:                                       ec 5d ec 5d                             0
+
+\??\Volume{aa630442-f1ff-11d8-8a13-806d6172696f}
+  Thu Aug 19 16:48:58 2004
+
+Device: \??\IDE#CdRomTOSHIBA_CD-ROM_XM-1902B_________________1A15____#5&35c6ca11&0&0.0.0#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+  \??\Volume{aa630441-f1ff-11d8-8a13-806d6172696f}
+  \DosDevices\D:
+
+
+Unique MAC Addresses:
+80:6D:61:72:69:6F
+----------------------------------------
+netlogon v.20200921
+(system) Parse values for machine account password changes
+
+*** ControlSet001 ***
+LastWrite Time: 2004-08-19 22:20:59Z
+DisablePasswordChange                0x0000
+maximumpasswordage                   0x001e
+requiresignorseal                    0x0001
+requirestrongkey                     0x0000
+sealsecurechannel                    0x0001
+signsecurechannel                    0x0001
+Update                               no
+
+*** ControlSet002 ***
+LastWrite Time: 2004-08-19 22:20:59Z
+DisablePasswordChange                0x0000
+maximumpasswordage                   0x001e
+requiresignorseal                    0x0001
+requirestrongkey                     0x0000
+sealsecurechannel                    0x0001
+signsecurechannel                    0x0001
+Update                               no
+
+Analysis Note: If "DisablePasswordChange" is set to 0x1, this may indicate a silver ticket attack.
+Also, searching for this value across the enterprise can be useful in threat hunting.
+----------------------------------------
+networkproviders v.20220803
+Category: credential access  MITRE: T1556.003
+
+
+ControlSet001\Control\NetworkProvider\Order
+LastWrite time: 2004-08-19 22:25:30Z
+ProviderOrder value: RDPNP,LanmanWorkstation,WebClient
+
+ControlSet001\Services\RDPNP\NetworkProvider
+LastWrite time: 2004-08-19 22:25:28Z
+Name              : Microsoft Terminal Services
+DeviceName        : \Device\RdpDr
+ProviderPath      : %SystemRoot%\System32\drprov.dll
+
+ControlSet001\Services\LanmanWorkstation\NetworkProvider
+LastWrite time: 2004-08-19 22:21:04Z
+Name              : Microsoft Windows Network
+DeviceName        : \Device\LanmanRedirector
+ProviderPath      : %SystemRoot%\System32\ntlanman.dll
+
+ControlSet001\Services\WebClient\NetworkProvider
+LastWrite time: 2004-08-19 22:20:52Z
+Name              : Web Client Network
+DeviceName        : \Device\WebDavRedirector
+ProviderPath      : %SystemRoot%\System32\davclnt.dll
+
+Analysis Tip: Network providers can be used to load NPLogonNotify API-based password theft tools. This plugin
+enumerates installed Network Provider DLLs (ProviderPath) so that they can be checked and verified. One provider
+to specifically look for is "logincontroll", which may indicate NPPSpy was installed.
+
+Ref:  https://www.scip.ch/en/?labs.20220217
+----------------------------------------
+networkproviderservices v.20220803
+Category: credential access  MITRE: T1556.003
+
+ControlSet001\services\lanmanworkstation\NetworkProvider subkey found
+LastWrite time    : 2004-08-19 22:21:04Z
+DeviceName        : \Device\LanmanRedirector
+ProviderPath      : %SystemRoot%\System32\ntlanman.dll
+
+ControlSet001\services\RDPNP\NetworkProvider subkey found
+LastWrite time    : 2004-08-19 22:25:28Z
+DeviceName        : \Device\RdpDr
+ProviderPath      : %SystemRoot%\System32\drprov.dll
+
+ControlSet001\services\WebClient\NetworkProvider subkey found
+LastWrite time    : 2004-08-19 22:20:52Z
+DeviceName        : \Device\WebDavRedirector
+ProviderPath      : %SystemRoot%\System32\davclnt.dll
+
+----------------------------------------
+networksetup2 v.20200922
+(system) Get NetworkSetup2 subkey info
+
+ControlSet001\Control\NetworkSetup2\Interfaces not found.
+----------------------------------------
+nic2 v.20200922
+(System) Gets NIC info from System hive
+
+Adapter: {417ECA57-8D1D-49AE-990C-18E6A627A059}
+LastWrite Time: 2004-08-19 22:21:42Z
+  UseZeroBroadcast             0                   
+  EnableDHCP                   0                   
+  IPAddress                    0.0.0.0             
+  SubnetMask                   0.0.0.0             
+  DefaultGateway                                   
+  EnableDeadGWDetect           1                   
+  DontAddDefaultGateway        0                   
+
+ControlSet001\Services\Tcpip\Parameters\Interfaces has no subkeys.
+Adapter: {6E4090C2-FAEF-489A-8575-505D21FC1049}
+LastWrite Time: 2004-08-27 15:30:17Z
+  UseZeroBroadcast             0                   
+  EnableDeadGWDetect           1                   
+  EnableDHCP                   1                   
+  IPAddress                    0.0.0.0             
+  SubnetMask                   0.0.0.0             
+  DefaultGateway                                   
+  DefaultGatewayMetric                             
+  NameServer                                       
+  Domain                                           
+  RegistrationEnabled          1                   
+  RegisterAdapterName          0                   
+  TCPAllowedPorts              0                   
+  UDPAllowedPorts              0                   
+  RawIPAllowedProtocols        0                   
+  NTEContextList                                   
+  DhcpClassIdBin                                   
+  DhcpServer                   255.255.255.255     
+  Lease                        3600                
+  LeaseObtainedTime            2004-08-27 15:30:17Z
+  T1                           2004-08-27 16:00:17Z
+  T2                           2004-08-27 16:22:47Z
+  LeaseTerminatesTime          2004-08-27 16:30:17Z
+  IPAutoconfigurationAddress   0.0.0.0             
+  IPAutoconfigurationMask      255.255.0.0         
+  IPAutoconfigurationSeed      0                   
+  AddressType                  0                   
+
+ControlSet001\Services\Tcpip\Parameters\Interfaces has no subkeys.
+Adapter: {86FC0C96-3FF2-4D59-9ABA-C602F213B5D2}
+LastWrite Time: 2004-08-27 15:46:19Z
+  UseZeroBroadcast             0                   
+  EnableDeadGWDetect           1                   
+  EnableDHCP                   1                   
+  IPAddress                    0.0.0.0             
+  SubnetMask                   0.0.0.0             
+  DefaultGateway                                   
+  DefaultGatewayMetric                             
+  NameServer                                       
+  Domain                                           
+  RegistrationEnabled          1                   
+  RegisterAdapterName          0                   
+  TCPAllowedPorts              0                   
+  UDPAllowedPorts              0                   
+  RawIPAllowedProtocols        0                   
+  NTEContextList                                   
+  DhcpClassIdBin                                   
+  DhcpServer                   255.255.255.255     
+  Lease                        3600                
+  LeaseObtainedTime            2004-08-27 15:46:18Z
+  T1                           2004-08-27 16:16:18Z
+  T2                           2004-08-27 16:38:48Z
+  LeaseTerminatesTime          2004-08-27 16:46:18Z
+  IPAutoconfigurationAddress   0.0.0.0             
+  IPAutoconfigurationMask      255.255.0.0         
+  IPAutoconfigurationSeed      0                   
+  AddressType                  0                   
+
+ControlSet001\Services\Tcpip\Parameters\Interfaces has no subkeys.
+Adapter: {F9356994-E82B-49FC-BFE9-59568F68F497}
+LastWrite Time: 2004-08-19 22:21:42Z
+  UseZeroBroadcast             0                   
+  EnableDHCP                   0                   
+  IPAddress                    0.0.0.0             
+  SubnetMask                   0.0.0.0             
+  DefaultGateway                                   
+  EnableDeadGWDetect           1                   
+  DontAddDefaultGateway        0                   
+
+ControlSet001\Services\Tcpip\Parameters\Interfaces has no subkeys.
+----------------------------------------
+ntds v.20200921
+(System) Parse Services NTDS key for specific persistence values
+MITRE: T1547.008 (persistence)
+
+ControlSet001\Services\NTDS not found.
+----------------------------------------
+pagefile v.20200921
+(System) Get info on pagefile(s)
+
+PagingFiles             = C:\pagefile.sys 192 384
+ClearPageFileAtShutdown = 0
+----------------------------------------
+pending v.20230510
+(System) Gets contents of PendingFileRenameOperations value
+MITRE: T1547 (persistence)
+
+PendingFileRenameOperations value not found.
+----------------------------------------
+perf v.20201130
+(System) Get EnablePeriodicBackup value
+MITRE: T1543.003 (privilege escalation)
+
+Services\RpcEptMapper\Performance subkey not found.
+Services\Dnscache\Performance subkey not found.
+
+Analysis Tip: This privilege escalation issue is specific to Win7 & Win2008R2. Permissions on these two Service keys
+  allow an actor to create a Performance subkey and auto-load a malicious DLL which will execute with System-level 
+  privileges.
+----------------------------------------
+Launching portproxy v.20200929
+portproxy v.20200929
+(System) Check port proxy settings, set via netsh
+
+----------------------------------------
+prefetch v.20200922
+(system) Gets the the Prefetch Parameters
+
+EnablePrefetcher    = 3
+
+0 = Prefetching is disabled
+1 = Application prefetching is enabled
+2 = Boot prefetching is enabled
+3 = Both boot and application prefetching is enabled
+
+Analysis Tip: Application Prefetching is disabled by default on Server platforms.
+----------------------------------------
+printer_settings v.20200730
+(system, software) Check printer attributes for KeepPrintedJobs setting
+
+MITRE: T1074.001 (collection)
+
+Analysis Tip: A printer attribute can be set to keep printed jobs after completion, which can lead to data theft.
+https://securelist.com/project-tajmahal/90240/
+----------------------------------------
+printmon v.20200922
+(System) Lists installed Print Monitors
+MITRE: T1546 (persistence)
+
+ControlSet001\Control\Print\Monitors
+Lists installed Print Monitors
+
+BJ Language Monitor  LastWrite: 2004-08-19 17:01:59Z
+  Driver: cnbjmon.dll
+
+Local Port  LastWrite: 2004-08-19 17:01:59Z
+  Driver: localspl.dll
+
+PJL Language Monitor  LastWrite: 2004-08-19 22:21:05Z
+  Driver: pjlmon.dll
+
+Standard TCP/IP Port  LastWrite: 2004-08-19 22:21:05Z
+  Driver: tcpmon.dll
+
+USB Monitor  LastWrite: 2004-08-19 17:01:59Z
+  Driver: usbmon.dll
+
+Analysis Tip: Malware has persisted as a print monitor; be sure to review suspicious DLLs.
+https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/
+----------------------------------------
+ControlSet001\Control\Print\Monitors
+Lists installed Print Monitors
+
+1092934919|REG|||Printer Monitor BJ Language Monitor: Driver: cnbjmon.dll
+1092934919|REG|||Printer Monitor Local Port: Driver: localspl.dll
+1092954065|REG|||Printer Monitor PJL Language Monitor: Driver: pjlmon.dll
+1092954065|REG|||Printer Monitor Standard TCP/IP Port: Driver: tcpmon.dll
+1092934919|REG|||Printer Monitor USB Monitor: Driver: usbmon.dll
+----------------------------------------
+printnightmare v.20230319
+MITRE: T1068 (privilege escalation)
+
+ControlSet001\Control\Print\Environments\Windows NT x86\Drivers\Version-3\HP LaserJet 2100 PCL6
+LastWrite time: 2004-08-26 15:07:43Z
+Configuration File   UNIDRVUI.DLL                            
+Data File            HPLJ21P6.GPD                            
+Driver               UNIDRV.DLL                              
+Manufacturer         HP                                      
+
+Analysis Tip: POCs for the PrintNightmare exploit have been shown to be missing value data for several values,
+including InfPath and Manufacturer. However, these values missing data does not explicitly mean that you've been
+compromised via the exploit.
+
+Also be sure to review the Microsoft-Windows-PrintService/Admin Event Log for Event ID 808, with message "The
+print spooler failed to load a plug-in module" for exploitation attempts. Be sure to check for Security-Auditing
+event ID 4624 events, with type 3 logins, prior to the PrintServce/Admin event(s).
+
+Ref: https://paraflare.com/luci-spools-the-fun-with-phobos-ransomware/
+----------------------------------------
+printprocessors v.20200922
+MITRE: T1546 (persistence)
+
+
+ControlSet001\Control\Print\Environments\Windows NT x86\Print Processors\winprint
+LastWrite time: 2004-08-19 17:01:59Z
+Driver value = localspl.dll
+
+Analysis Tip: Alternative Print Processors have been used for persistence. Verify unusual DLLs listed and
+suspicious print processor names.
+https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/
+----------------------------------------
+processor_architecture v.20200922
+(system) Get from the processor architecture System hive
+
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_IDENTIFIER = x86 Family 6 Model 6 Stepping 10, GenuineIntel
+PROCESSOR_REVISION = 060a
+----------------------------------------
+----------------------------------------
+profiler v.20200922
+(NTUSER.DAT, System) Environment profiler information
+MITRE: T1574.012 (persistence)
+
+
+ComSpec -> %SystemRoot%\system32\cmd.exe
+Path -> %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem
+windir -> %SystemRoot%
+OS -> Windows_NT
+PROCESSOR_ARCHITECTURE -> x86
+PROCESSOR_LEVEL -> 6
+PROCESSOR_IDENTIFIER -> x86 Family 6 Model 6 Stepping 10, GenuineIntel
+PROCESSOR_REVISION -> 060a
+NUMBER_OF_PROCESSORS -> 1
+PATHEXT -> .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+TEMP -> %SystemRoot%\TEMP
+TMP -> %SystemRoot%\TEMP
+----------------------------------------
+railrunonce v.20201020
+(system) Checks RemoteApp shell persistence
+MITRE: T1547.001 (persistence)
+
+ControlSet001\Control\Terminal Server\RailRunonce not found.
+----------------------------------------
+rdplockout v.20220809
+(System) Queries System hive for RDP Lockout Settings
+MITRE: T1133 (initial access)
+
+ControlSet001\Services\RemoteAccess\Parameters\AccountLockout not found.
+----------------------------------------
+rdpport v.20220809
+(System) Queries System hive for RDP Port
+MITRE: T1133 (initial access)
+
+rdpport v.20220809
+
+Remote Desktop Listening Port Number = 3389
+
+Analysis Tip: Modifying the RDP port number can be considered a defense evasion/masquerading technique.
+----------------------------------------
+regback v.20201130
+(system) Get EnablePeriodicBackup value
+
+ControlSet001\Control\Session Manager\Configuration Manager not found.
+
+Analysis Tip: As of Win10 1803, copies of Reg hives were no longer maintained in the RegBack folder.
+  Adding and setting this value to "1" re-enables that.
+----------------------------------------
+remoteaccess v.20200924
+(System) Get RemoteAccess AccountLockout settings
+
+ControlSet001\services\RemoteAccess\Parameters\AccountLockout not found.
+----------------------------------------
+routes v.20200922
+(System) Get persistent routes from the Registry
+
+ControlSet001\Services\Tcpip\Parameters\PersistentRoutes
+LastWrite: 2004-08-19 22:20:22Z
+
+ControlSet001\Services\Tcpip\Parameters\PersistentRoutes has no values.
+----------------------------------------
+scsi v.20220802
+(System) Parses Enum\SCSI key
+MITRE:  (devices)
+
+ControlSet001\Enum\SCSI not found.
+----------------------------------------
+----------------------------------------
+Launching securityproviders v.20201005
+(System) Gets SecurityProvider value from System hive
+MITRE: T1547.005 (persistence)
+
+LastWrite: 2004-08-20 15:35:03Z
+
+SecurityPrividers = msapsspc.dll, schannel.dll, digest.dll, msnsspc.dll
+----------------------------------------
+services v.20200831
+(system) Lists services/drivers in Services key by LastWrite times
+MITRE: T1547 (persistence)
+
+ControlSet001\Services
+Lists services/drivers in Services key by LastWrite times
+
+Fri Aug 27 15:34:01 2004 Z
+  Name           = NPF
+  Display        = NetGroup Packet Filter Driver
+  ImagePath      = system32\drivers\npf.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Fri Aug 27 15:31:43 2004 Z
+  Name           = wlluc48
+  Display        = Wireless LAN PC Card Driver
+  ImagePath      = System32\DRIVERS\wlluc48.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = NDIS
+  FailureCommand = 
+
+Fri Aug 27 15:31:38 2004 Z
+  Name           = {86FC0C96-3FF2-4D59-9ABA-C602F213B5D2}
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Fri Aug 27 15:15:18 2004 Z
+  Name           = rpcapd
+  Display        = Remote Packet Capture Protocol v.0 (experimental)
+  ImagePath      = "%ProgramFiles%\WinPcap\rpcapd.exe" -d -f "%ProgramFiles%\WinPcap\rpcapd.ini"
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Fri Aug 27 15:08:27 2004 Z
+  Name           = aec
+  Display        = Microsoft Kernel Acoustic Echo Canceller
+  ImagePath      = system32\drivers\aec.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = DMusic
+  Display        = Microsoft Kernel DLS Syntheiszer
+  ImagePath      = system32\drivers\DMusic.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = drmkaud
+  Display        = Microsoft Kernel DRM Audio Descrambler
+  ImagePath      = system32\drivers\drmkaud.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = kmixer
+  Display        = Microsoft Kernel Wave Audio Mixer
+  ImagePath      = system32\drivers\kmixer.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = splitter
+  Display        = Microsoft Kernel Audio Splitter
+  ImagePath      = system32\drivers\splitter.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = swmidi
+  Display        = Microsoft Kernel GS Wavetable Synthesizer
+  ImagePath      = system32\drivers\swmidi.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = sysaudio
+  Display        = Microsoft Kernel System Audio Device
+  ImagePath      = system32\drivers\sysaudio.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = wdmaud
+  Display        = Microsoft WINMM WDM Audio Compatibility Driver
+  ImagePath      = system32\drivers\wdmaud.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Fri Aug 27 15:08:13 2004 Z
+  Name           = Cdaudio
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Filter
+  FailureCommand = 
+
+  Name           = Flpydisk
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Primary disk
+  FailureCommand = 
+
+  Name           = Imapi
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Pnp Filter
+  FailureCommand = 
+
+  Name           = Parport
+  Display        = Parallel port driver
+  ImagePath      = System32\DRIVERS\parport.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Parallel arbitrator
+  FailureCommand = 
+
+  Name           = Sfloppy
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Primary disk
+  FailureCommand = 
+
+Fri Aug 27 15:08:10 2004 Z
+  Name           = usbhub
+  Display        = USB2 Enabled Hub
+  ImagePath      = System32\DRIVERS\usbhub.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Base
+  FailureCommand = 
+
+Fri Aug 27 15:08:03 2004 Z
+  Name           = Cdrom
+  Display        = CD-ROM Driver
+  ImagePath      = System32\DRIVERS\cdrom.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = SCSI CDROM Class
+  FailureCommand = 
+
+  Name           = redbook
+  Display        = Digital CD Audio Playback Filter Driver
+  ImagePath      = System32\DRIVERS\redbook.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Pnp Filter
+  FailureCommand = 
+
+Fri Aug 27 15:08:02 2004 Z
+  Name           = Disk
+  Display        = Disk Driver
+  ImagePath      = System32\DRIVERS\disk.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = SCSI Class
+  FailureCommand = 
+
+Fri Aug 27 15:08:01 2004 Z
+  Name           = CBEN5
+  Display        = Xircom CardBus Ethernet 10/100 Adapter family Driver
+  ImagePath      = System32\DRIVERS\cben5.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = NDIS
+  FailureCommand = 
+
+  Name           = Modem
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Extended base
+  FailureCommand = 
+
+Fri Aug 27 15:08:00 2004 Z
+  Name           = agp440
+  Display        = Intel AGP Bus Filter
+  ImagePath      = System32\DRIVERS\agp440.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = PnP Filter
+  FailureCommand = 
+
+  Name           = atapi
+  Display        = Standard IDE/ESDI Hard Disk Controller
+  ImagePath      = System32\DRIVERS\atapi.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = CmBatt
+  Display        = Microsoft ACPI Control Method Battery Driver
+  ImagePath      = System32\DRIVERS\CmBatt.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Fdc
+  Display        = Floppy Disk Controller Driver
+  ImagePath      = System32\DRIVERS\fdc.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = i8042prt
+  Display        = i8042 Keyboard and PS/2 Mouse Port Driver
+  ImagePath      = System32\DRIVERS\i8042prt.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Keyboard Port
+  FailureCommand = 
+
+  Name           = IntelIde
+  Display        = 
+  ImagePath      = System32\DRIVERS\intelide.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = isapnp
+  Display        = PnP ISA/EISA Bus Driver
+  ImagePath      = System32\DRIVERS\isapnp.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = Boot Bus Extender
+  FailureCommand = 
+
+  Name           = neo20xx
+  Display        = 
+  ImagePath      = System32\DRIVERS\neo20xx.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Video
+  FailureCommand = 
+
+  Name           = PCI
+  Display        = PCI Bus Driver
+  ImagePath      = System32\DRIVERS\pci.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = Boot Bus Extender
+  FailureCommand = 
+
+  Name           = Pcmcia
+  Display        = 
+  ImagePath      = System32\DRIVERS\pcmcia.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = Processor
+  Display        = Processor Driver
+  ImagePath      = System32\DRIVERS\processr.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Extended Base
+  FailureCommand = 
+
+  Name           = serenum
+  Display        = Serenum Filter Driver
+  ImagePath      = System32\DRIVERS\serenum.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = PNP Filter
+  FailureCommand = 
+
+  Name           = Serial
+  Display        = Serial port driver
+  ImagePath      = System32\DRIVERS\serial.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Extended base
+  FailureCommand = 
+
+  Name           = usbuhci
+  Display        = Microsoft USB Universal Host Controller Miniport Driver
+  ImagePath      = System32\DRIVERS\usbuhci.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Base
+  FailureCommand = 
+
+  Name           = wdm_nm5
+  Display        = NeoMagic MagicMedia 256AV Audio Driver (WDM)
+  ImagePath      = system32\drivers\nm5a2wdm.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Fri Aug 27 15:07:59 2004 Z
+  Name           = ACPI
+  Display        = Microsoft ACPI Driver
+  ImagePath      = System32\DRIVERS\ACPI.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = Boot Bus Extender
+  FailureCommand = 
+
+  Name           = AFD
+  Display        = AFD Networking Support Environment
+  ImagePath      = \SystemRoot\System32\drivers\afd.sys
+  Type           = Kernel driver
+  Start          = Auto Start
+  Group          = TDI
+  FailureCommand = 
+
+  Name           = AudioSrv
+  Display        = Windows Audio
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = AudioGroup
+  FailureCommand = 
+
+  Name           = audstub
+  Display        = Audio Stub Driver
+  ImagePath      = System32\DRIVERS\audstub.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Beep
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Base
+  FailureCommand = 
+
+  Name           = Browser
+  Display        = Computer Browser
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Cdfs
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = Disabled
+  Group          = File system
+  FailureCommand = 
+
+  Name           = Compbatt
+  Display        = Microsoft Composite Battery Driver
+  ImagePath      = System32\DRIVERS\compbatt.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = COMSysApp
+  Display        = COM+ System Application
+  ImagePath      = C:\WINDOWS\System32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = CryptSvc
+  Display        = Cryptographic Services
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Dhcp
+  Display        = DHCP Client
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = TDI
+  FailureCommand = 
+
+  Name           = dmboot
+  Display        = 
+  ImagePath      = System32\drivers\dmboot.sys
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Filter
+  FailureCommand = 
+
+  Name           = dmload
+  Display        = 
+  ImagePath      = System32\drivers\dmload.sys
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = Dnscache
+  Display        = DNS Client
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k NetworkService
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = TDI
+  FailureCommand = 
+
+  Name           = ERSvc
+  Display        = Error Reporting Service
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = EventSystem
+  Display        = COM+ Event System
+  ImagePath      = C:\WINDOWS\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = Network
+  FailureCommand = 
+
+  Name           = Fastfat
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = Disabled
+  Group          = Boot file system
+  FailureCommand = 
+
+  Name           = FastUserSwitchingCompatibility
+  Display        = Fast User Switching Compatibility
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Fips
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Fs_Rec
+  Display        = 
+  ImagePath      = 
+  Type           = 0x0
+  Start          = System Start
+  Group          = Boot file system
+  FailureCommand = 
+
+  Name           = Ftdisk
+  Display        = Volume Manager Driver
+  ImagePath      = System32\DRIVERS\ftdisk.sys
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = Gpc
+  Display        = Generic Packet Classifier
+  ImagePath      = System32\DRIVERS\msgpc.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = helpsvc
+  Display        = Help and Support
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = IPSec
+  Display        = IPSEC driver
+  ImagePath      = System32\DRIVERS\ipsec.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = Kbdclass
+  Display        = Keyboard Class Driver
+  ImagePath      = System32\DRIVERS\kbdclass.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Keyboard Class
+  FailureCommand = 
+
+  Name           = KSecDD
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = Base
+  FailureCommand = 
+
+  Name           = lanmanserver
+  Display        = Server
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = lanmanworkstation
+  Display        = Workstation
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = NetworkProvider
+  FailureCommand = 
+
+  Name           = LmHosts
+  Display        = TCP/IP NetBIOS Helper
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = TDI
+  FailureCommand = 
+
+  Name           = Messenger
+  Display        = Messenger
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = mnmdd
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Video Save
+  FailureCommand = 
+
+  Name           = Mouclass
+  Display        = Mouse Class Driver
+  ImagePath      = System32\DRIVERS\mouclass.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Pointer Class
+  FailureCommand = 
+
+  Name           = MountMgr
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = MRxDAV
+  Display        = WebDav Client Redirector
+  ImagePath      = System32\DRIVERS\mrxdav.sys
+  Type           = File system driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = MRxSmb
+  Display        = MRXSMB
+  ImagePath      = System32\DRIVERS\mrxsmb.sys
+  Type           = File system driver
+  Start          = System Start
+  Group          = Network
+  FailureCommand = 
+
+  Name           = MSDTC
+  Display        = Distributed Transaction Coordinator
+  ImagePath      = C:\WINDOWS\System32\msdtc.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = MS Transactions
+  FailureCommand = 
+
+  Name           = Msfs
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = System Start
+  Group          = File system
+  FailureCommand = 
+
+  Name           = MSIServer
+  Display        = Windows Installer
+  ImagePath      = C:\WINDOWS\System32\msiexec.exe /V
+  Type           = 0x0
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Mup
+  Display        = Mup
+  ImagePath      = 
+  Type           = File system driver
+  Start          = Boot Start
+  Group          = Network
+  FailureCommand = 
+
+  Name           = NDIS
+  Display        = NDIS System Driver
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = NDIS Wrapper
+  FailureCommand = 
+
+  Name           = NdisTapi
+  Display        = Remote Access NDIS TAPI Driver
+  ImagePath      = System32\DRIVERS\ndistapi.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Ndisuio
+  Display        = NDIS Usermode I/O Protocol
+  ImagePath      = System32\DRIVERS\ndisuio.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = NDIS
+  FailureCommand = 
+
+  Name           = NdisWan
+  Display        = Remote Access NDIS WAN Driver
+  ImagePath      = System32\DRIVERS\ndiswan.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = NDProxy
+  Display        = NDIS Proxy
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = NetBIOS
+  Display        = NetBIOS Interface
+  ImagePath      = System32\DRIVERS\netbios.sys
+  Type           = File system driver
+  Start          = System Start
+  Group          = NetBIOSGroup
+  FailureCommand = 
+
+  Name           = NetBT
+  Display        = NetBios over Tcpip
+  ImagePath      = System32\DRIVERS\netbt.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = Netman
+  Display        = Network Connections
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = 0x0
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Nla
+  Display        = Network Location Awareness (NLA)
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Npfs
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = System Start
+  Group          = File system
+  FailureCommand = 
+
+  Name           = Ntfs
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = Disabled
+  Group          = File system
+  FailureCommand = 
+
+  Name           = Null
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Base
+  FailureCommand = 
+
+  Name           = PartMgr
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = ParVdm
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Auto Start
+  Group          = Extended base
+  FailureCommand = 
+
+  Name           = PolicyAgent
+  Display        = IPSEC Services
+  ImagePath      = %SystemRoot%\System32\lsass.exe
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = PptpMiniport
+  Display        = WAN Miniport (PPTP)
+  ImagePath      = System32\DRIVERS\raspptp.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = ProtectedStorage
+  Display        = Protected Storage
+  ImagePath      = %SystemRoot%\system32\lsass.exe
+  Type           = 0x0
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = PSched
+  Display        = QoS Packet Scheduler
+  ImagePath      = System32\DRIVERS\psched.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = Ptilink
+  Display        = Direct Parallel Link Driver
+  ImagePath      = System32\DRIVERS\ptilink.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = RasAcd
+  Display        = Remote Access Auto Connection Driver
+  ImagePath      = System32\DRIVERS\rasacd.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Streams Drivers
+  FailureCommand = 
+
+  Name           = RasAuto
+  Display        = Remote Access Auto Connection Manager
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Rasl2tp
+  Display        = WAN Miniport (L2TP)
+  ImagePath      = System32\DRIVERS\rasl2tp.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = RasMan
+  Display        = Remote Access Connection Manager
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = RasPppoe
+  Display        = Remote Access PPPOE Driver
+  ImagePath      = System32\DRIVERS\raspppoe.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Raspti
+  Display        = Direct Parallel
+  ImagePath      = System32\DRIVERS\raspti.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Rdbss
+  Display        = Rdbss
+  ImagePath      = System32\DRIVERS\rdbss.sys
+  Type           = File system driver
+  Start          = System Start
+  Group          = Network
+  FailureCommand = 
+
+  Name           = RDPCDD
+  Display        = 
+  ImagePath      = System32\DRIVERS\RDPCDD.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Video Save
+  FailureCommand = 
+
+  Name           = rdpdr
+  Display        = Terminal Server Device Redirector Driver
+  ImagePath      = System32\DRIVERS\rdpdr.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = RDPNP
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = RemoteRegistry
+  Display        = Remote Registry
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = RpcSs
+  Display        = Remote Procedure Call (RPC)
+  ImagePath      = %SystemRoot%\system32\svchost -k rpcss
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = COM Infrastructure
+  FailureCommand = 
+
+  Name           = SamSs
+  Display        = Security Accounts Manager
+  ImagePath      = %SystemRoot%\system32\lsass.exe
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = LocalValidation
+  FailureCommand = 
+
+  Name           = Schedule
+  Display        = Task Scheduler
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = 0x0
+  Start          = Auto Start
+  Group          = SchedulerGroup
+  FailureCommand = 
+
+  Name           = seclogon
+  Display        = Secondary Logon
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = 0x0
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = SENS
+  Display        = System Event Notification
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = Network
+  FailureCommand = 
+
+  Name           = ShellHWDetection
+  Display        = Shell Hardware Detection
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = ShellSvcGroup
+  FailureCommand = 
+
+  Name           = Spooler
+  Display        = Print Spooler
+  ImagePath      = %SystemRoot%\system32\spoolsv.exe
+  Type           = 0x0
+  Start          = Auto Start
+  Group          = SpoolerGroup
+  FailureCommand = 
+
+  Name           = sr
+  Display        = System Restore Filter Driver
+  ImagePath      = \SystemRoot\System32\DRIVERS\sr.sys
+  Type           = File system driver
+  Start          = Disabled
+  Group          = FSFilter System Recovery
+  FailureCommand = 
+
+  Name           = srservice
+  Display        = System Restore Service
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Srv
+  Display        = Srv
+  ImagePath      = System32\DRIVERS\srv.sys
+  Type           = File system driver
+  Start          = Manual
+  Group          = Network
+  FailureCommand = 
+
+  Name           = SSDPSRV
+  Display        = SSDP Discovery Service
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = stisvc
+  Display        = Windows Image Acquisition (WIA)
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k imgsvc
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = swenum
+  Display        = Software Bus Driver
+  ImagePath      = System32\DRIVERS\swenum.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = TapiSrv
+  Display        = Telephony
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Tcpip
+  Display        = TCP/IP Protocol Driver
+  ImagePath      = System32\DRIVERS\tcpip.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = PNP_TDI
+  FailureCommand = 
+
+  Name           = TermDD
+  Display        = Terminal Device Driver
+  ImagePath      = System32\DRIVERS\termdd.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = TermService
+  Display        = Terminal Services
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Themes
+  Display        = Themes
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = UIGroup
+  FailureCommand = 
+
+  Name           = TrkWks
+  Display        = Distributed Link Tracking Client
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Update
+  Display        = Microcode Update Driver
+  ImagePath      = System32\DRIVERS\update.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = uploadmgr
+  Display        = Upload Manager
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = VgaSave
+  Display        = 
+  ImagePath      = \SystemRoot\System32\drivers\vga.sys
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Video Save
+  FailureCommand = 
+
+  Name           = VolSnap
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Boot Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = W32Time
+  Display        = Windows Time
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = Wanarp
+  Display        = Remote Access IP ARP Driver
+  ImagePath      = System32\DRIVERS\wanarp.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = WebClient
+  Display        = WebClient
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = NetworkProvider
+  FailureCommand = 
+
+  Name           = winmgmt
+  Display        = Windows Management Instrumentation
+  ImagePath      = %systemroot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = WmdmPmSp
+  Display        = Portable Media Serial Number
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = wuauserv
+  Display        = Automatic Updates
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = 
+  FailureCommand = 
+
+  Name           = WZCSVC
+  Display        = Wireless Zero Configuration
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = TDI
+  FailureCommand = 
+
+Thu Aug 19 22:38:41 2004 Z
+  Name           = NetDDEdsdm
+  Display        = Network DDE DSDM
+  ImagePath      = %SystemRoot%\system32\netdde.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:38:40 2004 Z
+  Name           = ClipSrv
+  Display        = ClipBook
+  ImagePath      = %SystemRoot%\system32\clipsrv.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = NetDDE
+  Display        = Network DDE
+  ImagePath      = %SystemRoot%\system32\netdde.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = NetDDEGroup
+  FailureCommand = 
+
+Thu Aug 19 22:38:34 2004 Z
+  Name           = dmserver
+  Display        = Logical Disk Manager
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:38:28 2004 Z
+  Name           = PlugPlay
+  Display        = Plug and Play
+  ImagePath      = %SystemRoot%\system32\services.exe
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = PlugPlay
+  FailureCommand = 
+
+Thu Aug 19 22:36:42 2004 Z
+  Name           = NtmsSvc
+  Display        = Removable Storage
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:36:38 2004 Z
+  Name           = VSS
+  Display        = Volume Shadow Copy
+  ImagePath      = %SystemRoot%\System32\vssvc.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:36:36 2004 Z
+  Name           = SwPrv
+  Display        = MS Software Shadow Copy Provider
+  ImagePath      = C:\WINDOWS\System32\dllhost.exe /Processid:{27CA9108-3784-4E21-819D-2E8E1CCFBC00}
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:35:48 2004 Z
+  Name           = RemoteAccess
+  Display        = Routing and Remote Access
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Disabled
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:35:35 2004 Z
+  Name           = TlntSvr
+  Display        = Telnet
+  ImagePath      = C:\WINDOWS\System32\tlntsvr.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:33:00 2004 Z
+  Name           = ImapiService
+  Display        = IMAPI CD-Burning COM Service
+  ImagePath      = C:\WINDOWS\System32\imapi.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:32:08 2004 Z
+  Name           = BITS
+  Display        = Background Intelligent Transfer Service
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:32:04 2004 Z
+  Name           = upnphost
+  Display        = Universal Plug and Play Device Host
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:31:53 2004 Z
+  Name           = mnmsrvc
+  Display        = NetMeeting Remote Desktop Sharing
+  ImagePath      = C:\WINDOWS\System32\mnmsrvc.exe
+  Type           = 0x0
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:31:41 2004 Z
+  Name           = W3SVC
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:31:40 2004 Z
+  Name           = Secdrv
+  Display        = Secdrv
+  ImagePath      = System32\DRIVERS\secdrv.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:31:32 2004 Z
+  Name           = inetaccs
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:28:26 2004 Z
+  Name           = RDSessMgr
+  Display        = Remote Desktop Help Session Manager
+  ImagePath      = C:\WINDOWS\system32\sessmgr.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:27:19 2004 Z
+  Name           = WmiApSrv
+  Display        = WMI Performance Adapter
+  ImagePath      = C:\WINDOWS\System32\wbem\wmiapsrv.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:27:18 2004 Z
+  Name           = WmiApRpl
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:27:06 2004 Z
+  Name           = cisvc
+  Display        = Indexing Service
+  ImagePath      = C:\WINDOWS\System32\cisvc.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:25:28 2004 Z
+  Name           = LicenseService
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = PDCOMP
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = PDFRAME
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = PDRELI
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = PDRFRAME
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = RDPWD
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = TDPIPE
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = TDTCP
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = WDICA
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:25:27 2004 Z
+  Name           = RDPDD
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:23:24 2004 Z
+  Name           = ContentFilter
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = ContentIndex
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = ISAPISearch
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:57 2004 Z
+  Name           = SharedAccess
+  Display        = Internet Connection Firewall (ICF) / Internet Connection Sharing (ICS)
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:55 2004 Z
+  Name           = NwlnkFwd
+  Display        = IPX Traffic Forwarder Driver
+  ImagePath      = System32\DRIVERS\nwlnkfwd.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:54 2004 Z
+  Name           = IpNat
+  Display        = IP Network Address Translator
+  ImagePath      = System32\DRIVERS\ipnat.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = NwlnkFlt
+  Display        = IPX Traffic Filter Driver
+  ImagePath      = System32\DRIVERS\nwlnkflt.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:53 2004 Z
+  Name           = IpInIp
+  Display        = IP in IP Tunnel Driver
+  ImagePath      = System32\DRIVERS\ipinip.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:52 2004 Z
+  Name           = IpFilterDriver
+  Display        = IP Traffic Filter Driver
+  ImagePath      = System32\DRIVERS\ipfltdrv.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:04 2004 Z
+  Name           = RpcLocator
+  Display        = Remote Procedure Call (RPC) Locator
+  ImagePath      = %SystemRoot%\System32\locator.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:21:02 2004 Z
+  Name           = NtLmSsp
+  Display        = NT LM Security Support Provider
+  ImagePath      = %SystemRoot%\System32\lsass.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:59 2004 Z
+  Name           = Netlogon
+  Display        = Net Logon
+  ImagePath      = %SystemRoot%\System32\lsass.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = RemoteValidation
+  FailureCommand = 
+
+Thu Aug 19 22:20:55 2004 Z
+  Name           = Alerter
+  Display        = Alerter
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k LocalService
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:41 2004 Z
+  Name           = {6E4090C2-FAEF-489A-8575-505D21FC1049}
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:39 2004 Z
+  Name           = RSVP
+  Display        = QoS RSVP
+  ImagePath      = %SystemRoot%\System32\rsvp.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:32 2004 Z
+  Name           = Winsock
+  Display        = 
+  ImagePath      = 
+  Type           = 0x0
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:29 2004 Z
+  Name           = Atmarpc
+  Display        = ATM ARP Client Protocol
+  ImagePath      = System32\DRIVERS\atmarpc.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = NDIS
+  FailureCommand = 
+
+Thu Aug 19 22:20:15 2004 Z
+  Name           = ALG
+  Display        = Application Layer Gateway Service
+  ImagePath      = %SystemRoot%\System32\alg.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 22:20:12 2004 Z
+  Name           = AsyncMac
+  Display        = RAS Asynchronous Media Driver
+  ImagePath      = System32\DRIVERS\asyncmac.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Eventlog
+  Display        = Event Log
+  ImagePath      = %SystemRoot%\system32\services.exe
+  Type           = Share_Process
+  Start          = Auto Start
+  Group          = Event log
+  FailureCommand = 
+
+Thu Aug 19 17:09:44 2004 Z
+  Name           = MSPCLOCK
+  Display        = Microsoft Streaming Clock Proxy
+  ImagePath      = system32\drivers\MSPCLOCK.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Extended Base
+  FailureCommand = 
+
+Thu Aug 19 17:09:39 2004 Z
+  Name           = MSKSSRV
+  Display        = Microsoft Streaming Service Proxy
+  ImagePath      = system32\drivers\MSKSSRV.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Extended Base
+  FailureCommand = 
+
+Thu Aug 19 17:09:19 2004 Z
+  Name           = MSPQM
+  Display        = Microsoft Streaming Quality Manager Proxy
+  ImagePath      = system32\drivers\MSPQM.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = Extended Base
+  FailureCommand = 
+
+Thu Aug 19 17:02:21 2004 Z
+  Name           = ldap
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 17:02:00 2004 Z
+  Name           = IRENUM
+  Display        = IR Enumerator Service
+  ImagePath      = System32\DRIVERS\irenum.sys
+  Type           = Kernel driver
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = SCardDrv
+  Display        = Smart Card Helper
+  ImagePath      = %SystemRoot%\System32\SCardSvr.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = SCardSvr
+  Display        = Smart Card
+  ImagePath      = %SystemRoot%\System32\SCardSvr.exe
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = SysmonLog
+  Display        = Performance Logs and Alerts
+  ImagePath      = %SystemRoot%\system32\smlogsvc.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = Wmi
+  Display        = Windows Management Instrumentation Driver Extensions
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+Thu Aug 19 17:01:59 2004 Z
+  Name           = Abiosdsk
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Primary disk
+  FailureCommand = 
+
+  Name           = abp480n5
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = ACPIEC
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Boot Bus Extender
+  FailureCommand = 
+
+  Name           = adpu160m
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Aha154x
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = aic78u2
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = aic78xx
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = AliIde
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = amsint
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = AppMgmt
+  Display        = Application Management
+  ImagePath      = %SystemRoot%\system32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = asc
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = asc3350p
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = asc3550
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Atdisk
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Primary disk
+  FailureCommand = 
+
+  Name           = BattC
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = cbidf2k
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = cd20xrnt
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Changer
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = Filter
+  FailureCommand = 
+
+  Name           = CmdIde
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = Cpqarray
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = dac2w2k
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = dac960nt
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = dmadmin
+  Display        = Logical Disk Manager Administrative Service
+  ImagePath      = %SystemRoot%\System32\dmadmin.exe /com
+  Type           = Share_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = dmio
+  Display        = 
+  ImagePath      = System32\drivers\dmio.sys
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = dpti2o
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = HidServ
+  Display        = Human Interface Device Access
+  ImagePath      = %SystemRoot%\System32\svchost.exe -k netsvcs
+  Type           = Share_Process
+  Start          = Disabled
+  Group          = 
+  FailureCommand = 
+
+  Name           = hpn
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = hpt3xx
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = i2omgmt
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = SCSI Class
+  FailureCommand = 
+
+  Name           = i2omp
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = ini910u
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Inport
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = lbrtfdc
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = mraid35x
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = PCIDump
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = System Start
+  Group          = PCI Configuration
+  FailureCommand = 
+
+  Name           = PCIIde
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = perc2
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = perc2hib
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Filter
+  FailureCommand = 
+
+  Name           = PerfDisk
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = PerfNet
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = PerfOS
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = PerfProc
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = ql1080
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Ql10wnt
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = ql12160
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = ql1240
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = ql1280
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = Simbad
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = Filter
+  FailureCommand = 
+
+  Name           = Sparrow
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = symc810
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = symc8xx
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = sym_hi
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = sym_u3
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = TosIde
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = TSDDD
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = Udfs
+  Display        = 
+  ImagePath      = 
+  Type           = File system driver
+  Start          = Disabled
+  Group          = File system
+  FailureCommand = 
+
+  Name           = ultra
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = SCSI miniport
+  FailureCommand = 
+
+  Name           = UPS
+  Display        = Uninterruptible Power Supply
+  ImagePath      = %SystemRoot%\System32\ups.exe
+  Type           = Own_Process
+  Start          = Manual
+  Group          = 
+  FailureCommand = 
+
+  Name           = ViaIde
+  Display        = 
+  ImagePath      = 
+  Type           = Kernel driver
+  Start          = Disabled
+  Group          = System Bus Extender
+  FailureCommand = 
+
+  Name           = WinSock2
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+  Name           = WinTrust
+  Display        = 
+  ImagePath      = 
+  Type           = 
+  Start          = 
+  Group          = 
+  FailureCommand = 
+
+----------------------------------------
+shares v.20201005
+(system) Lists available shares on the system
+
+  Temp
+    Path=C:\Temp
+    Remark=
+    Type=0
+
+  NullSessionShares = COMCFG DFS$
+----------------------------------------
+shimcache v.20220920
+(System) Parse file refs from System hive AppCompatCache data
+
+*** ControlSet001 ***
+ControlSet001\Control\Session Manager\AppCompatibility
+LastWrite Time: 2004-08-27 15:46:27Z
+Signature: 0xdeadbeef
+WinXP, 32-bit
+C:\WINDOWS\System32\mydocs.dll  2001-08-23 18:00:00  2004-08-27 15:29:47  88064 bytes
+C:\WINDOWS\System32\CuteShell.dll  1999-05-20 22:39:18  2004-08-20 15:17:54  147456 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe  2001-08-23 18:00:00  2004-08-26 15:51:43  694272 bytes
+C:\WINDOWS\System32\wuaueng.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  95744 bytes
+C:\Program Files\WinPcap\daemon_mgm.exe  2003-06-13 19:03:59  2004-08-27 15:15:17  49152 bytes
+C:\WINDOWS\system32\wbem\wmiadap.exe  2001-08-23 18:00:00  2004-08-20 15:23:55  183808 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL  2002-07-12 00:01:32  2004-08-27 15:46:00  274432 bytes
+C:\WINDOWS\system32\mstinit.exe  2001-08-23 18:00:00  2004-08-19 23:05:03  9728 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe  2004-08-27 15:24:24  2004-08-27 15:28:36  8460502 bytes
+C:\Program Files\Outlook Express\setup50.exe  2001-08-23 18:00:00  2004-08-19 23:04:37  66560 bytes
+C:\Program Files\Outlook Express\msimn.exe  2001-08-23 18:00:00  2004-08-20 21:13:23  57344 bytes
+C:\Program Files\Cain\Cain.exe  2003-12-13 03:32:04  2004-08-27 15:33:01  2064384 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe  2003-04-11 06:09:18  2004-08-20 15:06:18  440557 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\mstask.dll  2001-08-23 18:00:00  2004-08-26 15:04:38  249856 bytes
+C:\WINDOWS\system32\defrag.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  109568 bytes
+C:\Program Files\Messenger\msmsgs.exe  2001-08-02 12:14:33  2004-08-27 15:08:26  1077277 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\explorer.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  1000960 bytes
+C:\WINDOWS\System32\zipfldr.dll  2001-08-23 18:00:00  2004-08-27 15:12:25  317952 bytes
+C:\WINDOWS\System32\dfsshlex.dll  2001-08-23 18:00:00  2004-08-20 15:19:19  25088 bytes
+C:\WINDOWS\System32\cscui.dll  2001-08-23 18:00:00  2004-08-27 15:42:42  305664 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Faber Toys\Faber Toys.exe  2002-07-03 00:54:01  2004-08-25 15:27:27  835584 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\hh.exe  2001-08-23 18:00:00  2004-08-27 15:12:18  26647 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\msieftp.dll  2001-08-23 18:00:00  2004-08-27 15:17:18  232448 bytes
+C:\Program Files\mIRC\mirc.exe  2004-08-20 15:09:55  2004-08-25 16:20:27  1867776 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe  2004-08-27 15:11:07  2004-08-27 15:12:11  1324940 bytes
+C:\WINDOWS\System32\shimgvw.dll  2001-08-23 18:00:00  2004-08-26 16:03:29  419840 bytes
+C:\WINDOWS\system32\logon.scr  2001-08-23 18:00:00  2004-08-26 15:25:03  219648 bytes
+C:\WINDOWS\system32\ie4uinit.exe  2001-08-23 18:00:00  2004-08-19 23:04:14  28160 bytes
+C:\WINDOWS\system32\regsvr32.exe  2001-08-23 18:00:00  2004-08-20 15:13:06  9728 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Look@LAN\LookAtLan.exe  2004-02-18 09:51:39  2004-08-26 15:06:14  864768 bytes
+C:\WINDOWS\system32\taskmgr.exe  2001-08-23 18:00:00  2004-08-27 15:16:15  128512 bytes
+C:\Program Files\Whois\whois.exe  2004-07-28 12:38:33  2004-08-26 15:13:57  107524 bytes
+C:\Program Files\Ethereal\ethereal.exe  2004-08-13 02:15:35  2004-08-27 15:34:54  1923920 bytes
+C:\Program Files\Network Stumbler\NetStumbler.exe  2004-04-21 07:16:58  2004-08-27 15:12:35  561152 bytes
+C:\WINDOWS\system32\cmd.exe  2001-08-23 18:00:00  2004-08-25 15:23:44  375808 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\NETSHELL.dll  2001-08-23 18:00:00  2004-08-19 23:05:03  1618944 bytes
+C:\WINDOWS\system32\dfrgntfs.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  85504 bytes
+C:\WINDOWS\System32\webcheck.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  258560 bytes
+C:\Program Files\WinPcap\Uninstall.exe  2002-11-19 03:19:27  2004-08-27 15:14:51  218112 bytes
+C:\Program Files\WinPcap\npf_mgm.exe  2003-06-13 19:04:35  2004-08-27 15:15:17  49152 bytes
+C:\Program Files\1L93GJAJ.bat  2004-08-27 15:14:58  2004-08-27 15:14:58  180 bytes
+C:\WINDOWS\system32\oobe\msoobe.exe  2001-08-23 18:00:00  2004-08-19 22:50:52  28160 bytes
+C:\WINDOWS\system32\msiexec.exe  2001-08-23 18:00:00  2004-08-20 15:12:05  63488 bytes
+C:\WINDOWS\system32\lsass.exe  2001-08-23 18:00:00  2004-08-27 15:08:19  11776 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Windows NT\Accessories\wordpad.exe  2001-08-23 18:00:00  2004-08-20 15:09:16  200192 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\shdocvw.dll  2001-08-23 18:00:00  2004-08-27 15:29:47  1338880 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\browseui.dll  2001-08-23 18:00:00  2004-08-20 15:26:36  1020416 bytes
+C:\WINDOWS\inf\unregmp2.exe  2001-08-23 18:00:00  2004-08-19 23:04:34  229376 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe  2004-08-27 15:14:20  2004-08-27 15:15:08  442417 bytes
+C:\WINDOWS\system32\telnet.exe  2001-08-23 18:00:00  2004-08-26 15:05:15  70144 bytes
+C:\Program Files\Faber Toys\FTInit.exe  2002-07-10 03:41:19  2004-08-25 15:26:55  86016 bytes
+C:\WINDOWS\system32\notepad.exe  2001-08-23 18:00:00  2004-08-20 15:50:40  66048 bytes
+C:\Program Files\Look@LAN\LookAtHost.exe  2003-06-18 12:00:16  2004-08-26 14:58:25  335360 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\remotepg.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  56320 bytes
+C:\WINDOWS\system32\urlmon.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  452096 bytes
+C:\WINDOWS\system32\services.exe  2001-08-23 18:00:00  2004-08-27 15:08:19  101376 bytes
+C:\WINDOWS\system32\ping.exe  2001-08-23 18:00:00  2004-08-25 15:23:53  14848 bytes
+C:\WINDOWS\System32\shgina.dll  2001-08-23 18:00:00  2004-08-27 15:42:53  62464 bytes
+C:\WINDOWS\system32\rundll32.exe  2001-08-23 18:00:00  2004-08-27 15:31:17  31744 bytes
+C:\WINDOWS\system32\wbem\wmiprvse.exe  2001-08-23 18:00:00  2004-08-26 15:51:44  203264 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\svchost.exe  2001-08-23 18:00:00  2004-08-27 15:08:22  12800 bytes
+C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe  2001-08-23 18:00:00  2004-08-20 15:25:32  209408 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\userinit.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  21504 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe  2004-08-25 15:51:23  2004-08-25 15:55:26  2160043 bytes
+C:\WINDOWS\system32\dumprep.exe  2001-08-23 18:00:00  2004-08-25 15:25:47  30208 bytes
+C:\WINDOWS\system32\logonui.exe  2001-08-23 18:00:00  2004-08-27 15:46:16  504320 bytes
+C:\WINDOWS\system32\drwtsn32.exe  2001-08-23 18:00:00  2004-08-20 15:25:44  45568 bytes
+C:\WINDOWS\msagent\agentsvr.exe  2001-08-23 18:00:00  2004-08-25 16:20:35  235008 bytes
+C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe  2001-10-22 21:15:52  2004-08-20 15:11:56  961120 bytes
+C:\WINDOWS\system32\dwwin.exe  2001-08-23 18:00:00  2004-08-25 15:25:50  162128 bytes
+C:\Program Files\Agent\agent.exe  2002-01-23 03:51:15  2004-08-25 15:55:34  2850336 bytes
+C:\WINDOWS\system32\spoolsv.exe  2001-08-23 18:00:00  2004-08-27 15:08:25  51200 bytes
+
+*** ControlSet002 ***
+ControlSet002\Control\Session Manager\AppCompatibility
+LastWrite Time: 2004-08-26 16:04:03Z
+Signature: 0xdeadbeef
+WinXP, 32-bit
+C:\WINDOWS\System32\mydocs.dll  2001-08-23 18:00:00  2004-08-20 15:11:08  88064 bytes
+C:\WINDOWS\System32\CuteShell.dll  1999-05-20 22:39:18  2004-08-20 15:17:54  147456 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe  2001-08-23 18:00:00  2004-08-26 15:51:43  694272 bytes
+C:\WINDOWS\System32\wuaueng.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  95744 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\wbem\wmiadap.exe  2001-08-23 18:00:00  2004-08-20 15:23:55  183808 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL  2002-07-12 00:01:32  2004-08-26 16:03:17  274432 bytes
+C:\WINDOWS\system32\mstinit.exe  2001-08-23 18:00:00  2004-08-19 23:05:03  9728 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Outlook Express\setup50.exe  2001-08-23 18:00:00  2004-08-19 23:04:37  66560 bytes
+C:\Program Files\Outlook Express\msimn.exe  2001-08-23 18:00:00  2004-08-20 21:13:23  57344 bytes
+C:\Program Files\Cain\Cain.exe  2003-12-13 03:32:04  2004-08-25 16:18:31  2064384 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe  2003-04-11 06:09:18  2004-08-20 15:06:18  440557 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\mstask.dll  2001-08-23 18:00:00  2004-08-26 15:04:38  249856 bytes
+C:\WINDOWS\system32\defrag.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  109568 bytes
+C:\Program Files\Messenger\msmsgs.exe  2001-08-02 12:14:33  2004-08-26 14:58:11  1077277 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\explorer.exe  2001-08-23 18:00:00  2004-08-26 14:58:10  1000960 bytes
+C:\WINDOWS\System32\zipfldr.dll  2001-08-23 18:00:00  2004-08-20 15:13:26  317952 bytes
+C:\WINDOWS\System32\dfsshlex.dll  2001-08-23 18:00:00  2004-08-20 15:19:19  25088 bytes
+C:\WINDOWS\System32\cscui.dll  2001-08-23 18:00:00  2004-08-26 15:14:41  305664 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Faber Toys\Faber Toys.exe  2002-07-03 00:54:01  2004-08-25 15:27:27  835584 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\WinPcap\daemon_mgm.exe  2003-04-04 20:03:53  2004-08-20 15:06:27  49152 bytes
+C:\WINDOWS\System32\msieftp.dll  2001-08-23 18:00:00  2004-08-26 15:10:31  232448 bytes
+C:\Program Files\mIRC\mirc.exe  2004-08-20 15:09:55  2004-08-25 16:20:27  1867776 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\shimgvw.dll  2001-08-23 18:00:00  2004-08-26 16:03:29  419840 bytes
+C:\WINDOWS\system32\logon.scr  2001-08-23 18:00:00  2004-08-26 15:25:03  219648 bytes
+C:\WINDOWS\system32\ie4uinit.exe  2001-08-23 18:00:00  2004-08-19 23:04:14  28160 bytes
+C:\WINDOWS\system32\regsvr32.exe  2001-08-23 18:00:00  2004-08-20 15:13:06  9728 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Look@LAN\LookAtLan.exe  2004-02-18 09:51:39  2004-08-26 15:06:14  864768 bytes
+C:\WINDOWS\system32\taskmgr.exe  2001-08-23 18:00:00  2004-08-26 15:07:51  128512 bytes
+C:\Program Files\Whois\whois.exe  2004-07-28 12:38:33  2004-08-26 15:13:57  107524 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\cmd.exe  2001-08-23 18:00:00  2004-08-25 15:23:44  375808 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\NETSHELL.dll  2001-08-23 18:00:00  2004-08-19 23:05:03  1618944 bytes
+C:\WINDOWS\system32\dfrgntfs.exe  2001-08-23 18:00:00  2004-08-26 15:46:18  85504 bytes
+C:\WINDOWS\System32\webcheck.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  258560 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\msiexec.exe  2001-08-23 18:00:00  2004-08-20 15:12:05  63488 bytes
+C:\WINDOWS\system32\oobe\msoobe.exe  2001-08-23 18:00:00  2004-08-19 22:50:52  28160 bytes
+C:\WINDOWS\system32\lsass.exe  2001-08-23 18:00:00  2004-08-26 14:58:03  11776 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Windows NT\Accessories\wordpad.exe  2001-08-23 18:00:00  2004-08-20 15:09:16  200192 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\shdocvw.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  1338880 bytes
+C:\Program Files\WinPcap\npf_mgm.exe  2003-04-04 20:04:33  2004-08-20 15:06:26  49152 bytes
+    1970-01-01 00:00:00  0 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\System32\browseui.dll  2001-08-23 18:00:00  2004-08-20 15:26:36  1020416 bytes
+C:\WINDOWS\inf\unregmp2.exe  2001-08-23 18:00:00  2004-08-19 23:04:34  229376 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\telnet.exe  2001-08-23 18:00:00  2004-08-26 15:05:15  70144 bytes
+C:\Program Files\Faber Toys\FTInit.exe  2002-07-10 03:41:19  2004-08-25 15:26:55  86016 bytes
+C:\WINDOWS\system32\notepad.exe  2001-08-23 18:00:00  2004-08-20 15:50:40  66048 bytes
+C:\Program Files\Look@LAN\LookAtHost.exe  2003-06-18 12:00:16  2004-08-26 14:58:25  335360 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\WINDOWS\system32\urlmon.dll  2001-08-23 18:00:00  2004-08-26 15:14:40  452096 bytes
+C:\WINDOWS\System32\remotepg.dll  2001-08-23 18:00:00  2004-08-20 15:23:18  56320 bytes
+C:\WINDOWS\system32\ping.exe  2001-08-23 18:00:00  2004-08-25 15:23:53  14848 bytes
+C:\WINDOWS\system32\services.exe  2001-08-23 18:00:00  2004-08-26 14:58:03  101376 bytes
+C:\WINDOWS\System32\shgina.dll  2001-08-23 18:00:00  2004-08-26 15:10:12  62464 bytes
+C:\WINDOWS\system32\rundll32.exe  2001-08-23 18:00:00  2004-08-26 15:05:06  31744 bytes
+C:\WINDOWS\system32\wbem\wmiprvse.exe  2001-08-23 18:00:00  2004-08-26 15:51:44  203264 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe  2001-08-23 18:00:00  2004-08-20 15:25:32  209408 bytes
+C:\WINDOWS\system32\svchost.exe  2001-08-23 18:00:00  2004-08-26 14:58:06  12800 bytes
+    1970-01-01 00:00:00  0 bytes
+C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe  2004-08-25 15:51:23  2004-08-25 15:55:26  2160043 bytes
+C:\WINDOWS\system32\userinit.exe  2001-08-23 18:00:00  2004-08-26 14:58:10  21504 bytes
+C:\WINDOWS\system32\dumprep.exe  2001-08-23 18:00:00  2004-08-25 15:25:47  30208 bytes
+C:\WINDOWS\system32\drwtsn32.exe  2001-08-23 18:00:00  2004-08-20 15:25:44  45568 bytes
+C:\WINDOWS\system32\logonui.exe  2001-08-23 18:00:00  2004-08-26 16:03:54  504320 bytes
+C:\WINDOWS\msagent\agentsvr.exe  2001-08-23 18:00:00  2004-08-25 16:20:35  235008 bytes
+C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe  2001-10-22 21:15:52  2004-08-20 15:11:56  961120 bytes
+C:\WINDOWS\system32\dwwin.exe  2001-08-23 18:00:00  2004-08-25 15:25:50  162128 bytes
+C:\Program Files\Agent\agent.exe  2002-01-23 03:51:15  2004-08-25 15:55:34  2850336 bytes
+C:\WINDOWS\system32\spoolsv.exe  2001-08-23 18:00:00  2004-08-26 14:58:10  51200 bytes
+
+----------------------------------------
+1093620587|REG|||[Program Execution] - C:\WINDOWS\System32\mydocs.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mydocs.dll [Size = 88064 bytes]
+1093015074|REG|||[Program Execution] - C:\WINDOWS\System32\CuteShell.dll
+927239958|REG|||M... AppCompatCache - C:\WINDOWS\System32\CuteShell.dll [Size = 147456 bytes]
+1093535503|REG|||[Program Execution] - C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe [Size = 694272 bytes]
+1093015398|REG|||[Program Execution] - C:\WINDOWS\System32\wuaueng.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\wuaueng.dll [Size = 95744 bytes]
+1093619717|REG|||[Program Execution] - C:\Program Files\WinPcap\daemon_mgm.exe
+1055531039|REG|||M... AppCompatCache - C:\Program Files\WinPcap\daemon_mgm.exe [Size = 49152 bytes]
+1093015435|REG|||[Program Execution] - C:\WINDOWS\system32\wbem\wmiadap.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiadap.exe [Size = 183808 bytes]
+1093621560|REG|||[Program Execution] - C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL
+1026432092|REG|||M... AppCompatCache - C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL [Size = 274432 bytes]
+1092956703|REG|||[Program Execution] - C:\WINDOWS\system32\mstinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\mstinit.exe [Size = 9728 bytes]
+1093620516|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe
+1093620264|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\ethereal-setup-0.10.6.exe [Size = 8460502 bytes]
+1092956677|REG|||[Program Execution] - C:\Program Files\Outlook Express\setup50.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\setup50.exe [Size = 66560 bytes]
+1093036403|REG|||[Program Execution] - C:\Program Files\Outlook Express\msimn.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\msimn.exe [Size = 57344 bytes]
+1093620781|REG|||[Program Execution] - C:\Program Files\Cain\Cain.exe
+1071286324|REG|||M... AppCompatCache - C:\Program Files\Cain\Cain.exe [Size = 2064384 bytes]
+1093014378|REG|||[Program Execution] - C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe
+1050041358|REG|||M... AppCompatCache - C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe [Size = 440557 bytes]
+1093532678|REG|||[Program Execution] - C:\WINDOWS\System32\mstask.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mstask.dll [Size = 249856 bytes]
+1093535178|REG|||[Program Execution] - C:\WINDOWS\system32\defrag.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\defrag.exe [Size = 109568 bytes]
+1093619306|REG|||[Program Execution] - C:\Program Files\Messenger\msmsgs.exe
+996754473|REG|||M... AppCompatCache - C:\Program Files\Messenger\msmsgs.exe [Size = 1077277 bytes]
+1093619305|REG|||[Program Execution] - C:\WINDOWS\explorer.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\explorer.exe [Size = 1000960 bytes]
+1093619545|REG|||[Program Execution] - C:\WINDOWS\System32\zipfldr.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\zipfldr.dll [Size = 317952 bytes]
+1093015159|REG|||[Program Execution] - C:\WINDOWS\System32\dfsshlex.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\dfsshlex.dll [Size = 25088 bytes]
+1093621362|REG|||[Program Execution] - C:\WINDOWS\System32\cscui.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\cscui.dll [Size = 305664 bytes]
+1093447647|REG|||[Program Execution] - C:\Program Files\Faber Toys\Faber Toys.exe
+1025657641|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\Faber Toys.exe [Size = 835584 bytes]
+1093619538|REG|||[Program Execution] - C:\WINDOWS\hh.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\hh.exe [Size = 26647 bytes]
+1093619838|REG|||[Program Execution] - C:\WINDOWS\System32\msieftp.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\msieftp.dll [Size = 232448 bytes]
+1093450827|REG|||[Program Execution] - C:\Program Files\mIRC\mirc.exe
+1093014595|REG|||M... AppCompatCache - C:\Program Files\mIRC\mirc.exe [Size = 1867776 bytes]
+1093619531|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe
+1093619467|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\netstumblerinstaller_0_4_0.exe [Size = 1324940 bytes]
+1093536209|REG|||[Program Execution] - C:\WINDOWS\System32\shimgvw.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shimgvw.dll [Size = 419840 bytes]
+1093533903|REG|||[Program Execution] - C:\WINDOWS\system32\logon.scr
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logon.scr [Size = 219648 bytes]
+1092956654|REG|||[Program Execution] - C:\WINDOWS\system32\ie4uinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ie4uinit.exe [Size = 28160 bytes]
+1093014786|REG|||[Program Execution] - C:\WINDOWS\system32\regsvr32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\regsvr32.exe [Size = 9728 bytes]
+1093532774|REG|||[Program Execution] - C:\Program Files\Look@LAN\LookAtLan.exe
+1077097899|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtLan.exe [Size = 864768 bytes]
+1093619775|REG|||[Program Execution] - C:\WINDOWS\system32\taskmgr.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\taskmgr.exe [Size = 128512 bytes]
+1093533237|REG|||[Program Execution] - C:\Program Files\Whois\whois.exe
+1091018313|REG|||M... AppCompatCache - C:\Program Files\Whois\whois.exe [Size = 107524 bytes]
+1093620894|REG|||[Program Execution] - C:\Program Files\Ethereal\ethereal.exe
+1092363335|REG|||M... AppCompatCache - C:\Program Files\Ethereal\ethereal.exe [Size = 1923920 bytes]
+1093619555|REG|||[Program Execution] - C:\Program Files\Network Stumbler\NetStumbler.exe
+1082531818|REG|||M... AppCompatCache - C:\Program Files\Network Stumbler\NetStumbler.exe [Size = 561152 bytes]
+1093447424|REG|||[Program Execution] - C:\WINDOWS\system32\cmd.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\cmd.exe [Size = 375808 bytes]
+1092956703|REG|||[Program Execution] - C:\WINDOWS\system32\NETSHELL.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\NETSHELL.dll [Size = 1618944 bytes]
+1093535178|REG|||[Program Execution] - C:\WINDOWS\system32\dfrgntfs.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dfrgntfs.exe [Size = 85504 bytes]
+1093533280|REG|||[Program Execution] - C:\WINDOWS\System32\webcheck.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\webcheck.dll [Size = 258560 bytes]
+1093619691|REG|||[Program Execution] - C:\Program Files\WinPcap\Uninstall.exe
+1037675967|REG|||M... AppCompatCache - C:\Program Files\WinPcap\Uninstall.exe [Size = 218112 bytes]
+1093619717|REG|||[Program Execution] - C:\Program Files\WinPcap\npf_mgm.exe
+1055531075|REG|||M... AppCompatCache - C:\Program Files\WinPcap\npf_mgm.exe [Size = 49152 bytes]
+1093619698|REG|||[Program Execution] - C:\Program Files\1L93GJAJ.bat
+1093619698|REG|||M... AppCompatCache - C:\Program Files\1L93GJAJ.bat [Size = 180 bytes]
+1092955852|REG|||[Program Execution] - C:\WINDOWS\system32\oobe\msoobe.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\oobe\msoobe.exe [Size = 28160 bytes]
+1093014725|REG|||[Program Execution] - C:\WINDOWS\system32\msiexec.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\msiexec.exe [Size = 63488 bytes]
+1093619299|REG|||[Program Execution] - C:\WINDOWS\system32\lsass.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\lsass.exe [Size = 11776 bytes]
+1093014556|REG|||[Program Execution] - C:\Program Files\Windows NT\Accessories\wordpad.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Windows NT\Accessories\wordpad.exe [Size = 200192 bytes]
+1093620587|REG|||[Program Execution] - C:\WINDOWS\System32\shdocvw.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shdocvw.dll [Size = 1338880 bytes]
+1093015596|REG|||[Program Execution] - C:\WINDOWS\System32\browseui.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\browseui.dll [Size = 1020416 bytes]
+1092956674|REG|||[Program Execution] - C:\WINDOWS\inf\unregmp2.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\inf\unregmp2.exe [Size = 229376 bytes]
+1093619708|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe
+1093619660|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\WinPcap_3_01_a.exe [Size = 442417 bytes]
+1093532715|REG|||[Program Execution] - C:\WINDOWS\system32\telnet.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\telnet.exe [Size = 70144 bytes]
+1093447615|REG|||[Program Execution] - C:\Program Files\Faber Toys\FTInit.exe
+1026272479|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\FTInit.exe [Size = 86016 bytes]
+1093017040|REG|||[Program Execution] - C:\WINDOWS\system32\notepad.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\notepad.exe [Size = 66048 bytes]
+1093532305|REG|||[Program Execution] - C:\Program Files\Look@LAN\LookAtHost.exe
+1055937616|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtHost.exe [Size = 335360 bytes]
+1093015398|REG|||[Program Execution] - C:\WINDOWS\System32\remotepg.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\remotepg.dll [Size = 56320 bytes]
+1093533280|REG|||[Program Execution] - C:\WINDOWS\system32\urlmon.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\urlmon.dll [Size = 452096 bytes]
+1093619299|REG|||[Program Execution] - C:\WINDOWS\system32\services.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\services.exe [Size = 101376 bytes]
+1093447433|REG|||[Program Execution] - C:\WINDOWS\system32\ping.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ping.exe [Size = 14848 bytes]
+1093621373|REG|||[Program Execution] - C:\WINDOWS\System32\shgina.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shgina.dll [Size = 62464 bytes]
+1093620677|REG|||[Program Execution] - C:\WINDOWS\system32\rundll32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\rundll32.exe [Size = 31744 bytes]
+1093535504|REG|||[Program Execution] - C:\WINDOWS\system32\wbem\wmiprvse.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiprvse.exe [Size = 203264 bytes]
+1093619302|REG|||[Program Execution] - C:\WINDOWS\system32\svchost.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\svchost.exe [Size = 12800 bytes]
+1093015532|REG|||[Program Execution] - C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe [Size = 209408 bytes]
+1093619305|REG|||[Program Execution] - C:\WINDOWS\system32\userinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\userinit.exe [Size = 21504 bytes]
+1093449326|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe
+1093449083|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe [Size = 2160043 bytes]
+1093447547|REG|||[Program Execution] - C:\WINDOWS\system32\dumprep.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dumprep.exe [Size = 30208 bytes]
+1093621576|REG|||[Program Execution] - C:\WINDOWS\system32\logonui.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logonui.exe [Size = 504320 bytes]
+1093015544|REG|||[Program Execution] - C:\WINDOWS\system32\drwtsn32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\drwtsn32.exe [Size = 45568 bytes]
+1093450835|REG|||[Program Execution] - C:\WINDOWS\msagent\agentsvr.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\msagent\agentsvr.exe [Size = 235008 bytes]
+1093014716|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe
+1003785352|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe [Size = 961120 bytes]
+1093447550|REG|||[Program Execution] - C:\WINDOWS\system32\dwwin.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dwwin.exe [Size = 162128 bytes]
+1093449334|REG|||[Program Execution] - C:\Program Files\Agent\agent.exe
+1011757875|REG|||M... AppCompatCache - C:\Program Files\Agent\agent.exe [Size = 2850336 bytes]
+1093619305|REG|||[Program Execution] - C:\WINDOWS\system32\spoolsv.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\spoolsv.exe [Size = 51200 bytes]
+1093014668|REG|||[Program Execution] - C:\WINDOWS\System32\mydocs.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mydocs.dll [Size = 88064 bytes]
+1093015074|REG|||[Program Execution] - C:\WINDOWS\System32\CuteShell.dll
+927239958|REG|||M... AppCompatCache - C:\WINDOWS\System32\CuteShell.dll [Size = 147456 bytes]
+1093535503|REG|||[Program Execution] - C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\PCHEALTH\HELPCTR\Binaries\HelpSvc.exe [Size = 694272 bytes]
+1093015398|REG|||[Program Execution] - C:\WINDOWS\System32\wuaueng.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\wuaueng.dll [Size = 95744 bytes]
+1093015435|REG|||[Program Execution] - C:\WINDOWS\system32\wbem\wmiadap.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiadap.exe [Size = 183808 bytes]
+1093536197|REG|||[Program Execution] - C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL
+1026432092|REG|||M... AppCompatCache - C:\PROGRA~1\ANONYM~1\Core\ANONYM~1.DLL [Size = 274432 bytes]
+1092956703|REG|||[Program Execution] - C:\WINDOWS\system32\mstinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\mstinit.exe [Size = 9728 bytes]
+1092956677|REG|||[Program Execution] - C:\Program Files\Outlook Express\setup50.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\setup50.exe [Size = 66560 bytes]
+1093036403|REG|||[Program Execution] - C:\Program Files\Outlook Express\msimn.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Outlook Express\msimn.exe [Size = 57344 bytes]
+1093450711|REG|||[Program Execution] - C:\Program Files\Cain\Cain.exe
+1071286324|REG|||M... AppCompatCache - C:\Program Files\Cain\Cain.exe [Size = 2064384 bytes]
+1093014378|REG|||[Program Execution] - C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe
+1050041358|REG|||M... AppCompatCache - C:\Program Files\Cain\Driver\WinPcap_3_0_1a.exe [Size = 440557 bytes]
+1093532678|REG|||[Program Execution] - C:\WINDOWS\System32\mstask.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\mstask.dll [Size = 249856 bytes]
+1093535178|REG|||[Program Execution] - C:\WINDOWS\system32\defrag.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\defrag.exe [Size = 109568 bytes]
+1093532291|REG|||[Program Execution] - C:\Program Files\Messenger\msmsgs.exe
+996754473|REG|||M... AppCompatCache - C:\Program Files\Messenger\msmsgs.exe [Size = 1077277 bytes]
+1093532290|REG|||[Program Execution] - C:\WINDOWS\explorer.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\explorer.exe [Size = 1000960 bytes]
+1093014806|REG|||[Program Execution] - C:\WINDOWS\System32\zipfldr.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\zipfldr.dll [Size = 317952 bytes]
+1093015159|REG|||[Program Execution] - C:\WINDOWS\System32\dfsshlex.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\dfsshlex.dll [Size = 25088 bytes]
+1093533281|REG|||[Program Execution] - C:\WINDOWS\System32\cscui.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\cscui.dll [Size = 305664 bytes]
+1093447647|REG|||[Program Execution] - C:\Program Files\Faber Toys\Faber Toys.exe
+1025657641|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\Faber Toys.exe [Size = 835584 bytes]
+1093014387|REG|||[Program Execution] - C:\Program Files\WinPcap\daemon_mgm.exe
+1049486633|REG|||M... AppCompatCache - C:\Program Files\WinPcap\daemon_mgm.exe [Size = 49152 bytes]
+1093533031|REG|||[Program Execution] - C:\WINDOWS\System32\msieftp.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\msieftp.dll [Size = 232448 bytes]
+1093450827|REG|||[Program Execution] - C:\Program Files\mIRC\mirc.exe
+1093014595|REG|||M... AppCompatCache - C:\Program Files\mIRC\mirc.exe [Size = 1867776 bytes]
+1093536209|REG|||[Program Execution] - C:\WINDOWS\System32\shimgvw.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shimgvw.dll [Size = 419840 bytes]
+1093533903|REG|||[Program Execution] - C:\WINDOWS\system32\logon.scr
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logon.scr [Size = 219648 bytes]
+1092956654|REG|||[Program Execution] - C:\WINDOWS\system32\ie4uinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ie4uinit.exe [Size = 28160 bytes]
+1093014786|REG|||[Program Execution] - C:\WINDOWS\system32\regsvr32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\regsvr32.exe [Size = 9728 bytes]
+1093532774|REG|||[Program Execution] - C:\Program Files\Look@LAN\LookAtLan.exe
+1077097899|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtLan.exe [Size = 864768 bytes]
+1093532871|REG|||[Program Execution] - C:\WINDOWS\system32\taskmgr.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\taskmgr.exe [Size = 128512 bytes]
+1093533237|REG|||[Program Execution] - C:\Program Files\Whois\whois.exe
+1091018313|REG|||M... AppCompatCache - C:\Program Files\Whois\whois.exe [Size = 107524 bytes]
+1093447424|REG|||[Program Execution] - C:\WINDOWS\system32\cmd.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\cmd.exe [Size = 375808 bytes]
+1092956703|REG|||[Program Execution] - C:\WINDOWS\system32\NETSHELL.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\NETSHELL.dll [Size = 1618944 bytes]
+1093535178|REG|||[Program Execution] - C:\WINDOWS\system32\dfrgntfs.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dfrgntfs.exe [Size = 85504 bytes]
+1093533280|REG|||[Program Execution] - C:\WINDOWS\System32\webcheck.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\webcheck.dll [Size = 258560 bytes]
+1093014725|REG|||[Program Execution] - C:\WINDOWS\system32\msiexec.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\msiexec.exe [Size = 63488 bytes]
+1092955852|REG|||[Program Execution] - C:\WINDOWS\system32\oobe\msoobe.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\oobe\msoobe.exe [Size = 28160 bytes]
+1093532283|REG|||[Program Execution] - C:\WINDOWS\system32\lsass.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\lsass.exe [Size = 11776 bytes]
+1093014556|REG|||[Program Execution] - C:\Program Files\Windows NT\Accessories\wordpad.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Windows NT\Accessories\wordpad.exe [Size = 200192 bytes]
+1093533280|REG|||[Program Execution] - C:\WINDOWS\System32\shdocvw.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shdocvw.dll [Size = 1338880 bytes]
+1093014386|REG|||[Program Execution] - C:\Program Files\WinPcap\npf_mgm.exe
+1049486673|REG|||M... AppCompatCache - C:\Program Files\WinPcap\npf_mgm.exe [Size = 49152 bytes]
+1093015596|REG|||[Program Execution] - C:\WINDOWS\System32\browseui.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\browseui.dll [Size = 1020416 bytes]
+1092956674|REG|||[Program Execution] - C:\WINDOWS\inf\unregmp2.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\inf\unregmp2.exe [Size = 229376 bytes]
+1093532715|REG|||[Program Execution] - C:\WINDOWS\system32\telnet.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\telnet.exe [Size = 70144 bytes]
+1093447615|REG|||[Program Execution] - C:\Program Files\Faber Toys\FTInit.exe
+1026272479|REG|||M... AppCompatCache - C:\Program Files\Faber Toys\FTInit.exe [Size = 86016 bytes]
+1093017040|REG|||[Program Execution] - C:\WINDOWS\system32\notepad.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\notepad.exe [Size = 66048 bytes]
+1093532305|REG|||[Program Execution] - C:\Program Files\Look@LAN\LookAtHost.exe
+1055937616|REG|||M... AppCompatCache - C:\Program Files\Look@LAN\LookAtHost.exe [Size = 335360 bytes]
+1093533280|REG|||[Program Execution] - C:\WINDOWS\system32\urlmon.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\urlmon.dll [Size = 452096 bytes]
+1093015398|REG|||[Program Execution] - C:\WINDOWS\System32\remotepg.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\remotepg.dll [Size = 56320 bytes]
+1093447433|REG|||[Program Execution] - C:\WINDOWS\system32\ping.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\ping.exe [Size = 14848 bytes]
+1093532283|REG|||[Program Execution] - C:\WINDOWS\system32\services.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\services.exe [Size = 101376 bytes]
+1093533012|REG|||[Program Execution] - C:\WINDOWS\System32\shgina.dll
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\System32\shgina.dll [Size = 62464 bytes]
+1093532706|REG|||[Program Execution] - C:\WINDOWS\system32\rundll32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\rundll32.exe [Size = 31744 bytes]
+1093535504|REG|||[Program Execution] - C:\WINDOWS\system32\wbem\wmiprvse.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\wbem\wmiprvse.exe [Size = 203264 bytes]
+1093015532|REG|||[Program Execution] - C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe
+998589600|REG|||M... AppCompatCache - C:\Program Files\Internet Explorer\Connection Wizard\icwconn1.exe [Size = 209408 bytes]
+1093532286|REG|||[Program Execution] - C:\WINDOWS\system32\svchost.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\svchost.exe [Size = 12800 bytes]
+1093449326|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe
+1093449083|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Desktop\lalsetup250.exe [Size = 2160043 bytes]
+1093532290|REG|||[Program Execution] - C:\WINDOWS\system32\userinit.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\userinit.exe [Size = 21504 bytes]
+1093447547|REG|||[Program Execution] - C:\WINDOWS\system32\dumprep.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dumprep.exe [Size = 30208 bytes]
+1093015544|REG|||[Program Execution] - C:\WINDOWS\system32\drwtsn32.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\drwtsn32.exe [Size = 45568 bytes]
+1093536234|REG|||[Program Execution] - C:\WINDOWS\system32\logonui.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\logonui.exe [Size = 504320 bytes]
+1093450835|REG|||[Program Execution] - C:\WINDOWS\msagent\agentsvr.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\msagent\agentsvr.exe [Size = 235008 bytes]
+1093014716|REG|||[Program Execution] - C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe
+1003785352|REG|||M... AppCompatCache - C:\Documents and Settings\Mr. Evil\Local Settings\Temp\Temporary Directory 1 for powertoysetup.zip\PowerToySetup.exe [Size = 961120 bytes]
+1093447550|REG|||[Program Execution] - C:\WINDOWS\system32\dwwin.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\dwwin.exe [Size = 162128 bytes]
+1093449334|REG|||[Program Execution] - C:\Program Files\Agent\agent.exe
+1011757875|REG|||M... AppCompatCache - C:\Program Files\Agent\agent.exe [Size = 2850336 bytes]
+1093532290|REG|||[Program Execution] - C:\WINDOWS\system32\spoolsv.exe
+998589600|REG|||M... AppCompatCache - C:\WINDOWS\system32\spoolsv.exe [Size = 51200 bytes]
+----------------------------------------
+shutdown v.20201005
+(System) Gets ShutdownTime value from System hive
+
+ControlSet001\Control\Windows key, ShutdownTime value
+LastWrite time: 2004-08-27 15:46:33Z
+ShutdownTime  : 2004-08-27 15:46:33Z
+----------------------------------------
+smb v.20220101
+(system) Get SMB server settings (v1, v2, v3)
+MITRE: T1562 (defense evasion)
+
+
+Keypath: ControlSet001\Services\LanmanServer\Parameters
+LastWrite time: 2004-08-19 22:53:10Z
+
+SMB1 value not found. SMBv1 may be enabled.
+SMB2 value not found. SMBv2/v3 may be enabled.
+
+Analysis Tip: SMBv1 has significant vulnerabilities, and MS encourages adminst to disable it. That said, threat 
+actors can enable it, exposing the server to those vulnerabilities, potentially as a means of persistence.
+SMBv1 is vulnerable to the MS17-010 vulnerability, known as "Eternal Blue".
+
+Ref: https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3
+----------------------------------------
+sourcerouting v.20210212
+(System) Get Source Routing setting
+MITRE: T1203 (execution)
+
+DisableIPSourceRouting value not found
+
+Analysis Tip: Disabling Source Routing (set value to 2) can help protect against CVE-2021-24074
+0 - No additional protection, source routed packets are allowed
+1 - Medium, source routed packets ignored when IP forwarding is enabled
+2 - Highest protection, source routing is completely disabled
+----------------------------------------
+source_os v.20220111
+(System) Parse Source OS subkey values
+MITRE:  (config)
+
+----------------------------------------
+spooler v.20230715
+(system) Check Spooler service RequiredPrivileges value
+MITRE: T1547.012 (privilege escalation)
+
+ControlSet001\Services\Spooler
+LastWrite time: 2004-08-27 15:07:59Z
+
+RequiredPrivileges value not found.
+
+Analysis Tip: A threat actor was observed performing privilege escalation by stopping the Spooler service,
+deleting the RequiredPrivileges value, restarting the Spooler service, and then injecting into the newly
+created spoolsv.exe process.
+
+Ref: https://thedfirreport.com/2023/06/12/a-truly-graceful-wipe-out/
+----------------------------------------
+symlink v.20220613
+(software,system) Check NTFS Symlink settings
+MITRE: T1562.001 (defense evasion)
+
+Key path: ControlSet001\Control\FileSystem
+LastWrite time: 2004-08-19 17:01:59Z
+
+
+Analysis Tip: A setting of "1" indicates that the evaluation is performed. The BlackCat ransomware was observed
+setting the R2L and R2R evaluations to "1" via fsutil.
+
+Ref: https://www.microsoft.com/security/blog/2022/06/13/the-many-lives-of-blackcat-ransomware/
+----------------------------------------
+Launching systemindex v.20201005
+(Software) Gets systemindex\..\Paths info from Windows Search key
+
+Microsoft\Windows Search\Gather\Windows\SystemIndex\Sites\LocalHost\Paths not found.
+----------------------------------------
+termcert v.20201005
+(System) Gets Terminal Server certificate
+
+ControlSet001\Services\TermService\Parameters
+LastWrite Time 2004-08-19 23:04:09Z
+
+01 00 00 00 01 00 00 00 01 00 00 00 06 00 5c 00    ...............     
+52 53 41 31 48 00 00 00 00 02 00 00 3f 00 00 00    RSA1H........       
+01 00 01 00 83 68 fa c9 46 e5 23 5b bd ea af e3    .....h..F.......    
+31 d6 85 61 11 71 a5 ba ca 2f f7 be 4b 5d 80 cf    1..a.q......K...    
+9e ba f2 84 be 9b 60 bb d2 c9 d1 56 d7 bd 02 7e    ...........V....    
+e2 43 0c 20 4b 10 fc 85 16 19 e7 73 8a 2c 8f bd    .C..K......s....    
+8d 2a e1 cb 00 00 00 00 00 00 00 00 08 00 48 00    ..............H     
+1a e9 52 73 fc 91 b0 88 90 f9 79 67 6a 2b 50 df    ..Rs......ygj.P.    
+86 5d 02 d6 41 42 75 c4 6e 29 27 09 e5 9f e8 b9    ....ABu.n.......    
+75 ce fe b0 26 36 2d 9a 8d eb 29 f8 a1 bf 7b 4d    u....6.........M    
+71 8b 57 10 b8 80 d3 37 44 15 1c a6 68 e1 8f 51    q.W....7D...h..Q    
+00 00 00 00 00 00 00 00                                                
+----------------------------------------
+termserv v.20220908
+MITRE: T1133 (persistence)
+
+ControlSet001\Control\Terminal Server
+LastWrite Time 2004-08-19 23:04:09Z
+
+  ProductVersion = 5.1
+
+  fDenyTSConnections = 1
+  1 = connections denied
+
+
+  TSAdvertise = 0
+  0 = disabled, 1 = enabled (advertise Terminal Services)
+  Ref: http://support.microsoft.com/kb/281307
+
+  TSEnabled = 1
+  0 = disabled, 1 = enabled (Terminal Services enabled)
+  Ref: http://support.microsoft.com/kb/222992
+
+  TSUserEnabled = 0
+  1 = All users logging in are automatically part of the
+  built-in Terminal Server User group. 0 = No one is a
+  member of the built-in group.
+  Ref: http://support.microsoft.com/kb/238965
+
+  fAllowToGetHelp = 1
+  1 = Users can request assistance from friend or a support professional.
+  Ref: http://www.pctools.com/guides/registry/detail/1213/
+AutoStart Locations
+Wds\rdpwd key
+  StartupPrograms: rdpclip
+Analysis Tip: This value usually contains 'rdpclip'; any additional entries 
+should be investigated.
+
+WinStations\RDP-Tcp key
+  InitialProgram: {blank}
+Analysis Tip: Maybe be empty; appears as '{blank}'
+SysProcs key values
+LastWrite: 2004-08-19 22:25:28Z
+  csrss.exe - 0
+  smss.exe - 0
+  screg.exe - 0
+  lsass.exe - 0
+  spoolss.exe - 0
+  EventLog.exe - 0
+  netdde.exe - 0
+  clipsrv.exe - 0
+  lmsvcs.exe - 0
+  MsgSvc.exe - 0
+  winlogon.exe - 0
+  NETSTRS.EXE - 0
+  nddeagnt.exe - 0
+  os2srv.exe - 0
+  wfshell.exe - 0
+  win.com - 0
+  rdpclip.exe - 0
+  conime.exe - 0
+  proquota.exe - 0
+  imepadsv.exe - 0
+  ctfmon.exe - 0
+
+UserAuthentication value not found.
+
+WinStations\RDP-Tcp key
+  PortNumber: 3389
+Analysis Tip: By default, the port number is 3389, but can be changed.
+Policies\Microsoft\Windows NT\Terminal Services not found.
+----------------------------------------
+tgt v.20201116
+(System) Lists allowtgtsessionkey value data
+MITRE: T1558.003 (credential access)
+
+----------------------------------------
+timeproviders v.20200813
+(System) Check time providers for hijacking
+Category: program execution - T1547.003
+
+
+ControlSet001\Services\W32Time\TimeProviders\NtpClient
+LastWrite time: 2004-08-27 15:46:28Z
+DllName value: C:\WINDOWS\System32\w32time.dll
+
+ControlSet001\Services\W32Time\TimeProviders\NtpServer
+LastWrite time: 2004-08-19 22:32:20Z
+DllName value: C:\WINDOWS\System32\w32time.dll
+
+Analysis Tip: Threat actors can register a malicious time provider by changing the "DllName" value. The value should
+point to %systemroot%\system32\w32time.dll.
+
+Ref: https://github.com/blackc03r/OSCP-Cheatsheets/blob/master/offensive-security/persistence/t1209-hijacking-time-providers.md
+Ref: https://attack.mitre.org/techniques/T1547/003/
+----------------------------------------
+timezone v.20201005
+(System) Get TimeZoneInformation key contents
+
+TimeZoneInformation key
+ControlSet001\Control\TimeZoneInformation
+LastWrite Time 2004-08-19 17:20:02Z
+  DaylightName   -> Central Daylight Time
+  StandardName   -> Central Standard Time
+  Bias           -> 360 (6 hours)
+  ActiveTimeBias -> 300 (5 hours)
+----------------------------------------
+tls v.20210122
+(System) Check TLS settings
+
+ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client not found.
+ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client not found.
+
+Analysis Tip: Disabling the TLS client settings serves to remove security settings on the client side.
+----------------------------------------
+trailersupport v.20220111
+(System) Check EnableTrailerSupport value (CVE-2022-21907)
+
+ControlSet001\Services\HTTP\Parameters not found.
+
+Analysis Tip: MS's patch for CVE-2022-21907 indicates that the vulnerable condition is not enabled by
+default. Setting the EnableTrailerSupport value to "1" enables the vulnerable condition.
+----------------------------------------
+triggerinfo v.20201020
+(system) Checks Services TriggerInfo settings
+MITRE: T1546 (persistence)
+
+
+Analysis Tip: Services can be configured to perform actions based on trigger events.
+Ref: https://docs.microsoft.com/en-us/windows/win32/api/winsvc/ns-winsvc-service_trigger
+Ref: https://docs.microsoft.com/en-us/windows/win32/services/service-trigger-events
+----------------------------------------
+tsutilities v.20200806
+(system) Checks TermServ Utilities
+MITRE: T1547 (persistence)
+
+Name     : change
+LastWrite: 2004-08-19 22:25:27Z
+  logon           0 1 LOGON chglogon.exe        
+  port            0 1 PORT chgport.exe          
+  user            0 1 USER chgusr.exe           
+  winsta          1 1 WINSTA chglogon.exe       
+
+Name     : query
+LastWrite: 2004-08-19 22:25:27Z
+  appserver       0 2 TERMSERVER qappsrv.exe    
+  process         0 1 PROCESS qprocess.exe      
+  session         0 1 SESSION qwinsta.exe       
+  user            0 1 USER quser.exe            
+  winsta          1 1 WINSTA qwinsta.exe        
+
+Name     : reset
+LastWrite: 2004-08-19 22:25:27Z
+  session         0 1 SESSION rwinsta.exe       
+  winsta          1 1 WINSTA rwinsta.exe        
+
+Analysis Tips: Look for new values added to the various keys, or key LastWrite times that occur during the incident
+  timeframe.
+----------------------------------------
+usb v.20200916
+(System) Get USB key info
+
+USBStor
+ControlSet001\Enum\USB
+
+ROOT_HUB [2004-08-19 16:56:14Z]
+  S/N: 4&15736a3f&0 [2004-08-27 15:08:10Z]
+
+----------------------------------------
+usbdevices v.20220524
+(System) Parses Enum\USB key for USB & WPD devices
+
+ROOT_HUB
+  4&15736a3f&0
+    DeviceDesc     : USB Root Hub                  
+    Mfg            : (Standard USB Host Controller)
+    Service        : usbhub                        
+
+----------------------------------------
+----------------------------------------
+usbstor v.20220524
+(System) Parses Enum\USBStor key
+
+ControlSet001\Enum\USBStor not found.
+----------------------------------------
+usbdevices v.20220524
+(System) Parses Enum\USB key for USB & WPD devices
+
+ControlSet001\Enum\USBStor not found.
+----------------------------------------
+----------------------------------------
+usn v.20220101
+(system) Get USN change journal settings on Windows Server
+MITRE: T1562 (defense evasion)
+
+ControlSet001\Services\SrmSvc\Settings not found.
+
+Analysis Tip: USN Change Journal creation can be disabled on Windows Server. The USN Change Journal is 
+recognized as a valuable investigative resource, and disabling it can significantly inhibit an investigation.
+
+Ref: https://docs.microsoft.com/en-us/windows-server/storage/fsrm/fsrm-overview
+----------------------------------------
+utilities v.20221231
+(System) Get TS Utilities subkey values
+Category: persistence - T1546
+
+ControlSet001\Control\Terminal Server\Utilities\change
+LastWrite time: 2004-08-19 22:25:27Z
+logon           0 1 LOGON chglogon.exe
+port            0 1 PORT chgport.exe
+user            0 1 USER chgusr.exe
+winsta          1 1 WINSTA chglogon.exe
+
+ControlSet001\Control\Terminal Server\Utilities\query
+LastWrite time: 2004-08-19 22:25:27Z
+appserver       0 2 TERMSERVER qappsrv.exe
+process         0 1 PROCESS qprocess.exe
+session         0 1 SESSION qwinsta.exe
+user            0 1 USER quser.exe
+winsta          1 1 WINSTA qwinsta.exe
+
+ControlSet001\Control\Terminal Server\Utilities\reset
+LastWrite time: 2004-08-19 22:25:27Z
+session         0 1 SESSION rwinsta.exe
+winsta          1 1 WINSTA rwinsta.exe
+
+Analysis Tip: The "query" subkey beneath "\Terminal Server\Utilities" can be used for persistence. Look for 
+unusual value names.
+
+Ref: https://twitter.com/0gtweet/status/1607690354068754433
+----------------------------------------
+volsnap v.20210128
+(System) Check VSS\Diag settings
+
+ControlSet001\Services\VSS\Diag not found.
+
+Analysis Tip: No tip; as of 20210128, this plugin is for testing purposes.
+----------------------------------------
+----------------------------------------
+vss v.20210128
+(System) Check VSS\Diag settings
+MITRE: T1562.001 (defense evasion)
+
+ControlSet001\Services\VSS\Diag not found.
+
+Analysis Tip: A "(Default)" setting of "Disabled" disables VSS Legacy Tracing, and prevents
+Windows Backup from running. If the value is set, no reboot is required.
+----------------------------------------
+wdfilter v.20201229
+MITRE: T1562.001 (defense evasion)
+
+ControlSet001\Services\WdFilter\Instances\WdFilter Instance not found.
+----------------------------------------
+wpbt v.20220718
+(system) Get Windows Platform Binary Table Settings
+MITRE ATT&CK technique: T1542.001 (persistence)
+
+ControlSet001\Control\Session Manager
+LastWrite time: 2004-08-26 14:57:58Z
+
+
+Analysis Tip: Setting the DisableWpbtExecution to "1" disables reading of the platform binary table.
+
+Ref: https://persistence-info.github.io/Data/wpbbin.html
+Ref: https://grzegorztworek.medium.com/using-uefi-to-inject-executable-files-into-bitlocker-protected-drives-8ff4ca59c94c
+----------------------------------------
+wpdbusenum v.20220524
+(System) Parses Enum\SWD\WPDBUSENUM key
+
+ControlSet001\Enum\SWD\WPDBUSENUM not found.
+----------------------------------------
+----------------------------------------
+Launching wtg v.20200909
+wtg v.20200909
+(system) Check for Windows To Go setting
+
+ControlSet001\Control
+LastWrite Time: 2004-08-27 15:08:20Z
+
+PortableOperatingSystem value not found.
+----------------------------------------
+zerologon v.20200922
+(System) Check Registry setting to protect against ZeroLogon exploit
+
+ControlSet001\Services\NetLogon\Parameters
+LastWrite time: 2004-08-19 22:20:59Z
+
+FullSecureChannelProtection value not found.
+
+Analysis Tip: The ControlSet001\Services\NetLogon\Parameters\FullSecureChannelProtection value needs to set to 
+"1" in order to fully protect a patched system (CVE-2020-1472).
+
+Ref: https://twitter.com/h0tz3npl0tz/status/1308154057794744325
+     https://www.cynet.com/zerologon/
+     https://blog.zsec.uk/zerologon-attacking-defending/
+----------------------------------------

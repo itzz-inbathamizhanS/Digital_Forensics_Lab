@@ -1,0 +1,8 @@
+Parsed Plugins file.
+autopsylogin complete.
+autopsyrecentdocs complete.
+arunmru complete.
+autopsyshellfolders complete.
+officedocs2010 complete.
+officedocs complete.
+autopsyntusernetwork complete.

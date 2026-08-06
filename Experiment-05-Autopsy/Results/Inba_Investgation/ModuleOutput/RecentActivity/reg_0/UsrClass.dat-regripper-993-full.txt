@@ -1,0 +1,65 @@
+appx v.20200904
+(NTUSER.DAT, USRCLASS.DAT) Checks for persistence via Universal Windows Platform Apps
+MITRE: T1546 (persistence)
+
+----------------------------------------
+----------------------------------------
+clsid v.20200904
+(Software, USRCLASS.DAT) Get list of CLSID/registered classes
+MITRE: T1546.015 (persistence)
+
+CLSID not found.
+----------------------------------------
+CLSID not found.
+----------------------------------------
+muicache v.20221121
+(NTUSER.DAT,USRCLASS.DAT) Gets EXEs from user's MUICache key
+MITRE: T1059 (program execution)
+
+Local Settings\Software\Microsoft\Windows\Shell\MUICache not found.
+
+Analysis Tip: MUICache holds information from apps run by the user, incorporating metadata from the file's
+.rsrc section, or file version information. This artifact does NOT include time stamps.
+
+Ref: https://www.magnetforensics.com/blog/forensic-analysis-of-muicache-files-in-windows/
+Ref: https://www.youtube.com/watch?v=ea2nvxN878s&t=2s
+----------------------------------------
+photos v.20200922
+(USRCLASS.DAT) Images opened via Win8 Photos App
+
+Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\microsoft.windowsphotos_8wekyb3d8bbwe\PersistedStorageItemTable\ManagedByApp key not found.
+----------------------------------------
+recyclepersist v.20230123
+(Software, USRCLASS.DAT) Check for persistence via Recycle Bin
+Category: persistence (MITRE T1546)
+
+CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\open\command not found.
+
+Analysis Tip: Adding a \shell\open\command value to the Recycle Bin will allow the program to be launched
+when the Recycle Bin is opened. This key path does not exist by default; however, the \shell\empty\command
+key path does.
+
+Ref: https://github.com/D1rkMtr/RecyclePersist
+----------------------------------------
+scriptleturl v.20201005
+(Software, USRCLASS.DAT) Check CLSIDs for ScriptletURL subkeys
+MITRE: T1218.010 (persistence)
+
+----------------------------------------
+shellbags v.20200831
+(USRCLASS.DAT, NTUSER.DAT) Shell/BagMRU traversal in Win7+ USRCLASS.DAT hives
+
+Local Settings\Software\Microsoft\Windows\Shell\BagMRU not found.
+----------------------------------------
+Local Settings\Software\Microsoft\Windows\Shell\BagMRU not found.
+----------------------------------------
+shellbags_xp v.20200831
+(USRCLASS.DAT, NTUSER.DAT) Shell/BagMRU traversal in XP USRCLASS.DAT hives
+
+Software\Microsoft\Windows\ShellNoRoam\BagMRU not found.
+----------------------------------------
+uacbypass v.20200924
+(USRCLASS.DAT, Software) Get possible UAC bypass settings
+MITRE: T1548.002 (defense evasion)
+
+----------------------------------------

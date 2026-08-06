@@ -1,0 +1,4 @@
+Parsed Plugins file.
+autopsywinver complete.
+autopsyuninstall complete.
+autopsyprofilelist complete.

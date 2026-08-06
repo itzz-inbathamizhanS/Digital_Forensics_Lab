@@ -1,0 +1,56 @@
+<WinVersion>
+<mtime></mtime>
+<artifacts>
+<winver name="ProductName">Microsoft Windows XP</winver>
+<winver name="InstallDate">Thu Aug 19 22:48:27 2004</winver>
+<winver name="RegisteredOwner">Greg Schardt</winver>
+<winver name="RegisteredOrganization">N/A</winver>
+<winver name="SystemRoot">C:\WINDOWS</winver>
+<winver name="ProductId">55274-640-0147306-23684</winver>
+</artifacts></WinVersion>
+----------------------------------------
+<uninstall>
+<artifacts>
+<item mtime="Fri Aug 27 15:29:19 2004">Ethereal 0.10.6 v.0.10.6</item>
+<item mtime="Fri Aug 27 15:15:19 2004">WinPcap 3.01 alpha</item>
+<item mtime="Fri Aug 27 15:12:15 2004">Network Stumbler 0.4.0 (remove only)</item>
+<item mtime="Wed Aug 25 15:56:11 2004">Look@LAN 2.50 Build 29</item>
+<item mtime="Fri Aug 20 15:13:08 2004">123 Write All Stored Passwords</item>
+<item mtime="Fri Aug 20 15:12:43 2004">Powertoys For Windows XP v.1.00.0000</item>
+<item mtime="Fri Aug 20 15:10:04 2004">mIRC</item>
+<item mtime="Fri Aug 20 15:09:03 2004">CuteHTML</item>
+<item mtime="Fri Aug 20 15:09:02 2004">CuteFTP</item>
+<item mtime="Fri Aug 20 15:08:19 2004">Forté Agent</item>
+<item mtime="Fri Aug 20 15:07:25 2004">Faber Toys v.2.4 Build 216</item>
+<item mtime="Fri Aug 20 15:05:58 2004">Cain & Abel v2.5 beta45</item>
+<item mtime="Fri Aug 20 15:05:09 2004">Anonymizer Bar 2.0 (remove only)</item>
+<item mtime="Thu Aug 19 23:04:50 2004">WebFldrs XP v.9.50.5318</item>
+<item mtime="Thu Aug 19 23:04:36 2004">Microsoft NetShow Player 2.0</item>
+<item mtime="Thu Aug 19 23:04:36 2004">MPlayer2</item>
+<item mtime="Thu Aug 19 22:37:31 2004">Branding</item>
+<item mtime="Thu Aug 19 22:32:06 2004">PCHealth</item>
+<item mtime="Thu Aug 19 22:31:52 2004">DirectAnimation</item>
+<item mtime="Thu Aug 19 22:31:52 2004">NetMeeting</item>
+<item mtime="Thu Aug 19 22:31:51 2004">AddressBook</item>
+<item mtime="Thu Aug 19 22:31:51 2004">ICW</item>
+<item mtime="Thu Aug 19 22:31:51 2004">OutlookExpress</item>
+<item mtime="Thu Aug 19 22:31:32 2004">DirectDrawEx</item>
+<item mtime="Thu Aug 19 22:31:32 2004">Fontcore</item>
+<item mtime="Thu Aug 19 22:31:32 2004">IE40</item>
+<item mtime="Thu Aug 19 22:31:32 2004">IE4Data</item>
+<item mtime="Thu Aug 19 22:31:32 2004">IE5BAKEX</item>
+<item mtime="Thu Aug 19 22:31:32 2004">IEData</item>
+<item mtime="Thu Aug 19 22:31:32 2004">MobileOptionPack</item>
+<item mtime="Thu Aug 19 22:31:32 2004">SchedulingAgent</item>
+<item mtime="Thu Aug 19 22:21:41 2004">Connection Manager</item>
+</artifacts></uninstall>
+----------------------------------------
+<ProfileList>
+<mtime></mtime>
+<artifacts>
+<user sid="S-1-5-18" username="systemprofile">%systemroot%\system32\config\systemprofile</user>
+<user sid="S-1-5-19" username="LocalService">%SystemDrive%\Documents and Settings\LocalService</user>
+<user sid="S-1-5-20" username="NetworkService">%SystemDrive%\Documents and Settings\NetworkService</user>
+<user sid="S-1-5-21-2000478354-688789844-1708537768-1003" username="Mr">%SystemDrive%\Documents and Settings\Mr. Evil</user>
+</artifacts></ProfileList>
+----------------------------------------
