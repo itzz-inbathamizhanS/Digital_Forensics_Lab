@@ -1,0 +1,224 @@
+﻿PassMark Volatility Workbench Log file  -  http://www.passmark.com
+==================================================================
+Volatility Workbench Version: V3.0 Build 1016
+Volatility 3 Framework Version: 2.27.0
+Log Date: Sun Aug  9 19:22:04 2026
+
+
+Time Stamp: Sun Aug  9 19:05:22 2026
+
+"C:\Users\tamil\Downloads\VolatilityWorkbench\vol.exe" -f "A:\DF\Inba.raw" windows.pslist.PsList
+Volatility 3 Framework 2.26.2
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+4	0	System	0xbb0bd56ba040	313	-	N/A	False	2026-08-09 12:23:39.000000 UTC	N/A	Disabled
+188	4	Secure System	0xbb0bd587d040	0	-	N/A	False	2026-08-09 12:23:36.000000 UTC	N/A	Disabled
+232	4	Registry	0xbb0bd5cee080	4	-	N/A	False	2026-08-09 12:23:36.000000 UTC	N/A	Disabled
+740	4	smss.exe	0xbb0bd8bac080	2	-	N/A	False	2026-08-09 12:23:39.000000 UTC	N/A	Disabled
+924	964	csrss.exe	0xbb0be1fb1080	13	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1060	964	wininit.exe	0xbb0be4ef3100	3	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1068	1048	csrss.exe	0xbb0be4fb7180	15	-	1	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1132	1048	winlogon.exe	0xbb0be4f1c180	5	-	1	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1208	1060	services.exe	0xbb0be3a28080	7	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1232	1060	LsaIso.exe	0xbb0be3abe0c0	1	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1240	1060	lsass.exe	0xbb0be3ab9080	10	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1376	1208	svchost.exe	0xbb0be3b5d080	17	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1388	1208	WUDFHost.exe	0xbb0be3b5a080	25	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1444	1060	fontdrvhost.ex	0xbb0be3b73080	5	-	0	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1452	1132	fontdrvhost.ex	0xbb0be3b74080	5	-	1	False	2026-08-09 12:23:46.000000 UTC	N/A	Disabled
+1536	1208	svchost.exe	0xbb0be3ab3080	10	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1620	1208	WUDFHost.exe	0xbb0be3c89080	12	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1696	1208	WUDFHost.exe	0xbb0be3cb7080	5	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1804	1132	dwm.exe	0xbb0be3e0b080	20	-	1	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1872	1208	svchost.exe	0xbb0be3e73080	57	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1880	1208	svchost.exe	0xbb0be3e710c0	36	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2008	1208	svchost.exe	0xbb0be3ebd080	14	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2016	1208	svchost.exe	0xbb0be3ebe080	24	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2024	1208	svchost.exe	0xbb0be3ebc080	9	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1012	1208	svchost.exe	0xbb0be3f03080	14	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1768	1208	svchost.exe	0xbb0be3f4a080	14	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+1988	1208	IntelCpHDCPSvc	0xbb0be3f46080	3	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2108	1208	svchost.exe	0xbb0be3f64080	4	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2116	1208	svchost.exe	0xbb0be3f62080	17	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2420	1208	svchost.exe	0xbb0bdb877080	6	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2576	1208	svchost.exe	0xbb0bdba24080	19	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2652	1208	svchost.exe	0xbb0bdba52080	10	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2852	1208	WUDFHost.exe	0xbb0bdbb6a080	6	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+2944	4	MemCompression	0xbb0bdbb38040	98	-	N/A	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3004	1208	svchost.exe	0xbb0bdbbdc080	10	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3152	1208	svchost.exe	0xbb0bdbe04080	10	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3212	1208	svchost.exe	0xbb0bdbde2080	5	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3288	1208	svchost.exe	0xbb0bdbfbe080	18	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3356	1208	spoolsv.exe	0xbb0bdbfb0080	8	-	0	False	2026-08-09 12:23:47.000000 UTC	N/A	Disabled
+3432	1208	svchost.exe	0xbb0be60a4080	16	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3440	1208	svchost.exe	0xbb0be6197080	6	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3480	3152	audiodg.exe	0xbb0be6171080	34	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3532	1208	svchost.exe	0xbb0be61f4080	7	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3716	1208	svchost.exe	0xbb0be64b8080	8	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3816	1208	mDNSResponder.	0xbb0be64ca080	2	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3836	1208	svchost.exe	0xbb0be64c6080	12	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3844	1208	Dell.TechHub.e	0xbb0be64c4080	45	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3880	1208	DSAService.exe	0xbb0be64d7080	14	-	0	True	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3888	1208	CmWebAdmin.exe	0xbb0be64d4080	17	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3900	1208	OfficeClickToR	0xbb0be64d2080	20	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3916	1208	ipfsvc.exe	0xbb0be64b9080	7	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3944	1208	AppleMobileDev	0xbb0be65e3080	9	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4000	1208	DSAUpdateServi	0xbb0be65d2080	9	-	0	True	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4016	1208	ipf_uf.exe	0xbb0be6177080	3	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4028	1208	IntelGraphicsS	0xbb0be65c4080	15	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4036	1208	IntelAudioServ	0xbb0be65c2080	7	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+2248	1208	jhi_service.ex	0xbb0be65b1080	2	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+3176	1208	CodeMeter.exe	0xbb0be65c0080	14	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4140	1208	RtkBtManServ.e	0xbb0be62f2080	2	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4156	1208	svchost.exe	0xbb0be62ef080	5	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4184	1208	WavesAudioServ	0xbb0be62ea080	4	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4208	1208	MpDefenderCore	0xbb0be624c080	11	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4232	1208	WavesSysSvc64.	0xbb0be6248080	21	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4296	1208	Lavasoft.WCAss	0xbb0be66e8080	12	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4304	1208	WMIRegistratio	0xbb0be66e7080	2	-	0	True	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+4312	1208	MsMpEng.exe	0xbb0be66e40c0	61	-	0	False	2026-08-09 12:23:48.000000 UTC	N/A	Disabled
+5828	4028	PresentMonServ	0xbb0be6f04080	9	-	0	False	2026-08-09 12:23:49.000000 UTC	N/A	Disabled
+5852	5828	conhost.exe	0xbb0be6e82080	2	-	0	False	2026-08-09 12:23:49.000000 UTC	N/A	Disabled
+5916	1376	WmiPrvSE.exe	0xbb0be6f69080	10	-	0	False	2026-08-09 12:23:49.000000 UTC	N/A	Disabled
+5668	1208	svchost.exe	0xbb0be71ba080	5	-	0	False	2026-08-09 12:23:50.000000 UTC	N/A	Disabled
+6160	5668	NgcIso.exe	0xbb0be71a2080	3	-	0	False	2026-08-09 12:23:50.000000 UTC	N/A	Disabled
+7036	1208	svchost.exe	0xbb0be61f1080	7	-	0	False	2026-08-09 12:23:52.000000 UTC	N/A	Disabled
+7104	4296	cmd.exe	0xbb0be75a50c0	0	-	0	False	2026-08-09 12:23:53.000000 UTC	2026-08-09 12:23:53.000000 UTC	Disabled
+4960	1208	svchost.exe	0xbb0be764d080	2	-	0	False	2026-08-09 12:23:53.000000 UTC	N/A	Disabled
+3796	4304	mofcomp.exe	0xbb0be766f080	0	-	0	True	2026-08-09 12:23:53.000000 UTC	2026-08-09 12:23:54.000000 UTC	Disabled
+4988	3836	AggregatorHost	0xbb0be7651080	5	-	0	False	2026-08-09 12:23:53.000000 UTC	N/A	Disabled
+6780	1208	svchost.exe	0xbb0be66d4080	4	-	0	False	2026-08-09 12:23:54.000000 UTC	N/A	Disabled
+3452	4304	mofcomp.exe	0xbb0be3e8a080	0	-	0	True	2026-08-09 12:23:54.000000 UTC	2026-08-09 12:23:54.000000 UTC	Disabled
+7420	1376	unsecapp.exe	0xbb0bd8c86080	3	-	0	False	2026-08-09 12:23:55.000000 UTC	N/A	Disabled
+7472	1376	WmiPrvSE.exe	0xbb0be76ce080	8	-	0	False	2026-08-09 12:23:55.000000 UTC	N/A	Disabled
+7904	4016	ipf_helper.exe	0xbb0be7c92180	5	-	1	False	2026-08-09 12:23:57.000000 UTC	N/A	Disabled
+7972	1872	sihost.exe	0xbb0be7d540c0	12	-	1	False	2026-08-09 12:23:57.000000 UTC	N/A	Disabled
+8024	1208	svchost.exe	0xbb0be7c71080	2	-	1	False	2026-08-09 12:23:57.000000 UTC	N/A	Disabled
+8032	1208	svchost.exe	0xbb0be7d10080	12	-	1	False	2026-08-09 12:23:57.000000 UTC	N/A	Disabled
+8080	1208	svchost.exe	0xbb0be7cf1080	3	-	1	False	2026-08-09 12:23:57.000000 UTC	N/A	Disabled
+8148	1872	taskhostw.exe	0xbb0be7d71080	9	-	1	False	2026-08-09 12:23:58.000000 UTC	N/A	Disabled
+8200	1132	userinit.exe	0xbb0be7f16080	0	-	1	False	2026-08-09 12:23:58.000000 UTC	2026-08-09 12:24:26.000000 UTC	Disabled
+8272	8200	explorer.exe	0xbb0be7eed080	109	-	1	False	2026-08-09 12:23:58.000000 UTC	N/A	Disabled
+8576	7972	CrossDeviceRes	0xbb0be80aa080	7	-	1	False	2026-08-09 12:23:59.000000 UTC	N/A	Disabled
+8748	1208	svchost.exe	0xbb0be818c0c0	15	-	1	False	2026-08-09 12:23:59.000000 UTC	N/A	Disabled
+9100	1376	CrossDeviceSer	0xbb0be8540080	17	-	1	False	2026-08-09 12:24:00.000000 UTC	N/A	Disabled
+8388	1376	SearchHost.exe	0xbb0be8586080	15	-	1	False	2026-08-09 12:24:00.000000 UTC	N/A	Disabled
+8408	1376	StartMenuExper	0xbb0be8585080	20	-	1	False	2026-08-09 12:24:01.000000 UTC	N/A	Disabled
+9264	1376	RuntimeBroker.	0xbb0be895d080	26	-	1	False	2026-08-09 12:24:01.000000 UTC	N/A	Disabled
+9276	1376	Widgets.exe	0xbb0be895a080	10	-	1	False	2026-08-09 12:24:01.000000 UTC	N/A	Disabled
+9308	1208	svchost.exe	0xbb0be8940080	6	-	1	False	2026-08-09 12:24:01.000000 UTC	N/A	Disabled
+9576	1376	WidgetService.	0xbb0be8a55080	6	-	1	False	2026-08-09 12:24:02.000000 UTC	N/A	Disabled
+9404	8388	msedgewebview2	0xbb0be9010080	50	-	1	False	2026-08-09 12:24:05.000000 UTC	N/A	Disabled
+10136	9404	msedgewebview2	0xbb0bd8d1a080	8	-	1	False	2026-08-09 12:24:05.000000 UTC	N/A	Disabled
+10516	9404	msedgewebview2	0xbb0be3f6f080	21	-	1	False	2026-08-09 12:24:07.000000 UTC	N/A	Disabled
+10532	9404	msedgewebview2	0xbb0be610c080	20	-	1	False	2026-08-09 12:24:07.000000 UTC	N/A	Disabled
+10600	9404	msedgewebview2	0xbb0be6afa080	10	-	1	False	2026-08-09 12:24:07.000000 UTC	N/A	Disabled
+10796	9404	msedgewebview2	0xbb0be8e340c0	25	-	1	False	2026-08-09 12:24:07.000000 UTC	N/A	Disabled
+11064	1880	ctfmon.exe	0xbb0be7b76080	15	-	1	False	2026-08-09 12:24:08.000000 UTC	N/A	Disabled
+5300	1376	TextInputHost.	0xbb0be8bac080	49	-	1	False	2026-08-09 12:24:10.000000 UTC	N/A	Disabled
+11000	1376	RuntimeBroker.	0xbb0be8847080	3	-	1	False	2026-08-09 12:24:11.000000 UTC	N/A	Disabled
+328	8272	msedge.exe	0xbb0be9686080	83	-	1	False	2026-08-09 12:24:14.000000 UTC	N/A	Disabled
+11472	328	msedge.exe	0xbb0be8837080	9	-	1	False	2026-08-09 12:24:15.000000 UTC	N/A	Disabled
+11684	328	msedge.exe	0xbb0be9bf9080	29	-	1	False	2026-08-09 12:24:15.000000 UTC	N/A	Disabled
+11692	328	msedge.exe	0xbb0be9bf8080	22	-	1	False	2026-08-09 12:24:15.000000 UTC	N/A	Disabled
+11708	1208	elevation_serv	0xbb0be9699080	2	-	0	False	2026-08-09 12:24:15.000000 UTC	N/A	Disabled
+12056	328	msedge.exe	0xbb0be6ce9080	12	-	1	False	2026-08-09 12:24:16.000000 UTC	N/A	Disabled
+12260	328	msedge.exe	0xbb0be9deb080	28	-	1	False	2026-08-09 12:24:17.000000 UTC	N/A	Disabled
+12276	328	msedge.exe	0xbb0be9de9080	26	-	1	False	2026-08-09 12:24:17.000000 UTC	N/A	Disabled
+5208	328	msedge.exe	0xbb0be3f7e080	25	-	1	False	2026-08-09 12:24:18.000000 UTC	N/A	Disabled
+2132	328	msedge.exe	0xbb0bea325080	23	-	1	False	2026-08-09 12:24:19.000000 UTC	N/A	Disabled
+12764	1208	NisSrv.exe	0xbb0be9105080	4	-	0	False	2026-08-09 12:24:22.000000 UTC	N/A	Disabled
+13268	328	identity_helpe	0xbb0bea87e080	12	-	1	False	2026-08-09 12:24:24.000000 UTC	N/A	Disabled
+12752	328	msedge.exe	0xbb0bea31e080	26	-	1	False	2026-08-09 12:24:24.000000 UTC	N/A	Disabled
+13392	3880	DSATray.exe	0xbb0be9990080	11	-	1	True	2026-08-09 12:24:27.000000 UTC	N/A	Disabled
+13776	1376	PhoneExperienc	0xbb0bdba51080	23	-	1	False	2026-08-09 12:24:34.000000 UTC	N/A	Disabled
+9448	8272	SecurityHealth	0xbb0bea450080	3	-	1	False	2026-08-09 12:24:35.000000 UTC	N/A	Disabled
+11128	1208	SecurityHealth	0xbb0bea1e8080	13	-	0	False	2026-08-09 12:24:35.000000 UTC	N/A	Disabled
+13500	1376	ShellExperienc	0xbb0be8a4e080	17	-	1	False	2026-08-09 12:24:36.000000 UTC	N/A	Disabled
+6956	328	msedge.exe	0xbb0beb465080	15	-	1	False	2026-08-09 12:24:37.000000 UTC	N/A	Disabled
+6684	328	msedge.exe	0xbb0beb2d9080	15	-	1	False	2026-08-09 12:24:37.000000 UTC	N/A	Disabled
+6660	1376	RuntimeBroker.	0xbb0bead0d080	3	-	1	False	2026-08-09 12:24:37.000000 UTC	N/A	Disabled
+14464	1208	svchost.exe	0xbb0beb51f080	9	-	0	False	2026-08-09 12:24:38.000000 UTC	N/A	Disabled
+5468	8272	CodeMeterCC.ex	0xbb0be8a240c0	1	-	1	False	2026-08-09 12:24:54.000000 UTC	N/A	Disabled
+2736	328	msedge.exe	0xbb0be9a7d080	10	-	1	False	2026-08-09 12:25:16.000000 UTC	N/A	Disabled
+3400	1376	RuntimeBroker.	0xbb0be924c080	3	-	1	False	2026-08-09 12:25:16.000000 UTC	N/A	Disabled
+15172	1208	SearchIndexer.	0xbb0beb493080	10	-	0	False	2026-08-09 12:25:16.000000 UTC	N/A	Disabled
+14776	3844	Dell.TechHub.I	0xbb0be6179080	49	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14880	3844	DellEnterprise	0xbb0be7d0a080	31	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14596	14776	conhost.exe	0xbb0bea13e080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+7024	3844	Dell.TechHub.A	0xbb0be2ccf080	19	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+5976	14880	conhost.exe	0xbb0be7ce5080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14940	3844	Dell.CoreServi	0xbb0bea1240c0	33	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14908	7024	conhost.exe	0xbb0be909b080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14972	3844	Dell.Digital.D	0xbb0be9d57080	22	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14428	3844	Dell.UUE.CoreS	0xbb0beaa04080	23	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+11124	14972	conhost.exe	0xbb0bea44d080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+6624	3844	Dell.Update.Su	0xbb0beb5ba080	25	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14420	14428	conhost.exe	0xbb0be86e6080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+10108	3844	Dell.UCA.Manag	0xbb0be6739080	19	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+7432	6624	conhost.exe	0xbb0be1bdf080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+7924	3844	Dell.TechHub.D	0xbb0be8e09080	15	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+13468	10108	conhost.exe	0xbb0beb6b5080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14620	3844	Dell.Connected	0xbb0beb08e080	18	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+8296	7924	conhost.exe	0xbb0be6f60080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+10300	3844	Dell.Optimizer	0xbb0be902e080	15	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+13716	14620	conhost.exe	0xbb0bea122080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+13864	3844	Dell.Customer.	0xbb0bd8678080	16	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+14244	10300	conhost.exe	0xbb0be7ecd080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+12216	13864	conhost.exe	0xbb0be1cc7080	4	-	0	False	2026-08-09 12:25:21.000000 UTC	N/A	Disabled
+15380	3844	Dell.UUE.User.	0xbb0bef924080	12	-	1	False	2026-08-09 12:25:27.000000 UTC	N/A	Disabled
+15772	1208	ServiceShell.e	0xbb0bdcfea080	33	-	0	False	2026-08-09 12:25:45.000000 UTC	N/A	Disabled
+11376	1208	svchost.exe	0xbb0be90130c0	7	-	0	False	2026-08-09 12:25:50.000000 UTC	N/A	Disabled
+13492	1208	svchost.exe	0xbb0be71d4080	7	-	0	False	2026-08-09 12:25:52.000000 UTC	N/A	Disabled
+16548	1208	Dell.Connected	0xbb0befe1f080	5	-	0	False	2026-08-09 12:25:55.000000 UTC	N/A	Disabled
+16652	1208	svchost.exe	0xbb0befeeb080	14	-	0	False	2026-08-09 12:25:56.000000 UTC	N/A	Disabled
+16680	1208	dllhost.exe	0xbb0befef5080	11	-	0	False	2026-08-09 12:25:56.000000 UTC	N/A	Disabled
+16768	1208	msdtc.exe	0xbb0beffd2080	9	-	0	False	2026-08-09 12:25:56.000000 UTC	N/A	Disabled
+16844	3844	DellOptimizer.	0xbb0be1a430c0	58	-	1	False	2026-08-09 12:25:57.000000 UTC	N/A	Disabled
+17088	14776	Dell.TechHub.I	0xbb0be69f9080	25	-	1	False	2026-08-09 12:26:03.000000 UTC	N/A	Disabled
+13900	1376	unsecapp.exe	0xbb0bec4b7080	3	-	1	False	2026-08-09 12:26:07.000000 UTC	N/A	Disabled
+4924	1208	svchost.exe	0xbb0be8d8d080	12	-	0	False	2026-08-09 12:26:15.000000 UTC	N/A	Disabled
+4420	1208	svchost.exe	0xbb0be8f590c0	27	-	0	False	2026-08-09 12:26:17.000000 UTC	N/A	Disabled
+4468	1208	svchost.exe	0xbb0be9ec3080	9	-	0	False	2026-08-09 12:26:17.000000 UTC	N/A	Disabled
+6520	1208	svchost.exe	0xbb0c0b2f0080	3	-	0	False	2026-08-09 12:26:46.000000 UTC	N/A	Disabled
+2412	1376	RuntimeBroker.	0xbb0c0b98f080	2	-	1	False	2026-08-09 12:27:49.000000 UTC	N/A	Disabled
+4708	1208	svchost.exe	0xbb0c0bc64080	13	-	1	False	2026-08-09 12:28:59.000000 UTC	N/A	Disabled
+9368	328	msedge.exe	0xbb0bf874d0c0	43	-	1	False	2026-08-09 12:29:41.000000 UTC	N/A	Disabled
+7768	1208	svchost.exe	0xbb0c0b699080	6	-	0	False	2026-08-09 12:31:39.000000 UTC	N/A	Disabled
+15100	1376	AppActions.exe	0xbb0c0b749080	7	-	1	False	2026-08-09 12:33:59.000000 UTC	N/A	Disabled
+12776	1376	SystemSettings	0xbb0bf90240c0	29	-	1	False	2026-08-09 12:37:07.000000 UTC	N/A	Disabled
+8380	1376	ApplicationFra	0xbb0bf91d9080	8	-	1	False	2026-08-09 12:37:07.000000 UTC	N/A	Disabled
+3552	1208	svchost.exe	0xbb0bf83460c0	3	-	1	False	2026-08-09 12:37:09.000000 UTC	N/A	Disabled
+6388	1208	svchost.exe	0xbb0bf8666080	12	-	0	False	2026-08-09 12:37:10.000000 UTC	N/A	Disabled
+1560	1376	UserOOBEBroker	0xbb0bf845e080	1	-	1	False	2026-08-09 12:37:11.000000 UTC	N/A	Disabled
+4892	1376	SDXHelper.exe	0xbb0bea8130c0	17	-	1	False	2026-08-09 12:39:00.000000 UTC	N/A	Disabled
+3728	1376	smartscreen.ex	0xbb0be7c630c0	9	-	1	False	2026-08-09 12:46:45.000000 UTC	N/A	Disabled
+16760	7972	ShellHost.exe	0xbb0bf891c080	7	-	1	False	2026-08-09 12:48:22.000000 UTC	N/A	Disabled
+1944	1208	svchost.exe	0xbb0bf94e60c0	25	-	0	False	2026-08-09 12:53:47.000000 UTC	N/A	Disabled
+14156	8272	ShellHost.exe	0xbb0bfa1720c0	12	-	1	False	2026-08-09 12:55:36.000000 UTC	N/A	Disabled
+17680	8272	SnippingTool.e	0xbb0bfa108080	9	-	1	False	2026-08-09 12:55:42.000000 UTC	N/A	Disabled
+14072	328	msedge.exe	0xbb0bfa7e20c0	30	-	1	False	2026-08-09 12:59:45.000000 UTC	N/A	Disabled
+17948	1376	dllhost.exe	0xbb0bfadeb080	3	-	1	False	2026-08-09 13:04:04.000000 UTC	N/A	Disabled
+15072	1376	dllhost.exe	0xbb0c0bb08080	2	-	1	False	2026-08-09 13:09:05.000000 UTC	N/A	Disabled
+5988	1376	mscopilot_prox	0xbb0be9b0d080	1	-	1	False	2026-08-09 13:09:05.000000 UTC	N/A	Disabled
+9092	1376	dllhost.exe	0xbb0bf81e7080	3	-	1	False	2026-08-09 13:09:05.000000 UTC	N/A	Disabled
+11920	1376	dllhost.exe	0xbb0bf75e5080	3	-	1	False	2026-08-09 13:09:05.000000 UTC	N/A	Disabled
+3676	8272	WinRAR.exe	0xbb0bf8822080	3	-	1	False	2026-08-09 13:12:21.000000 UTC	N/A	Disabled
+17900	328	msedge.exe	0xbb0bf9c670c0	30	-	1	False	2026-08-09 13:14:51.000000 UTC	N/A	Disabled
+9808	328	msedge.exe	0xbb0bea4130c0	25	-	1	False	2026-08-09 13:20:13.000000 UTC	N/A	Disabled
+7068	1376	backgroundTask	0xbb0bf8182080	7	-	1	False	2026-08-09 13:20:52.000000 UTC	N/A	Disabled
+13792	1376	RuntimeBroker.	0xbb0bfb1a5080	5	-	1	False	2026-08-09 13:20:52.000000 UTC	N/A	Disabled
+10088	1208	svchost.exe	0xbb0bfc77d080	4	-	0	False	2026-08-09 13:24:14.000000 UTC	N/A	Disabled
+11280	8272	cmd.exe	0xbb0bfb3cb0c0	1	-	1	False	2026-08-09 13:28:12.000000 UTC	N/A	Disabled
+5564	11280	conhost.exe	0xbb0bfcca3080	4	-	1	False	2026-08-09 13:28:12.000000 UTC	N/A	Disabled
+8644	328	msedge.exe	0xbb0bfc8dc0c0	24	-	1	False	2026-08-09 13:28:32.000000 UTC	N/A	Disabled
+9372	328	msedge.exe	0xbb0bfbbc6080	0	-	1	False	2026-08-09 13:28:39.000000 UTC	2026-08-09 13:30:59.000000 UTC	Disabled
+16004	328	msedge.exe	0xbb0bfcda1080	18	-	1	False	2026-08-09 13:28:43.000000 UTC	N/A	Disabled
+205659847665968	205660099343176		0xbb0bf92a7080	0	-	-	False	N/A	-	Disabled
+19448	11280	winpmem_mini_x	0xbb0bf93b70c0	3	-	1	False	2026-08-09 13:29:47.000000 UTC	N/A	Disabled
+7912	328	msedge.exe	0xbb0bfa2e5080	0	-	1	False	2026-08-09 13:28:39.000000 UTC	2026-08-09 13:30:59.000000 UTC	Disabled
+
+Time Stamp: Sun Aug  9 19:19:38 2026
+
+
+******* End of command output ******
+
